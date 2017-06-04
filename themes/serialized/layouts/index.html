@@ -1,0 +1,6 @@
+{{ define "main" }}
+	{{ range first 1 (where .Site.RegularPages "Section" "!=" "") }}
+		{{ partial "single-post.html" . }}
+	{{ end }}
+	{{ partial "latest-posts.html" . }}
+{{ end }}

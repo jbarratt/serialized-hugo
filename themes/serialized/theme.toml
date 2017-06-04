@@ -1,0 +1,21 @@
+# theme.toml template for a Hugo theme
+# See https://github.com/spf13/hugoThemes#themetoml for an example
+
+name = "Serialized"
+license = "MIT"
+licenselink = "https://github.com/jbarratt/serialized-hugo/blob/master/LICENSE.md"
+description = "Custom theme for the serialized blog"
+homepage = "http://serialized.net/"
+tags = []
+features = []
+min_version = "0.20"
+
+[author]
+  name = "Joshua Barratt"
+  homepage = "https://serialized.net"
+
+# If porting an existing theme
+[original]
+  name = ""
+  homepage = ""
+  repo = ""

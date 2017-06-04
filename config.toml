@@ -1,0 +1,30 @@
+baseURL = "https://serialized.net"
+languageCode = "en-us"
+title = "serialized.net"
+theme = "serialized"
+googleAnalytics = "UA-15368739-1"
+copyright = "This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License."
+
+[params]
+  name = "Joshua Barratt"
+  description = "A study in fascination burnout"
+
+[author]
+    name = "Joshua Barratt"
+    email = "jbarratt@serialized.net"
+
+[permalinks]
+  post = "/:year/:month/:title/"
+
+[[menu.main]]
+    name = "About"
+    # pre = "<i class='fa fa-heart'></i>"
+    weight = -110
+    identifier = "about"
+    url = "/about/"
+
+[[menu.main]]
+    name = "Archive"
+    # pre = "<i class='fa fa-road'></i>"
+    weight = -100
+    url = "/post/"
