@@ -1,10 +1,9 @@
 <article class="post">
     <header>
-        <h1>{{ .Title }}</h1>
-        <h2 class="headline">
+        <span class="title">{{ .Title }}</span>
+        <span class="published">
         {{ .Date.Format "January 2, 2006" }}
-        <br>
-        </h2>
+        </span>
     </header>
     <section id="post-body">
         {{ .Content }}

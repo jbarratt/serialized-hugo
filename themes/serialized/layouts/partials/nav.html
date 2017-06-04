@@ -1,10 +1,22 @@
-<nav class="main-nav">
-	{{ if not .IsHome }}
-		<a href='{{ .Site.BaseURL }}'> <span class="arrow">←</span>{{ .Site.Params.home | default "Home" }}</a>
-	{{ end }}
+<nav>
+	<section class="container">
+	<div class="logo">
+		<div class="title">
+			<a  href="https://serialized.net"> <h1 class="title">serialized.net</h1> </a>
+		</div>
+		<div class="subtitle">
+		<span>A study in fascination burnout</span>
+		</div>
+	</div>
+	<ul class="navigation-list">
+		{{ if not .IsHome }}
+			<a href='{{ .Site.BaseURL }}'> <span class="arrow">←</span>{{ .Site.Params.home | default "Home" }}</a>
+		{{ end }}
 
-	{{ range .Site.Menus.main }}
- 		<a href='{{ .URL }}'>{{ .Name }}</a>
-  	{{ end }}
-	<a href="/post/index.xml">Feed</a>
+		{{ range .Site.Menus.main }}
+			<a  href='{{ .URL }}'>{{ .Name }}</a>
+		{{ end }}
+		<a href="/post/index.xml">Feed</a>
+	</ul>
+	</section>
 </nav>

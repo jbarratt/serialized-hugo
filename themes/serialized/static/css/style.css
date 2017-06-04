@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Chivo:bold|Open+Sans:300i,400|Roboto+Mono:300');
+
+body {
+  margin: 0 auto;
+  max-width: 50em;
+  line-height: 1.5;
+  padding: 2em 1em;
+  color: #555;
+  background-color: #f4f7fc;
+  font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+	margin-top: -1em;
+	padding-bottom: 2em;
+}
+
+.logo {
+	line-height: 0.2;
+}
+
+.title {
+	font-size: 125%;
+}
+
+.subtitle > span {
+  border-top: 1px solid #d8dee9;
+  font-weight: 300;
+  font-size: 76%;
+  font-style: italic;
+  color: #777;
+}
+
+.published {
+  font-weight: 300;
+  font-style: italic;
+  color: #777;
+  float: right;
+}
+
+.post-time {
+  font-weight: 300;
+  font-style: italic;
+  color: #777;
+}
+
+span.title {
+  font-family: 'Chivo', sans-serif;
+}
+
+.title > a {
+	text-decoration: none;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Chivo', sans-serif;
+}
+
+h1, h2, strong {
+  color: #333;
+}
+
+ul#post-list {
+  padding-left: 10px;
+}
+
+ul.navigation-list > a {
+	padding-right: 0.5em;
+}
+
+.small {
+	font-size: 50%;
+	color: #777;
+	font-weight: 300;
+	font-style: italic;
+}
+
+
+h2 {
+  margin-top: 1em;
+  padding-top: 1em;
+}
+
+code,
+pre {
+  background: #f5f7f9;
+  color: #787b82;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 300;
+}
+
+pre {
+  border-left: 2px solid #69c;
+  border-bottom: 1px solid #d8dee9;
+}
+
+code {
+  padding: 2px 4px;
+  vertical-align: text-bottom;
+}
+
+pre {
+  padding: 1em;
+}
+
+a {
+  color: #e81c4f;
+}
+
+section.container {
+	display: flex;
+	justify-content: space-between;
+}
+
+section.container ul:last-child {
+	margin-left: auto;
+}

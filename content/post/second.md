@@ -8,8 +8,9 @@ title = "Second"
 
 this should be on the front page
 
-```
-This is a code block
-Does it get rendered properly?
+``` python
+def havefun(foo):
+   """ a function that has fun """
+   return "fun"
 ```
 
