@@ -1,8 +1,4 @@
-- http://milligram.io/
-- add favico
-- add style.css
 - import content
-- add microlight
 - check links from existing sitemap
 
 what are the internal templates (opengraph, google_news, schema, twitter_cards) doing?
