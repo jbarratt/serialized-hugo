@@ -4,6 +4,7 @@ title = "serialized.net"
 theme = "serialized"
 googleAnalytics = "UA-15368739-1"
 copyright = "This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License."
+enableEmoji = "true"
 
 [params]
   name = "Joshua Barratt"
