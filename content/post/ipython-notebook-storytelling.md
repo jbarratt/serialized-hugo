@@ -32,6 +32,8 @@ project's founder:
 The OSCON session was recorded, and thanks to their speaker-friendly
 video agreement, I'm allowed to share their video with you here.
 
+{{< youtube XkXXpaVpNSc >}}
+
 The best way to see the slides is live, with a running IPython Notebook.
 You can get all the code (and the instructions to get started) in the
 [talk's github
