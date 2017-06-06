@@ -1,2 +1,3 @@
 /public
-/.ropeproject
+.ropeproject/
+*/.ropeproject/

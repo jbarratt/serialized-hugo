@@ -16,20 +16,47 @@ nav {
 }
 
 .logo {
-	line-height: 0.2;
+	line-height: 1.0;
+}
+
+.logo > .title {
+	font-size: 125%;
+        border-bottom: 1px solid #d8dee9;
+	margin-bottom: 2px;
 }
 
 .title {
 	font-size: 125%;
+	margin-bottom: 2px;
+}
+
+.subtitle {
+  margin-top: -0.2em;
+  text-align: center;
+}
+
+.subscribe {
+  font-family: 'Chivo', sans-serif;
+  font-size: 90%;
+}
+
+.subscribe > a > img {
+  margin-bottom: -5px;
 }
 
 .subtitle > span {
-  border-top: 1px solid #d8dee9;
   font-weight: 300;
   font-size: 76%;
   font-style: italic;
   color: #777;
+  display: inline-block;
 }
+
+.navigation-list > a {
+  font-family: 'Chivo', sans-serif;
+  font-size: 90%;
+}
+
 
 .published {
   font-weight: 300;
@@ -112,7 +139,7 @@ pre {
 }
 
 a {
-  color: #e81c4f;
+  color: #83ad9c;
 }
 
 section.container {
@@ -121,5 +148,9 @@ section.container {
 }
 
 section.container ul:last-child {
+	margin-left: auto;
+}
+
+section.container div:last-child {
 	margin-left: auto;
 }

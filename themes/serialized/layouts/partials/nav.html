@@ -9,14 +9,9 @@
 		</div>
 	</div>
 	<ul class="navigation-list">
-		{{ if not .IsHome }}
-			<a href='{{ .Site.BaseURL }}'> <span class="arrow">←</span>{{ .Site.Params.home | default "Home" }}</a>
-		{{ end }}
-
 		{{ range .Site.Menus.main }}
 			<a  href='{{ .URL }}'>{{ .Name }}</a>
 		{{ end }}
-		<a href="/post/index.xml">Feed</a>
 	</ul>
 	</section>
 </nav>

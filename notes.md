@@ -1,14 +1,14 @@
-- check links from existing sitemap
-- move about page
-- make landing page title clickable
 - figure out image files that can be EOL'd
    - find all the paths
    - for each file in the content tree, find all the paths that occur at least once
    - list all the ones that (seem to) never appear
-- fix alignment on subheading/heading (don't use line spacing, use margins, put thel line under the logo, center the subtitle underneath
 
 Testing old links: https://github.com/wjdp/htmltest
 
+Topics:
+
+- https://github.com/KLab/myprofiler
+- velvet rope
 
 
 
@@ -129,28 +129,3 @@ If you use %'s, that's going to generate stuff that will be processed by the pro
 Shortcodes are easy to create, they are partial templates, essentially
 
 	http://gohugo.io/extras/shortcodes/
-
-
-Code block I like:
-
-    font-family: 'Noto Sans',sans-serif;
-    white-space: nowrap;
-    border: 1px solid #000000;
-    border-radius: 5px;
-    padding: 1px 3px;
-
-Design:
-
-serialized.net
---------------
-Fascination Burnout              About  Archives
-
-[ single post ]
-
-Archives
-
-2017
-
-   Topic (date)
-   Topic (date)
-
