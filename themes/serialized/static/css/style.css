@@ -42,6 +42,7 @@ nav {
   font-weight: 300;
   font-style: italic;
   color: #777;
+  padding-left: .75em;
 }
 
 span.title {
@@ -88,6 +89,12 @@ pre {
   font-family: 'Roboto Mono', monospace;
   font-weight: 300;
   font-size: 85%;
+  word-break: break-all; /* webkit */
+  word-break: keep-all;
+  word-wrap: break-word;
+  white-space: pre;
+  white-space: -moz-pre-wrap;
+  white-space: pre-wrap;
 }
 
 pre {

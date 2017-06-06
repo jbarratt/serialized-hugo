@@ -1,7 +1,16 @@
-- import content
 - check links from existing sitemap
+- move about page
+- make landing page title clickable
+- figure out image files that can be EOL'd
+   - find all the paths
+   - for each file in the content tree, find all the paths that occur at least once
+   - list all the ones that (seem to) never appear
+- fix alignment on subheading/heading (don't use line spacing, use margins, put thel line under the logo, center the subtitle underneath
 
-what are the internal templates (opengraph, google_news, schema, twitter_cards) doing?
+Testing old links: https://github.com/wjdp/htmltest
+
+
+
 
 To get the dev server running
 

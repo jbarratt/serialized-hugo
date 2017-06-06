@@ -6,10 +6,10 @@
     {{ $othr := where $kind "URL" "!=" .URL }}
     {{ range first 5 $othr }}
         <div class="post-item">
-            <span class="post-time">{{ .Date.Format "Jan 2, 2006" }}</span>
             <a href="{{ .Permalink }}" class="post-link">
                 {{ .Title }}
             </a>
+            <span class="post-time">{{ .Date.Format "Jan 2, 2006" }}</span>
         </div>
     {{ end }}
 </ul>
