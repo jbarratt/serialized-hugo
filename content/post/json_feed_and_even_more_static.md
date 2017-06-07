@@ -1,7 +1,7 @@
 +++
 date = "2017-06-07T06:33:16-07:00"
 description = "On adding JSON Feed support and making older posts truly static"
-title = "JSON Feed, and an even more static blog."
+title = "JSON Feed, and an even more static blog"
 +++
 
 In the design of my site, I decided to put a small block at the bottom of each page with links to the most 5 recent posts.
