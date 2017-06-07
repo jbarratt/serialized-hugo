@@ -20,7 +20,8 @@ function formatDate(datePublished) {
 	var lang = lang || 'en-US';
 	result = d.toLocaleString(lang, { year: 'numeric', month: 'long', day: 'numeric' })
 	if(result === "Invalid Date") {
-		return datePublished;
+		// mobile browsers seem not to support this well
+		return datePublished.substr(0, 10);
 	}
 	return result;
 }
