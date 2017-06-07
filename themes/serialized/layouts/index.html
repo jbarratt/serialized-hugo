@@ -1,5 +1,5 @@
 {{ define "main" }}
-	{{ range first 1 (where .Site.RegularPages "Section" "!=" "") }}
+	{{ range first 1 (where .Data.Pages "Section" "post") }}
 		{{ partial "single-post.html" . }}
 	{{ end }}
 	{{ partial "latest-posts.html" . }}

@@ -1,15 +1,2 @@
 
-<h3>Other recent posts</h3>
-
-<ul id="post-list" class="archive readmore">
-    {{ $kind := where .Site.RegularPages "Section" "!=" "" }}
-    {{ $othr := where $kind "URL" "!=" .URL }}
-    {{ range first 5 $othr }}
-        <div class="post-item">
-            <a href="{{ .Permalink }}" class="post-link">
-                {{ .Title }}
-            </a>
-            <span class="post-time">{{ .Date.Format "Jan 2, 2006" }}</span>
-        </div>
-    {{ end }}
-</ul>
+<script src="{{ "js/recent_posts.js" | absURL }}"></script>

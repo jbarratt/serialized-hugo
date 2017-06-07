@@ -4,6 +4,7 @@ https://rumproarious.com/2017/05/17/json-feed-for-hugo/
 https://ig.nore.me/2017/05/json-feed-and-hugo-output-formats/
 
 Testing old links: https://github.com/wjdp/htmltest
+- humans.txt
 
 Topics:
 

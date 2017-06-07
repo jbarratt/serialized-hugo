@@ -5,9 +5,15 @@ theme = "serialized"
 googleAnalytics = "UA-15368739-1"
 copyright = "This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License."
 enableEmoji = "true"
+enableRobotsTXT = true
+
+[outputs]
+  home = [ "HTML", "JSON", "RSS"]
 
 [params]
   name = "Joshua Barratt"
+  author = "Joshua Barratt"
+  author_url = "https://serialized.net"
   description = "A study in fascination burnout"
 
 [author]
