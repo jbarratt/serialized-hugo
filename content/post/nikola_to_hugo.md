@@ -4,7 +4,7 @@ description = "Notes on a move from Nikola to Hugo"
 title = "Moving from Nikola to Hugo"
 +++
 
-As part of my recent [Move to Hugo]({{< relref "this-blog-now-powered-by-hugo.md" >}}) I wrote a few small tools that may be useful (with tweaking) for someone else doing the same, or moving from a similar static hosting platform.
+As part of my recent [Move to Hugo]({{< relref "migrated_to_hugo.md" >}}) I wrote a few small tools that may be useful (with tweaking) for someone else doing the same, or moving from a similar static hosting platform.
 
 ### Basic configuration
 

@@ -1,7 +1,7 @@
-- figure out image files that can be EOL'd
-   - find all the paths
-   - for each file in the content tree, find all the paths that occur at least once
-   - list all the ones that (seem to) never appear
+- pull 'Other recent posts' from RSS via javascript
+https://www.raymondcamden.com/2017/05/18/creating-a-json-feed-for-hugo
+https://rumproarious.com/2017/05/17/json-feed-for-hugo/
+https://ig.nore.me/2017/05/json-feed-and-hugo-output-formats/
 
 Testing old links: https://github.com/wjdp/htmltest
 
