@@ -5,7 +5,12 @@ routes:
          Cache-Control: "max-age=630720000, no-transform, public"
       gzip: true
     - route: "^.+\\.(js|css)$"
-      #  cache style and code for 1 hour
+      #  cache style, code for 1 hour
       headers:
          Cache-Control: "max-age=3600, no-transform, public"
+      gzip: true
+    - route: "^.+\\.(js|css|json)$"
+      #  cache JSON (for JSON-feed) for 20m
+      headers:
+         Cache-Control: "max-age=1200, no-transform, public"
       gzip: true

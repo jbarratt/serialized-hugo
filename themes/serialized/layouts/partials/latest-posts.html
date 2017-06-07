@@ -1,2 +1,10 @@
-
-<script src="{{ "js/recent_posts.js" | absURL }}"></script>
+<script type="text/javascript">
+window.addEventListener("load", function load(event){
+    // lazy load this script after the document draws, since
+    // it is just optional content at the bottom of the page.
+    window.removeEventListener("load", load, false); //remove listener, no longer needed
+    var element = document.createElement("script");
+    element.src = "{{ "js/recent_posts.js" | absURL }}"
+    document.body.appendChild(element);
+},false);
+</script>
