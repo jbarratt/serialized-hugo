@@ -1,8 +1,7 @@
 +++
-date = "2017-06-07T12:43:18-07:00"
+date = "2017-06-07T22:43:18-07:00"
 description = "Exploring how to get a high performance and scalable static blog"
 title = "Maximizing Performance with Cloudfront, S3 and Hugo"
-
 +++
 
 As previously discussed, this site is now being built with Hugo.

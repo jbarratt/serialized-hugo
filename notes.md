@@ -1,17 +1,9 @@
-- pull 'Other recent posts' from RSS via javascript
-https://www.raymondcamden.com/2017/05/18/creating-a-json-feed-for-hugo
-https://rumproarious.com/2017/05/17/json-feed-for-hugo/
-https://ig.nore.me/2017/05/json-feed-and-hugo-output-formats/
-
-- defer the load https://varvy.com/pagespeed/defer-loading-javascript.html
-
-Testing old links: https://github.com/wjdp/htmltest
-- humans.txt
 
 Topics:
 
 - https://github.com/KLab/myprofiler
 - velvet rope
+- targeted invalidations based on s3deploy output
 
 
 
