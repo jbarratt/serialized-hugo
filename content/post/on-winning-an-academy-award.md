@@ -3,6 +3,7 @@ date = "2017-06-13T01:11:34-07:00"
 description = "I recently won an Academy Award. This is the story of how that came to be."
 title = "On Winning An Academy Award ... for Code"
 slug = "on-winning-an-academy-award-for-code"
+draft = "true"
 +++
 
 On December 21, 2016 I opened my email to find one of the most unusual messages of my life:
