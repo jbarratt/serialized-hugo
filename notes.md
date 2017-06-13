@@ -1,3 +1,7 @@
+- conditionally make logo bigger when on non-mobile
+- add resume
+- blockquote style
+- HR style
 
 Topics:
 

@@ -12,6 +12,8 @@ You can find me on all the normal spots:
 * [Github](https://github.com/jbarratt)
 * [Twitter](https://twitter.com/jbarratt)
 
+My [resume](/JoshuaBarrattResume.pdf) is also available, should you have an interesting opportunity to discuss.
+
 The name serialized has a double meaning. For programmers, to 'serialize' something is to take something from a live, running program and store it on disk in a way that can be brought back to life later, possibly by a different program. I liked that aspect -- I'm dumping life thoughts and threads from my life onto disk, where some other reader will pick them up and bring them to life in their head. I also like the way the name (albeit with slightly different spelling) is a callback to [serial novels][1] like Sherlock Holmes.
 
 I tend to write about my passions and obsessions -- the phrase "Fascination Burnout" comes from Neal Stephenson via [Binary Bonsai](http://binarybonsai.com/2009/01/03/fascination-burnout/)

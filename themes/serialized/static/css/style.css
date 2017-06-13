@@ -6,7 +6,7 @@ body {
   line-height: 1.5;
   padding: 2em 1em;
   color: #555;
-  background-color: #f4f7fc;
+  background-color: #f9fbff;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -19,20 +19,57 @@ nav {
 	line-height: 1.0;
 }
 
-.logo > .title {
-	font-size: 125%;
-        border-bottom: 1px solid #d8dee9;
-	margin-bottom: 2px;
-}
-
-.title {
-	font-size: 125%;
-	margin-bottom: 2px;
+.brand {
+  border-bottom: 1px solid #d8dee9;
+  margin-bottom: 2px;
 }
 
 .subtitle {
   margin-top: -0.2em;
   text-align: center;
+}
+
+.subtitle > span {
+  font-weight: 300;
+  font-style: italic;
+  color: #777;
+  display: inline-block;
+}
+
+.navigation-list > a {
+  font-family: 'Chivo', sans-serif;
+}
+
+@media screen and (min-width: 700px) {
+  .brand {
+	  font-size: 200%;
+  }
+  .subtitle > span {
+    font-size: 100%;
+  }
+  .navigation-list > a {
+    font-size: 150%;
+  }
+  .navigation-list {
+    padding-top: 1em;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .brand {
+	  font-size: 125%;
+  }
+  .subtitle > span {
+    font-size: 76%;
+  }
+  .navigation-list > a {
+    font-size: 90%;
+  }
+}
+
+.title {
+	font-size: 125%;
+	margin-bottom: 2px;
 }
 
 .subscribe {
@@ -44,18 +81,7 @@ nav {
   margin-bottom: -5px;
 }
 
-.subtitle > span {
-  font-weight: 300;
-  font-size: 76%;
-  font-style: italic;
-  color: #777;
-  display: inline-block;
-}
 
-.navigation-list > a {
-  font-family: 'Chivo', sans-serif;
-  font-size: 90%;
-}
 
 
 .published {
@@ -77,6 +103,10 @@ span.title {
 }
 
 .title > a {
+	text-decoration: none;
+}
+
+.logo > a {
 	text-decoration: none;
 }
 
@@ -139,7 +169,7 @@ pre {
 }
 
 a {
-  color: #83ad9c;
+  color: #7b968b;
 }
 
 section.container {
