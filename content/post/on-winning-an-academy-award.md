@@ -11,7 +11,7 @@ On December 21, 2016 I opened my email to find one of the most unusual messages 
 
 I was officially an Academy Award winner. Merry Christmas. :evergreen_tree:
 
-2 months later, I was on stage in a fancy ballroom in Beverly Hills, wearing a new tuxedo, and being being handed a 24 carat gold plated award by John Cho:
+2 months later, I was on stage in a fancy ballroom in Beverly Hills, wearing a new tuxedo, and being handed a 24 carat gold plated award by John Cho:
 
 {{< youtube MtJJkRZdkh0 >}}
 
