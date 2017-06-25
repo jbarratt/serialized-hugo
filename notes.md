@@ -1,15 +1,12 @@
-- conditionally make logo bigger when on non-mobile
-- add resume
 - blockquote style
+- image shadow
 - HR style
-
-Topics:
-
-- https://github.com/KLab/myprofiler
-- velvet rope
+- fix academy award post
 - targeted invalidations based on s3deploy output
 
-
+notebook importer:
+	https://github.com/biaslab/biaslab-hugo
+	https://nbconvert.readthedocs.io/en/latest/customizing.html
 
 To get the dev server running
 

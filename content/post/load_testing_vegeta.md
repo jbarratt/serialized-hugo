@@ -5,7 +5,7 @@ title = "HTTP Load Testing with Vegeta (and a dash of Python)"
 slug = "load-testing-with-vegeta-and-python"
 +++
 
-When trying to make scalable computer systems, it's almost impossible to fully simluate all the ways things can break.
+When trying to make scalable computer systems, it's almost impossible to fully simulate all the ways things can break.
 However, it's very easy to simulate *some* of sorts of things that may break you -- and it's well worth learning at least the easy lessons early and often. (Especially if it prevents a late night freaked out phone call :sleeping:).
 
 I speak to a lot of people who want to have a scalable website or service -- it's the first thing they mention in a discussion -- but pre-production load testing is a suprisingly rare practice.
