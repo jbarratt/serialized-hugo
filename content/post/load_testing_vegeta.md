@@ -16,7 +16,9 @@ These days there are a number of commercial providers who offer load testing ser
 
 I've used and enjoyed many such tools (apachebench, siege, gatling, wrk, goad, boom, locust.io), and they have different strengths. But my favorite recently is [vegeta](https://github.com/tsenart/vegeta).
 
-The key features I enjoy are:
+Update: I'm told [artillery](https://artillery.io/) deserves a look as well, and supports the load ramping feature natively.
+
+The key vegeta features I enjoy are:
 
 * A simple and composable command line interface
 * A config file format which trivially allows setting custom headers, which is key to working with pre-production services, and allows testing multiple endpoints simultaneously

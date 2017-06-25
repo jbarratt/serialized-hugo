@@ -33,6 +33,8 @@ getJSON('/index.json', function(recent) {
 	`
 	for(var post=0; post < 5; post++) {
 		var p = recent['items'][post];
+		// TODO: skip any link that matches current location
+		// or the most recent post if the landing page is /
 		var date = formatDate(p.date_published);
 		content += `
 		<div class="post-item">
