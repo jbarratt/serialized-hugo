@@ -5,7 +5,7 @@ title = "DIY Analytics with GoAccess"
 slug = "diy-goaccess-analytics"
 +++
 
-In most organizations, key logs will be aggregated and centralized and processed.
+In most modern organizations, essential logs will be sent to an internal or hosted log management service. However, that may not yet be the case, or it may not be the case for :100: of the logs.
 
 Over the last few years, I've found a tool called [GoAccess](https://goaccess.io/) incredibly useful in a variety of the more edge case scenarios, or for environments where full scale log infrastructure wasn't needed.
 
