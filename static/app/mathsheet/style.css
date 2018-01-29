@@ -1,0 +1,43 @@
+.parent {
+	display: flex;
+	align-items: center;
+}
+
+body {
+	font-family: Georgia, Times, "Times New Roman", serif;
+	padding: 1em 1em;
+}
+
+.parent > div {
+	flex: 1;
+}
+
+.equation {
+	font-size: 1.5em; 
+	line-height: 2.0;
+}
+
+.form-group {
+	display: flex;
+	flex-direction: row;
+	font-size: 1.1em;
+	width: 45%;
+	font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+.form-group label {
+	flex: none;
+	display: block;
+	width: 75%;
+	font-weight: bold;
+}
+
+.form-group .input-control {
+	flex: 1 1 auto;
+	display: block;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	padding: 4px;
+	margin-top: -4px;
+	font-size: 1.5em;
+}

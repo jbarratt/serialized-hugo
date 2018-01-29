@@ -1,0 +1,30 @@
+@media print {
+
+#controls {
+	display: none;
+}
+
+#content {
+	width: 100%;
+	margin: 0;
+	float: none;
+}
+
+@page { margin: 2cm; }
+
+.parent {
+	display: flex;
+	align-items: center;
+}
+
+.parent > div {
+	flex: 1;
+}
+
+.equation {
+	font-family: Georgia, Times, "Times New Roman", serif;
+	font-size: 1.5em;
+	line-height: 2.0;
+}
+
+}

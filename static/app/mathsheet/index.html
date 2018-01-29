@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Math Sheet Maker</title>
+		<link rel="stylesheet" type="text/css" media="screen" href="style.css">
+		<link rel="stylesheet" type="text/css" media="print" href="print.css">
+	</head>
+	<body id="body">
+		<div id="controls">
+			<p>Every visit to this page will give you a random math worksheet. Simply pick the number you'd like to get a problemset based around and hit 'Print', and your custom sheet will be ready. (Don't worry, only the questions will show up on the page.)</p>
+			<div class="form-group">
+				<label>Number to use in every problem</label>
+				<input type="number" pattern="\d*" value="7" class="input-control" id="keynumber"/>
+			</div>
+			<div class="form-group">
+				<label>Maximum other number to use</label>
+				<input type="number" pattern="\d*" value="20" class="input-control" id="maxsecondvalue"/>
+			</div>
+		</div>
+		<div id="content">
+		</div>
+		<script type="text/javascript" src="app.js"></script>
+	</body>
+</html>
