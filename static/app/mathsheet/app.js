@@ -98,9 +98,11 @@
 			generators.push(divisionProblem)
 		}
 
+		var madeColumn = false;
 		for (var i = 0; i < questionCount; i++) {
-			if(i == questionCount/2) {
+			if(i == questionCount/2 && !madeColumn) {
 				bodyText = bodyText + `</div><div class="right">`;
+				madeColumn = true;
 			}
 
 			// run one of the random generator functions
