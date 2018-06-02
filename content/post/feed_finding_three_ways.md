@@ -10,8 +10,8 @@ So, after firing up a fresh Feedly account, there was a problem. What to subscri
 
 
 * Download every page that's bookmarked
-* Grab any alternate links from the page body and keep track of it
-* Print out frequently occurring links as possible things to subscribe to.
+* Grab any alternate links from the page body and keep track of them
+* Print out frequently occurring links as possible things to subscribe to
 
 ### TL;DR
 
@@ -70,6 +70,8 @@ Though it's more code, though, it runs insanely fast. About **34 seconds** to pr
 
 I did run into an [ugly bug in aiohttp](https://github.com/aio-libs/aiohttp/issues/1116) which meant a lot of the pages barfed what seem to be untrappable errors to STDERR, so this edition of the program saves the results to a file on disk instead to help reading between the lines.
 
+Since some github-hosted pages generate this error, at this point I started filtering out pages on github.com (which I know won't have feeds I want anyway) and youtube.com while I was at it.
+
 ```python
 #!/usr/bin/env python3
 
@@ -105,7 +107,7 @@ async def fetch_all(session, urls, loop):
 async def main(loop):
     bookmarks = json.loads(open('pinboard_export.json', 'r').read())
     urls = [x['href'] for x in bookmarks
-            if '/github.com/' not in x['href']]
+            if '/github.com/' not in x['href'] and 'youtube.com/' not in x['href']]
     timeout = aiohttp.ClientTimeout(total=30)
     async with aiohttp.ClientSession(loop=loop, timeout=timeout) as session:
         await fetch_all(session, urls, loop)
