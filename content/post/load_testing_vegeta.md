@@ -36,7 +36,7 @@ For this example, I'm testing a [basic Wordpress install](https://docs.docker.co
 The target file syntax is straightforward, but very flexible. Here, I'm testing a few different endpoints in the site. Vegeta will round robin between them.
 
 `targets.txt`:
-```
+```shell
 GET http://localhost:8755/
 GET http://localhost:8755/2017/04/27/hello-world/
 GET http://localhost:8755/category/uncategorized/
@@ -44,7 +44,7 @@ GET http://localhost:8755/category/uncategorized/
 
 A quick note on the syntax here: If, for example, you wanted to test something that was behind an Elastic Load Balancer, but didn't yet have DNS pointed at it (like in a Blue/Green deployment strategy), you can easily do this with Vegeta.
 
-```
+```shell
 GET http://my-load-balancer-1234567890.us-west-2.elb.amazonaws.com/mypage
 Host: myrealdomain.com
 ```
@@ -53,7 +53,7 @@ This is much nicer than monkeying with `/etc/hosts`, and you can also use this t
 
 One feature vegeta doesn't have (at least for now, there's been an issue open requesting it for a few years) is to ramp up request rate over time, to find out where/how a system will break. However, the command line interface is so well designed, it's actually quite easy to do with basic unix techniques.
 
-```
+```shell
 $ for rate in $(seq 1 3 80); do
     vegeta attack -duration=90s -rate $rate -targets targets.txt |
     vegeta dump -dumper csv |
@@ -104,7 +104,7 @@ df.groupby('rate')['latency'].mean()
 
 This prints the means of each latency. Normally I wouldn't use mean for latency, but since the 90th percentile has already been applied, it'll play. Zooming into the interesting part of the output:
 
-```
+```shell
 r/sec   latency (s)
 58      0.082885
 61      0.163670
@@ -128,7 +128,7 @@ Full source: [vegeta_breaker.go](/source/vegeta_breaker.go)
 
 At it's heart, it's a Computer Science 101 binary search:
 
-```
+```go
 // first, find the point at which the system breaks
 for {
     if testRate(rate, sla) {
@@ -154,7 +154,7 @@ for (nokRate - okRate) > 1 {
 The vegeta API makes implementing the `testRate` function, which enables this simplicity, a breeze.
 
 
-```
+```go
 func testRate(rate int, sla time.Duration) bool {
 	duration := 15 * time.Second
 	targeter := vegeta.NewStaticTargeter(vegeta.Target{
@@ -179,7 +179,7 @@ func testRate(rate int, sla time.Duration) bool {
 
 And that is it! Now it's easy to run:
 
-```
+```shell
 $ go run vegeta_breaker.go
 ✨  Success at 20 req/sec (latency 73.073787ms)
 ✨  Success at 40 req/sec (latency 48.128922ms)
@@ -196,13 +196,13 @@ $ go run vegeta_breaker.go
 And in 2.5 minutes (instead of the 40 before) this actually gave a more precise result for exactly where the system would fail.
 To integrate this into a deployment process would be very simple, as the build would produce a static binary -- no need to even have vegeta itself installed, as this tool would include it.
 
-Note, everything's hard coded here, and only latency is checked. 
+Note, everything's hard coded here, and only latency is checked.
 
 For real use, you'd probably want to:
 
 * make endpoints & thresholds more configurable than hard coded
 * Check for HTTP error codes, not just latency.
 * Give the system a 'cooldown' window after driving it to failure
-* Produce an output that's more meaningful to your system, e.g. outputting JUnit for Jenkins to consume 
+* Produce an output that's more meaningful to your system, e.g. outputting JUnit for Jenkins to consume
 
 Vegeta. It truly is, as the website says, [over 9000](http://knowyourmeme.com/memes/its-over-9000).

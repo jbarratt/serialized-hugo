@@ -134,7 +134,7 @@ There are 10 lines of code (the `main` method) which implement what takes about 
 
 The go solution is also (slightly) faster than the async python code, with a runtime of **31 seconds**. This is a pretty impressive result.
 
-```golang
+```go
 package main
 
 import (
@@ -183,7 +183,11 @@ func loadQueue(q *queue.Queue) {
 		}
 	}
 }
+```
 
+That's the bulk of the code! The rest of it is the 'lightweight' replacement for `collections.Counter`.
+
+```go
 type pin struct {
 	Href        string `json:"href"`
 	Description string `json:"description"`
@@ -233,7 +237,6 @@ func (c *counter) Save(filename string) error {
 	}
 	return nil
 }
-
 ```
 
 ### Conclusion

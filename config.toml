@@ -6,6 +6,8 @@ googleAnalytics = "UA-15368739-1"
 copyright = "This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License."
 enableEmoji = "true"
 enableRobotsTXT = true
+pygmentsCodeFences = true
+pygmentsUseClasses=true
 
 [outputs]
   home = [ "HTML", "JSON", "RSS"]
@@ -35,4 +37,3 @@ enableRobotsTXT = true
     weight = -100
     identifier = "about"
     url = "/about/"
-
