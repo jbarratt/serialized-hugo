@@ -31,7 +31,7 @@ I couldn't find much prior art for people doing this from within lambda function
 So, what are the constraints to consider?
 
 * The data must be **relatively infrequently** updated. You *probably* could upload a new function every minute, but you *probably* don't want to. (Interestingly, though, I don't see that updating functions is a billable event, so maybe you do want to!)
-* **Read-only** data would be ideal; though you could handle user updated information by pushing it to another service, it'd break read-write consistency in most cases.
+* **Read-only** data would be ideal; though you could handle user updated information by pushing it to another service, it'd break "read after write" consistency in most cases.
 * The entire payload (including code and whatever data is being stored) should be **under 250MB unzipped**, and ideally 50MB zipped. (Though apparently if you upload the zip to S3 yourself, the 50MB limit is waived.)
 * The **lower the memory profile**, the better, as lambda is billed on the basis of "memory used per 100 milliseconds".
 * Queries should be **difficult to cache**. If they are easy to cache, it may be better to just keep them even further towards "the edge", like in Cloudfront.
