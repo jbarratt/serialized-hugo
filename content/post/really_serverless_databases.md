@@ -16,7 +16,7 @@ The announcement got me thinking about something else, though. I wondered if the
 
 So, by 'really serverless', I mean "lambda-embedded databases." Or "function-as-a-service-embedded databases", to make it generic.
 
-![serverless databases](/images/serverless_db/serverless_db.svg)
+![serverless databases](/images/serverless_db/serverless_db.svg#center)
 
 Why would you want this?
 
@@ -105,7 +105,7 @@ I've always been fascinated by the [Oracle of Bacon](https://oracleofbacon.org/)
 
 This is a perfect application of graph databases. The actors and the films are both nodes, and having appeared in them creates a link between those nodes.
 
-![movie data as graph](/images/serverless_db/movie_graph.svg)
+![movie data as graph](/images/serverless_db/movie_graph.svg#center)
 
 A teaser for the experiment (which actually generated the above text):
 
