@@ -173,7 +173,8 @@ a {
 img[src$='#center']
 {
     display: block;
-    margin: 0.7rem auto; 
+    margin: 0.7rem auto;
+    max-width: 90%;
 }
 
 section.container {
