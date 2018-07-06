@@ -63,6 +63,18 @@ NIST also publishes a list of [common bad passwords](https://cry.github.io/nbp/)
 
 Information like this, though, can be massively compressed, especially if probabilistic structures such as [Bloom or Cuckoo Filters](http://blog.fastforwardlabs.com/2016/11/23/probabilistic-data-structure-showdown-cuckoo.html) are used.
 
+#### Spell Checking / Typo Correction
+
+There are many domains where the valid terms to search a database against are constrained. Consider a database that worked with chemicals; it would be useful to be able to autocorrect "pulonium" to "polonium" before sending the query to a backend.
+
+This could be true for many things, such as where there's a well-known list of keys to values, such as geographic information, or creative works like books, movies, music, and so on. Instead of getting the (typo'd) query from the user, searching for it, and returning an error, with a local autocorrect database, there are many other options.
+
+* prescreening the query before sending to the backend, only letting valid queries through
+* catching queries that come back with no results, and retrying with the most probable alternative (like google does)
+* returning the error, but giving the user some "did you mean" suggestions
+
+Spell checking and approximate matching algorithms tend to require lots of high volume queries, so are especially well suited to having the data local to you (and in memory, ideally.)
+
 #### Caching The Hot Head
 
 In many (and probably most) environments, queries follow a power law distribution. It's not uncommon to have the top 1% of queries represent 90% -- or much more -- of the total query volume.
@@ -106,3 +118,15 @@ In the next posts I'll explore:
 * Some fun and strange insights from the graph data itself.
 
 If you want to look at the code for the experiment, it's at [jbarratt/lambdadb](https://github.com/jbarratt/lambdadb).
+
+### IN CONCLUSION
+
+While they won't replace all of your database needs, embedding databases with lambdas has a huge amount of potential. Especially if you're using a lower level language like Go, there are many off the shelf libraries that can help. A sampling that seem to be highly recommended:
+
+* [Bleve](https://github.com/blevesearch/bleve) for text indexing
+* [Badger](https://github.com/dgraph-io/badger) appears to be the leading embeddable key value store
+* [QL](https://github.com/cznic/ql) and, of course, [sqlite3](https://github.com/mattn/go-sqlite3) are embeddable SQL stores
+* [Buntdb](https://github.com/tidwall/buntdb) is a more sophisticated k/v store which includes spatial search
+* [Cayley](https://cayley.io/) for graph data
+
+I haven't tested any of those specifically in lambda, but apparently I have a new hobby so it may happen soon. (And let me know if you try any of these ideas out!).
