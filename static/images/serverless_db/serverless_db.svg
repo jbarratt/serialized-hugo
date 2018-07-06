@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xl="http://www.w3.org/1999/xlink" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="446 183 411.5 328.70156" width="411.5" height="328.70156">
+  <defs>
+    <font-face font-family="Helvetica Neue" font-size="16" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="400">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Helvetica" font-size="16" units-per-em="1000" underline-position="-75.68359" underline-thickness="49.316406" slope="0" x-height="522.9492" cap-height="717.28516" ascent="770.0195" descent="-229.98047" font-weight="400">
+      <font-face-src>
+        <font-face-name name="Helvetica"/>
+      </font-face-src>
+    </font-face>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -4 10 8" markerWidth="10" markerHeight="8" color="black">
+      <g>
+        <path d="M 8 0 L 0 -3 L 0 3 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+  </defs>
+  <metadata> Produced by OmniGraffle 7.8 
+    <dc:date>2018-07-06 03:30:43 +0000</dc:date>
+  </metadata>
+  <g id="Serverless_Data" fill-opacity="1" stroke-dasharray="none" stroke="none" stroke-opacity="1" fill="none">
+    <title>Serverless Data</title>
+    <g id="Serverless_Data: Layer 1">
+      <title>Layer 1</title>
+      <g id="Graphic_37">
+        <rect x="650.5" y="262.5" width="204" height="121" fill="#f0f0f0"/>
+      </g>
+      <g id="Graphic_2">
+        <path d="M 463.3 186.5 L 527.7 186.5 C 535.3176 186.5 541.5 193.22 541.5 201.5 C 541.5 209.78 535.3176 216.5 527.7 216.5 L 463.3 216.5 C 455.6824 216.5 449.5 209.78 449.5 201.5 C 449.5 193.22 455.6824 186.5 463.3 186.5 Z" fill="white"/>
+        <path d="M 463.3 186.5 L 527.7 186.5 C 535.3176 186.5 541.5 193.22 541.5 201.5 C 541.5 209.78 535.3176 216.5 527.7 216.5 L 463.3 216.5 C 455.6824 216.5 449.5 209.78 449.5 201.5 C 449.5 193.22 455.6824 186.5 463.3 186.5 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(463.7 192.276)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="2.016" y="15">Request</tspan>
+        </text>
+      </g>
+      <g id="Graphic_3">
+        <path d="M 720.3 186.5 L 784.7 186.5 C 792.3176 186.5 798.5 193.22 798.5 201.5 C 798.5 209.78 792.3176 216.5 784.7 216.5 L 720.3 216.5 C 712.6824 216.5 706.5 209.78 706.5 201.5 C 706.5 193.22 712.6824 186.5 720.3 186.5 Z" fill="white"/>
+        <path d="M 720.3 186.5 L 784.7 186.5 C 792.3176 186.5 798.5 193.22 798.5 201.5 C 798.5 209.78 792.3176 216.5 784.7 216.5 L 720.3 216.5 C 712.6824 216.5 706.5 209.78 706.5 201.5 C 706.5 193.22 712.6824 186.5 720.3 186.5 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(720.7 192.276)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="2.016" y="15">Request</tspan>
+        </text>
+      </g>
+      <g id="Group_7">
+        <title>Compute - Lambda</title>
+        <g id="Group_9">
+          <title>Layer_1</title>
+          <g id="Group_10">
+            <g id="Graphic_21">
+              <path d="M 671.6 340.6711 L 675.9 342.8711 L 683.6 316.5711 L 675.9 290.2711 L 671.6 292.4711 Z" fill="#9d5025"/>
+            </g>
+            <g id="Graphic_20">
+              <path d="M 684.4 292.2711 L 675.9 290.2711 L 675.9 342.8711 L 684.4 340.8711 Z" fill="#f58536"/>
+            </g>
+            <g id="Graphic_19">
+              <path d="M 681.2 287.6711 L 687.5 284.4711 L 695.5 316.5711 L 687.5 348.6711 L 681.2 345.4711 Z" fill="#9d5025"/>
+            </g>
+            <g id="Graphic_18">
+              <path d="M 700.6 344.3711 L 687.5 348.5711 L 687.5 284.4711 L 700.6 288.6711 Z" fill="#f58536"/>
+            </g>
+            <g id="Graphic_17">
+              <path d="M 730.2 295.7711 L 735.4 295.7711 L 735.4 335.6711 L 730.2 335.3711 Z" fill="#9d5025"/>
+            </g>
+            <g id="Graphic_16">
+              <path d="M 710 296.2711 L 715.8 293.2711 L 735 295.7711 L 735.6 300.8711 L 730.3 301.5711 Z" fill="#6b3a19"/>
+            </g>
+            <g id="Graphic_15">
+              <path d="M 710.1 336.8711 L 716 339.8711 L 735.8 332.2711 L 730.5 331.5711 Z" fill="#fbbf93"/>
+            </g>
+            <g id="Graphic_14">
+              <path d="M 711.6 328.3711 L 722.1 329.7711 L 722.1 303.3711 L 711.6 304.7711 Z" fill="#9d5025"/>
+            </g>
+            <g id="Graphic_13">
+              <path d="M 695.5 352.6711 L 705.7 357.7711 L 714.5 316.4711 L 705.7 275.3711 L 695.5 280.4711 Z" fill="#9d5025"/>
+            </g>
+            <g id="Graphic_12">
+              <path d="M 705.7 275.3711 L 705.7 357.6711 L 739.8 340.5711 L 739.8 292.4711 Z M 735.4 332.3711 L 715.9 338.2711 L 715.9 294.9711 L 735.4 300.8711 Z" fill="#f58536"/>
+            </g>
+            <g id="Graphic_11">
+              <path d="M 722.1 303.3711 L 722.1 329.8711 L 732.9 316.5711 Z" fill="#f58536"/>
+            </g>
+          </g>
+        </g>
+        <g id="Graphic_8">
+          <text transform="translate(676.7 359.2711)" fill="black">
+            <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" x=".08984375" y="15">Lambda</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Group_22">
+        <title>Compute - Lambda</title>
+        <g id="Group_24">
+          <title>Layer_1</title>
+          <g id="Group_25">
+            <g id="Graphic_36">
+              <path d="M 461.4 340.6711 L 465.7 342.8711 L 473.4 316.5711 L 465.7 290.2711 L 461.4 292.4711 Z" fill="#9d5025"/>
+            </g>
+            <g id="Graphic_35">
+              <path d="M 474.2 292.2711 L 465.7 290.2711 L 465.7 342.8711 L 474.2 340.8711 Z" fill="#f58536"/>
+            </g>
+            <g id="Graphic_34">
+              <path d="M 471 287.6711 L 477.3 284.4711 L 485.3 316.5711 L 477.3 348.6711 L 471 345.4711 Z" fill="#9d5025"/>
+            </g>
+            <g id="Graphic_33">
+              <path d="M 490.4 344.3711 L 477.3 348.5711 L 477.3 284.4711 L 490.4 288.6711 Z" fill="#f58536"/>
+            </g>
+            <g id="Graphic_32">
+              <path d="M 520 295.7711 L 525.2 295.7711 L 525.2 335.6711 L 520 335.3711 Z" fill="#9d5025"/>
+            </g>
+            <g id="Graphic_31">
+              <path d="M 499.8 296.2711 L 505.6 293.2711 L 524.8 295.7711 L 525.4 300.8711 L 520.1 301.5711 Z" fill="#6b3a19"/>
+            </g>
+            <g id="Graphic_30">
+              <path d="M 499.9 336.8711 L 505.8 339.8711 L 525.6 332.2711 L 520.3 331.5711 Z" fill="#fbbf93"/>
+            </g>
+            <g id="Graphic_29">
+              <path d="M 501.4 328.3711 L 511.9 329.7711 L 511.9 303.3711 L 501.4 304.7711 Z" fill="#9d5025"/>
+            </g>
+            <g id="Graphic_28">
+              <path d="M 485.3 352.6711 L 495.5 357.7711 L 504.3 316.4711 L 495.5 275.3711 L 485.3 280.4711 Z" fill="#9d5025"/>
+            </g>
+            <g id="Graphic_27">
+              <path d="M 495.5 275.3711 L 495.5 357.6711 L 529.6 340.5711 L 529.6 292.4711 Z M 525.2 332.3711 L 505.7 338.2711 L 505.7 294.9711 L 525.2 300.8711 Z" fill="#f58536"/>
+            </g>
+            <g id="Graphic_26">
+              <path d="M 511.9 303.3711 L 511.9 329.8711 L 522.7 316.5711 Z" fill="#f58536"/>
+            </g>
+          </g>
+        </g>
+        <g id="Graphic_23">
+          <text transform="translate(466.5 359.2711)" fill="black">
+            <tspan font-family="Helvetica" font-size="16" font-weight="400" fill="black" x=".08984375" y="15">Lambda</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Graphic_38">
+        <path d="M 776.95 340.1711 L 776.95 299.3711 C 776.95 296.5559 789.382 294.2711 804.7 294.2711 C 820.018 294.2711 832.45 296.5559 832.45 299.3711 L 832.45 340.1711 C 832.45 342.9863 820.018 345.2711 804.7 345.2711 C 789.382 345.2711 776.95 342.9863 776.95 340.1711" fill="white"/>
+        <path d="M 776.95 340.1711 L 776.95 299.3711 C 776.95 296.5559 789.382 294.2711 804.7 294.2711 C 820.018 294.2711 832.45 296.5559 832.45 299.3711 L 832.45 340.1711 C 832.45 342.9863 820.018 345.2711 804.7 345.2711 C 789.382 345.2711 776.95 342.9863 776.95 340.1711 M 776.95 299.3711 C 776.95 302.1863 789.382 304.4711 804.7 304.4711 C 820.018 304.4711 832.45 302.1863 832.45 299.3711" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_39">
+        <path d="M 465.25 467.60156 L 465.25 426.80156 C 465.25 423.98636 477.682 421.70156 493 421.70156 C 508.318 421.70156 520.75 423.98636 520.75 426.80156 L 520.75 467.60156 C 520.75 470.41676 508.318 472.70156 493 472.70156 C 477.682 472.70156 465.25 470.41676 465.25 467.60156" fill="white"/>
+        <path d="M 465.25 467.60156 L 465.25 426.80156 C 465.25 423.98636 477.682 421.70156 493 421.70156 C 508.318 421.70156 520.75 423.98636 520.75 426.80156 L 520.75 467.60156 C 520.75 470.41676 508.318 472.70156 493 472.70156 C 477.682 472.70156 465.25 470.41676 465.25 467.60156 M 465.25 426.80156 C 465.25 429.61676 477.682 431.90156 493 431.90156 C 508.318 431.90156 520.75 429.61676 520.75 426.80156" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_40">
+        <text transform="translate(770.2 355.5471)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x=".42" y="15">Database</tspan>
+        </text>
+      </g>
+      <g id="Line_41">
+        <line x1="752.0742" y1="275.3711" x2="752" y2="370.6289" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4.0,4.0" stroke-width="1"/>
+      </g>
+      <g id="Graphic_42">
+        <text transform="translate(459.5 484.47756)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x=".42" y="15">Database</tspan>
+        </text>
+      </g>
+      <g id="Line_43">
+        <line x1="496" y1="228" x2="495.46154" y2="246.6471" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_45">
+        <line x1="496" y1="384.1" x2="496" y2="404.2" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_47">
+        <line x1="753" y1="224.6914" x2="752.3466" y2="243.34045" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_48">
+        <path d="M 563.5 326.90684 L 563.5 312.63535 L 616.5 312.63535 L 616.5 305.4996 L 627.5 319.7711 L 616.5 334.04258 L 616.5 326.90684 Z" fill="white"/>
+        <path d="M 563.5 326.90684 L 563.5 312.63535 L 616.5 312.63535 L 616.5 305.4996 L 627.5 319.7711 L 616.5 334.04258 L 616.5 326.90684 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+    </g>
+  </g>
+</svg>

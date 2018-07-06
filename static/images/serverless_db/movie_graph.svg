@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xl="http://www.w3.org/1999/xlink" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="197.5 85.5 614.625 64" width="614.625" height="64">
+  <defs>
+    <linearGradient x1="0" x2="1" id="Gradient" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#cff4f1" stop-opacity=".7926477"/>
+      <stop offset=".6828243" stop-color="#d8edf4" stop-opacity=".8963238"/>
+      <stop offset="1" stop-color="#e0e6f7"/>
+    </linearGradient>
+    <linearGradient id="Obj_Gradient" xl:href="#Gradient" gradientTransform="translate(348.80417 72.77701) rotate(60) scale(103.28332)"/>
+    <font-face font-family="Helvetica Neue" font-size="16" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="400">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+    <linearGradient id="Obj_Gradient_2" xl:href="#Gradient" gradientTransform="translate(609.1792 72.77701) rotate(60) scale(103.28332)"/>
+    <linearGradient x1="0" x2="1" id="Gradient_2" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#dbf6de"/>
+      <stop offset=".6828243" stop-color="#ddf6df"/>
+      <stop offset="1" stop-color="#dff7e0"/>
+    </linearGradient>
+    <linearGradient id="Obj_Gradient_3" xl:href="#Gradient_2" gradientTransform="translate(221.23726 77.31601) rotate(60) scale(92.80095)"/>
+    <linearGradient id="Obj_Gradient_4" xl:href="#Gradient_2" gradientTransform="translate(481.61226 77.31601) rotate(60) scale(92.80095)"/>
+    <linearGradient id="Obj_Gradient_5" xl:href="#Gradient_2" gradientTransform="translate(741.9873 77.31601) rotate(60) scale(92.80095)"/>
+  </defs>
+  <metadata> Produced by OmniGraffle 7.8 
+    <dc:date>2018-07-06 03:13:39 +0000</dc:date>
+  </metadata>
+  <g id="Canvas_1" fill-opacity="1" stroke-dasharray="none" stroke="none" stroke-opacity="1" fill="none">
+    <title>Canvas 1</title>
+    <g id="Canvas_1: Layer 1">
+      <title>Layer 1</title>
+      <g id="Graphic_2">
+        <rect x="316.375" y="91.5" width="116.5" height="52" fill="url(#Obj_Gradient)"/>
+        <rect x="316.375" y="91.5" width="116.5" height="52" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(321.375 99.052)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="17.69" y="15">Avengers: </tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="13.546" y="33.448">Infinity War</tspan>
+        </text>
+      </g>
+      <g id="Graphic_3">
+        <rect x="576.75" y="91.5" width="116.5" height="52" fill="url(#Obj_Gradient_2)"/>
+        <rect x="576.75" y="91.5" width="116.5" height="52" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(581.75 99.052)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="8.354" y="15">In The Valley </tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="28.658" y="33.448">of Elah</tspan>
+        </text>
+      </g>
+      <g id="Graphic_4">
+        <path d="M 214.03125 89 L 274.84375 89 C 282.037 89 287.875 101.768 287.875 117.5 C 287.875 133.232 282.037 146 274.84375 146 L 214.03125 146 C 206.838 146 201 133.232 201 117.5 C 201 101.768 206.838 89 214.03125 89 Z" fill="url(#Obj_Gradient_3)"/>
+        <path d="M 214.03125 89 L 274.84375 89 C 282.037 89 287.875 101.768 287.875 117.5 C 287.875 133.232 282.037 146 274.84375 146 L 214.03125 146 C 206.838 146 201 133.232 201 117.5 C 201 101.768 206.838 89 214.03125 89 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(214.6875 99.052)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="15.078" y="15">Don </tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x=".118" y="33.448">Cheadle</tspan>
+        </text>
+      </g>
+      <g id="Graphic_5">
+        <path d="M 474.40625 89 L 535.21875 89 C 542.412 89 548.25 101.768 548.25 117.5 C 548.25 133.232 542.412 146 535.21875 146 L 474.40625 146 C 467.213 146 461.375 133.232 461.375 117.5 C 461.375 101.768 467.213 89 474.40625 89 Z" fill="url(#Obj_Gradient_4)"/>
+        <path d="M 474.40625 89 L 535.21875 89 C 542.412 89 548.25 101.768 548.25 117.5 C 548.25 133.232 542.412 146 535.21875 146 L 474.40625 146 C 467.213 146 461.375 133.232 461.375 117.5 C 461.375 101.768 467.213 89 474.40625 89 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(475.0625 99.052)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="12.558" y="15">Josh</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="9.158" y="33.448">Brolin</tspan>
+        </text>
+      </g>
+      <g id="Graphic_6">
+        <path d="M 734.78125 89 L 795.59375 89 C 802.787 89 808.625 101.768 808.625 117.5 C 808.625 133.232 802.787 146 795.59375 146 L 734.78125 146 C 727.588 146 721.75 133.232 721.75 117.5 C 721.75 101.768 727.588 89 734.78125 89 Z" fill="url(#Obj_Gradient_5)"/>
+        <path d="M 734.78125 89 L 795.59375 89 C 802.787 89 808.625 101.768 808.625 117.5 C 808.625 133.232 802.787 146 795.59375 146 L 734.78125 146 C 727.588 146 721.75 133.232 721.75 117.5 C 721.75 101.768 727.588 89 734.78125 89 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(735.4375 99.052)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x=".878" y="15">Charlize </tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="4.854" y="33.448">Theron</tspan>
+        </text>
+      </g>
+      <g id="Line_7">
+        <line x1="287.875" y1="117.5" x2="316.375" y2="117.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_8">
+        <line x1="432.875" y1="117.5" x2="461.375" y2="117.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_9">
+        <line x1="548.25" y1="117.5" x2="576.75" y2="117.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_10">
+        <line x1="693.25" y1="117.5" x2="721.75" y2="117.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+    </g>
+  </g>
+</svg>
