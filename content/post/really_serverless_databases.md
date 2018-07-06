@@ -36,6 +36,9 @@ So, what are the constraints to consider?
 * The **lower the memory profile**, the better, as lambda is billed on the basis of "memory used per 100 milliseconds".
 * Queries should be **difficult to cache**. If they are easy to cache, it may be better to just keep them even further towards "the edge", like in Cloudfront.
 
+You can actually get a bit more space if needed; lambdas come with a 500MB 'scratch space' in `/tmp`.
+On startup, you could download data from s3 or some other hosted source. Since lambdas hang out for a while, you'd only pay this penalty when the function does a 'cold start', so it might be viable if your dataset *almost* fits.
+
 ### Possible Use Cases
 
 I'll admit, those do seem like tough constraints. It seems there are quite a few use cases which do actually fit nicely between them, though.
