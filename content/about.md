@@ -4,15 +4,16 @@ description = "About page"
 title = "About"
 +++
 
-My name is Joshua Barratt. [serialized.net](http://serialized.net) is my personal blog, which has taken too many forms over the years.
+My name is Josh Barratt. [serialized.net](http://serialized.net) is my personal blog, which has taken too many forms over the years.
 The current incaration is running a very minimalist theme, and is powered by the [Hugo](http://gohugo.io) static site generator.
 
 You can find me on all the normal spots:
 
 * [Github](https://github.com/jbarratt)
 * [Twitter](https://twitter.com/jbarratt)
+* [LinkedIn](https://www.linkedin.com/in/joshua-barratt-9b33274/)
 
-My [resume](/JoshuaBarrattResume.pdf) is also available, should you have an interesting opportunity to discuss.
+My [resume](/JoshuaBarrattResume.pdf) is also available, should you have an interesting opportunity to discuss -- though I'm very happy at [SendGrid](https://sendgrid.com/), helping reliably deliver the world's wanted email.
 
 The name serialized has a double meaning. For programmers, to 'serialize' something is to take something from a live, running program and store it on disk in a way that can be brought back to life later, possibly by a different program. I liked that aspect -- I'm dumping life thoughts and threads from my life onto disk, where some other reader will pick them up and bring them to life in their head. I also like the way the name (albeit with slightly different spelling) is a callback to [serial novels][1] like Sherlock Holmes.
 

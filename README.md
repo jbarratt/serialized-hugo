@@ -19,6 +19,22 @@ There are some tools in the `tools/` directory:
 * `import.py` was used to import content from my `nikola` blog, by converting `.rst`, and reformatting front matter to hugo-flavored TOML.
 
 
+
+### Quick Reference
+
+New Post:
+
+  $ hugo new post/title.md
+
+Linking between pages:
+
+  [link text]({{<ref "other_page.md">}})
+
+Centering an image:
+
+  ![alt text](/images/path/to/myfile.svg#center)
+
+
 CSS files are set to cache 'forever'. This can cause a problem if style changes are desired.
 Short of running the entire site through a processor like webpack, this can be worked around manually.
 

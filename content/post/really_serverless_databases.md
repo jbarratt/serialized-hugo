@@ -70,7 +70,7 @@ Information like this, though, can be massively compressed, especially if probab
 
 There are many domains where the valid terms to search a database against are constrained. Consider a database that worked with chemicals; it would be useful to be able to autocorrect "pulonium" to "polonium" before sending the query to a backend.
 
-This could be true for many things, such as where there's a well-known list of keys to values, such as geographic information, or creative works like books, movies, music, and so on. Instead of getting the (typo'd) query from the user, searching for it, and returning an error, with a local autocorrect database, there are many other options.
+Wherever there's a well-known list of keys to values, such as geographic information, or creative works like books, movies, music, etc, this can be useful. Instead of getting the (typo'd) query from the user, searching for it, and returning an error, with a local autocorrect database, there are many other options.
 
 * prescreening the query before sending to the backend, only letting valid queries through
 * catching queries that come back with no results, and retrying with the most probable alternative (like google does)
