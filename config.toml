@@ -25,9 +25,9 @@ pygmentsUseClasses=true
 [permalinks]
   post = "/:year/:month/:slug/"
 
-[mediaTypes]
-  [mediaTypes."image/svg+xml"]
-    suffixes = ["svg"]
+#[mediaTypes]
+#  [mediaTypes."image/svg+xml"]
+#    suffixes = ["svg"]
 
 [[menu.main]]
     name = "Posts"
