@@ -116,11 +116,14 @@ A teaser for the experiment (which actually generated the above text):
 
 In the next posts I'll explore:
 
-* How to build an extremely fast lambda-embedded graph search with Go
+* [How to build an extremely fast lambda-embedded graph search with Go]({{<ref "making_bacon_with_golang.md">}})
+* How to gather a movie data set and build a custom graph from it
 * How to turn that into an Alexa Skill
 * Some fun and strange insights from the graph data itself.
 
 If you want to look at the code for the experiment, it's at [jbarratt/lambdadb](https://github.com/jbarratt/lambdadb).
+
+
 
 ### IN CONCLUSION
 
