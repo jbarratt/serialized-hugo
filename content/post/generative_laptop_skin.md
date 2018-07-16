@@ -102,7 +102,13 @@ And, here it is. You can pick 2 colors; the code uses [go-colorful](github.com/l
     <rect x="0" y="0" width="15" height="15"/>
   </svg>
 </p>
-<img src="#" id="genImg" style="display:none"></img>
+<style>
+  img.imgCenter {
+    margin: 0.7rem auto;
+    max-width: 90%;
+  }
+</style>
+<img src="#" id="genImg" style="display:none" class="imgCenter"></img>
 <link href="/generative/color-picker.min.css" rel="stylesheet">
 <script src="/generative/stickergen.js"></script>
 <script src="/generative/color-picker.min.js"></script>
