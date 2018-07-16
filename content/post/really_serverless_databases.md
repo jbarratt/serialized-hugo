@@ -54,6 +54,8 @@ Geographic data is actually an ideal fit. Consider the common use case of a "sto
 
 I haven't played around with it yet, but [Buntdb](https://github.com/tidwall/buntdb) looks like it may be a very nice embeddable database for general use, but especially for geospatial; it includes built-in support for finding the "N closest points" or "all points within a certain distance".
 
+There are also great embeddable libraries for geofencing, like [regionagogo](https://github.com/akhenakh/regionagogo), built on top of Google's [s2](https://github.com/golang/geo) and [boltdb](https://github.com/boltdb/bolt).
+
 #### Security Screening
 
 There are lots of relatively small and static datasets that can be useful for determining if a request should be handled, or how careful we should be in handling it.
