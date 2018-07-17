@@ -119,7 +119,12 @@ And, here it is. You can pick 2 colors; the code uses [go-colorful](github.com/l
   var d1 = document.getElementById("d1")
   var d2 = document.getElementById("d2")
   var gImg = document.getElementById("genImg")
+  var hexRe = /(^#[0-9A-F]{6}$)|(^#[0-9A-F]{3}$)/i
   function updateImage() {
+    // only proceed if the cells have valid colors
+    if (!(hexRe.test(c1.value) && hexRe.test(c2.value))) {
+      return
+    }
     d1.setAttribute("fill", c1.value);
     d2.setAttribute("fill", c2.value);
     gImg.src = generateImage(40, 80, 9, c1.value, c2.value)
@@ -138,5 +143,8 @@ And, here it is. You can pick 2 colors; the code uses [go-colorful](github.com/l
           updateImage()
         });
   }
+  c1.addEventListener('change', function() { updateImage() })
+  c2.addEventListener('change', function() { updateImage() })
+
   updateImage()
 </script>
