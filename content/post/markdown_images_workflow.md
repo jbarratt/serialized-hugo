@@ -57,7 +57,7 @@ Putting it all together:
 
 This was exciting stuff! I shared it with a friend who I knew also to be afflicted by my (arguably unreasonable) fandom of Markdown -- and he was suitably enthused.
 
-"But alas" he disclaimed "it is so troublesome to share one's hard-crafted Markdown with those who do not appreciate the stark beauty of that structure's native form." *(Ok, I may be paraphrasing.)*
+"But alas" he lamented, "it is so troublesome to share one's hard-crafted Markdown with those who do not appreciate the stark beauty of that structure's native form." *(Ok, I may be paraphrasing.)*
 
 Having just set up a way to share public images, the concept was fresh. Translating Markdown to HTML is a well-solved problem. Copying files to S3 is a well-solved problem. This seemed like a few short lines of shell away from quite doable!
 
