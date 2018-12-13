@@ -2,7 +2,8 @@
 title: "Experimenting with AWS's new a1 instances, using awless"
 date: 2018-12-12T10:11:56-08:00
 lastmod: 2018-12-12T10:11:56-08:00
-slug: "expermenting-with-awss-new-a1-instances-with-awless"
+slug: "tinkering-with-a1-and-awless"
+aliases: ["/2018/12/expermenting-with-awss-new-a1-instances-with-awless/"]
 description: "AWS recently released ARM-core based servers. I wanted to see how they performed, and also demonstrate awless, a favorite tool for ad-hoc AWS experimentation."
 draft: false
 ---
