@@ -1,7 +1,8 @@
 ---
-title: "Expermenting with AWS's new a1 instances with awless"
+title: "Expermenting with AWS's new a1 instances, using awless"
 date: 2018-12-12T10:11:56-08:00
 lastmod: 2018-12-12T10:11:56-08:00
+slug: "expermenting-with-awss-new-a1-instances-with-awless"
 description: "AWS recently released ARM-core based servers. I wanted to see how they performed, and also demonstrate awless, a favorite tool for ad-hoc AWS experimentation."
 draft: false
 ---
@@ -43,7 +44,7 @@ You can provide any params you want on the command line, and fill in other requi
 
 ![awless list subnet and securitygroups](/images/awless_list.png#center)
 
-From right in the terminal I can see which subnets are public and which aren't. Running `awless show <identifier>`, like `awless show subnet-46fc311e` gives more information about things if needed. But I'm tinkering, and this is a scratch account, I just need a public submet, and I've only got my default security group.
+From right in the terminal I can see which subnets are public and which aren't. Running `awless show <identifier>`, like `awless show subnet-46fc311e` gives more information about things if needed. But I'm tinkering, and this is a scratch account, I just need a public subnet, and I've only got my default security group.
 
 You may note the redacted box; that is my home IP, which is allowed to SSH into that security group. That's a leftover from a previous tinkering session with `awless`; when I tried to ssh in, it couldn't connect, and very helpfully suggested I may want to punch in a hole for myself with the following command. Notably, it figured out what my public facing IP was, *and* what the proper security group for the host I was connecting to was. It's hard to imagine being more tinkering friendly than that.
 
@@ -76,7 +77,7 @@ $ awless ssh sledgehammer -i mykey
 Sweet! So, for an ARM binary, I needed to request a custom build from caddy's site, which ended up downloading locally, *not* on my fancy new host. Ok, now I need to scp... which means I need my IP address, and PEM file, things which `awless` had been handling for me. The IP address is easy to get with `awless list instances`, and it turns out, PEM files are stored by default in `~/.awless/keys/`.
 
 ```shell
-$ scp -i ~/.awless/keys/joshkey.pem caddy ec2-user@54.167.228.17:
+$ scp -i ~/.awless/keys/mykey.pem caddy ec2-user@54.167.228.17:
 ```
 
 The other tools I need are a quick install or download/unpack away:
@@ -95,23 +96,31 @@ ec2-user soft nofile 900000
 ec2-user hard nofile 1000000
 ```
 
-I'm using `tmux` here to keep any load tests running even if my ssh connection drops, and also to provide "virtual terminals."
+### tmux in 10 seconds
+
+I'm using an app called `tmux`, another tool which is far more useful during experimenting and prototyping than for production.
+
+If you're not familiar, it's a "screen multiplexer" -- an app you run after you ssh to a machine, which provides both persistence (your commands keep running, even if you disconnect), and the ability to carve up your shell into multiple windows (virtual terminals you can flip between) and panes (vertical or horizontally split your terminal screen.)
+
+It's perfect here. No need to worry if my connection drops, and:
 
 * One window to run `caddy` as a webserver
 * One window to run `vegeta` as a load generator
 * One window to run `htop`, as it's a very handy core-aware interface for quickly seeing if the host is *really* pegged, and if so, what's doing it.
 
-### tmux in 10 seconds
+To do this, only basic tmux features are needed.
 
-* There is a special hotkey which you use to tell `tmux` you're giving it a command. By default, it's `Control-b`.
 * To start using tmux, run `tmux`.
 * To connect to a session already in progress, you attach to it. (`tmux a`).
+* There is a special hotkey which you use to tell `tmux` you're giving it a command. By default, it's `Control-b`.
 * Once inside a tmux, you can create a new "window" with the hotkey, then `c`. (Default, `Control-b`, then `c`)
-* You can navigate between windows a few ways, but I usually use `Control-b`, `p` (revious) and `Control-b`, `n` (ext)
+* You can navigate between windows a few ways, but I usually use `Control-b, p` (previous) and `Control-b, n` (next), or `Control-b` followed by a number (1,2,3) for the window I want to go to.
 
 ### Run the load test
 
-I create 3 tmux windows, for `htop`, `./caddy`, and `vegeta` Vegeta's command line is also very composable and great for tweaking and playing with. I send in the URL (which caddy will serve), define the features of the 'attack', then dump out a report of the data.
+I create 3 tmux windows, for `htop`, `./caddy`, and `vegeta`.
+
+Vegeta's command line is also very composable and great for tweaking and playing with. I send in the URL (which caddy will serve), define the features of the 'attack', then dump out a report of the data.
 
 ```shell
 $ echo "GET http://localhost:2015/README.md" | ./vegeta attack -duration=30s -workers=10 -rate=50 | tee results.bin | ./vegeta report
