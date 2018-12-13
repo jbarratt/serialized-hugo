@@ -1,5 +1,5 @@
 ---
-title: "Expermenting with AWS's new a1 instances, using awless"
+title: "Experimenting with AWS's new a1 instances, using awless"
 date: 2018-12-12T10:11:56-08:00
 lastmod: 2018-12-12T10:11:56-08:00
 slug: "expermenting-with-awss-new-a1-instances-with-awless"
@@ -28,9 +28,19 @@ I've personally been watching ARM in the datacenter for a long time. In the web 
 
 Because ARM uses a "reduced instruction set" vs the x86 "complex instruction set", it's difficult to compare performance directly, because what's done in a single instruction can vary. I'd been looking for a quick way to generate a lot of HTTP load inside a private VPC subnet. That seemed like a good workload to compare -- where the actual question of "how much work can you get done, how quickly" ends up being measurable. How many requests/second can be generated before the host gets unstable?
 
-I chose [caddy](https://caddyserver.com/) for the web server, because it's a single simple binary and performs well, and [vegeta](https://github.com/tsenart/vegeta) for load generation for the same reasons. (Also, I have a [history of vegetalove](https://serialized.net/2017/06/load-testing-with-vegeta-and-python/).)
+I chose [caddy](https://caddyserver.com/) for the web server, because it's a single simple binary and performs well, and [vegeta](https://github.com/tsenart/vegeta) for load generation for the same reasons. (Also, I have a [history of vegetalove](https://serialized.net/2017/06/load-testing-with-vegeta-and-python/).) And because all architectures must be described with boxes and arrows:
 
-![load test structure](/images/load_test_structure.svg#center)
+<style>
+img[src$='#center-wide']
+{
+    display: block;
+    margin: 0 auto;
+    width: 75%;
+    max-width: 90%;
+}
+</style>
+
+![load test structure](/images/load_test_structure.svg#center-wide)
 
 ### Launch a server with awless
 
@@ -42,7 +52,18 @@ $ awless create instance -h
 
 You can provide any params you want on the command line, and fill in other required ones interactively (with tab completion!) I was stuck needing to pick a good subnet and security group, though. This is easy:
 
-![awless list subnet and securitygroups](/images/awless_list.png#center)
+<style>
+img[src$='#center-xl']
+{
+    display: block;
+    margin-left: -8%;
+    margin-top: -5%;
+    margin-bottom: -8%;
+    max-width: 120%;
+}
+</style>
+
+![awless list subnet and securitygroups](/images/awless_list.png#center-xl)
 
 From right in the terminal I can see which subnets are public and which aren't. Running `awless show <identifier>`, like `awless show subnet-46fc311e` gives more information about things if needed. But I'm tinkering, and this is a scratch account, I just need a public subnet, and I've only got my default security group.
 
