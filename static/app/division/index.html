@@ -19,8 +19,8 @@
   <div id="app">
     <div style="display:flex;justify-content:space-between;">
     <h1>Endless Division</h1>
-    <span style="font-size:60%">High Score: {{ highscore }}</span>
-    <span style="border:2px;">Score: {{ score }}</span>
+    <span style="color:#e0e0eb">High Score: {{ highscore }}</span>
+    <span>Score: {{ score }}</span>
     </div>
 
     <section class="nes-container with-title" v-if="alive">
@@ -29,8 +29,10 @@
         <div class="nes-balloon from-left">
           <p>{{ question }} </p>
         </div>
-        <input v-model="guess" class="nes-input">
-        <button type="button" @click="checkAnswer" class="nes-btn is-primary">Check Your Work ✅</button>
+        <div style="display:flex;justify-content:space-between;">
+          <input v-model="guess" class="nes-input" v-on:keypress.enter="checkAnswer">
+          <button type="button" @click="checkAnswer" class="nes-btn is-primary">Check Your Work ✅</button>
+        </div>
       </div>
     </section>
     <template v-if="!alive">
@@ -59,7 +61,7 @@
       data: {
         highscore: 0,
         score: 0,
-        guess: 0,
+        guess: "",
         answer: 0,
         question: "",
         alive: true,
@@ -74,11 +76,13 @@
         startGame: function() {
           this.score = 0;
           this.alive = true;
+          this.guess = "";
           this.generateQuestion();
         },
         checkAnswer: function() {
           if (this.guess == this.answer) {
             this.score++;
+            this.guess = "";
             this.generateQuestion();
           } else {
             this.alive = false;
@@ -104,9 +108,9 @@
             `${name} has ${dividend} ${item} and wants to hand them out fairly to ${divisor} classmates. How many do they each get?`,
             `${name}'s dad asks ${name} to divide ${dividend} ${item} equally into ${divisor} bags. How many go to each bag?`,
             `The school is planning a field trip. There are ${dividend} students and each bus can take ${divisor}. How many busses are needed?`,
-            `${name} likes to be organized and has a pencil box which will hold ${divisor} pencils. If ${name} have ${dividend} pencils, how many total boxes are needed?`,
+            `${name} likes to be organized and has a pencil box which will hold ${divisor} pencils. If ${name} has ${dividend} pencils, how many total boxes are needed?`,
             `There are ${dividend} baby fish in a tank. If each mother can lay ${divisor} eggs, how many mother fish must there have been?`,
-            `${name} counted ${dividend} 💩 when cleaning the cat box. If they have ${divisor} cats, how many 💩's did each cat 💩?`
+            `${name} counted ${dividend} 💩 when cleaning the cat box. If ${name}'s family has ${divisor} cats, how many 💩's did each cat 💩?`
           ];
 
           this.answer = quotient;
