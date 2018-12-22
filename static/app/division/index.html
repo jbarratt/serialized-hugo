@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Endless Division Questions</title>
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  <link href="https://unpkg.com/nes.css/css/nes.min.css" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.5.21/dist/vue.js"></script>
+</head>
+
+<body>
+  <style>
+  body {
+  padding: 0 2rem;
+  margin: 2rem;
+  }
+  </style>
+  <div id="app">
+    <div style="display:flex;justify-content:space-between;">
+    <h1>Endless Division</h1>
+    <span style="font-size:60%">High Score: {{ highscore }}</span>
+    <span style="border:2px;">Score: {{ score }}</span>
+    </div>
+
+    <section class="nes-container with-title" v-if="alive">
+      <h2 class="title">Question</h2>
+      <div>
+        <div class="nes-balloon from-left">
+          <p>{{ question }} </p>
+        </div>
+        <input v-model="guess" class="nes-input">
+        <button type="button" @click="checkAnswer" class="nes-btn is-primary">Check Your Work ✅</button>
+      </div>
+    </section>
+    <template v-if="!alive">
+    <div v-if="score==highscore && score != 0">
+      <i class="nes-icon star is-large"></i>
+      <h3 >New high score!</h3>
+    </div>
+    <section class="nes-container with-title">
+      <h2 class="title">You Crashed</h2>
+      <div>
+        <p>Nice try! You answered {{ guess }} but it was {{ answer }}</p>
+        <img src="https://media.giphy.com/media/BvBEozfsXWWHe/giphy.gif"/>
+        <button @click="startGame" class="nes-btn is-primary">Play Again</button>
+      </div>
+    </section>
+  </template>
+  </div>
+  <script lang="javascript">
+    function getRandomInt(min, max) {
+      min = Math.ceil(min);
+      max = Math.floor(max);
+      return Math.floor(Math.random() * (max - min + 1)) + min;
+    }
+    new Vue({
+      el: "#app",
+      data: {
+        highscore: 0,
+        score: 0,
+        guess: 0,
+        answer: 0,
+        question: "",
+        alive: true,
+      },
+      beforeMount: function() {
+        if (localStorage.highscore) {
+          this.highscore = localStorage.highscore;
+        }
+        this.generateQuestion();
+      },
+      methods: {
+        startGame: function() {
+          this.score = 0;
+          this.alive = true;
+          this.generateQuestion();
+        },
+        checkAnswer: function() {
+          if (this.guess == this.answer) {
+            this.score++;
+            this.generateQuestion();
+          } else {
+            this.alive = false;
+            if (this.score > this.highscore) {
+              localStorage.highscore = this.score;
+              this.highscore = this.score;
+            }
+          }
+        },
+        generateQuestion: function() {
+          var names = ['Amir', 'Susan', 'Alex', 'Jacob', 'Isabella', 'Sophia', 'Emma', 'Olivia', 'Ava', 'Emily', 'Abigail', 'Jayden', 'William', 'Noah', 'Gabriella', 'Makayla', 'Zoey'];
+          var pluralItems = ['Pokémon Cards', 'dice ⚅', 'LEGO sets', 'drawing pads ✎', 'chocolate chip cookies 🍪', 'ghost peppers 🔥', 'dogs 🐕', 'hot dogs 🌭', 'cups of coffee ☕'];
+
+          var name = names[Math.floor(Math.random() * names.length)];
+          var item = pluralItems[Math.floor(Math.random() * pluralItems.length)];
+          var divisor = getRandomInt(3, 12);
+          var quotient = getRandomInt(3, 12);
+          var dividend = divisor * quotient;
+
+          var questions = [
+            `${name} has ${dividend} ${item} and wants to share them between ${divisor} friends. How many do they each get?`,
+            `${name}'s dad asks ${name} to divide ${dividend} ${item} equally into ${divisor} boxes. How many go to each box?`,
+            `${name} has ${dividend} ${item} and wants to hand them out fairly to ${divisor} classmates. How many do they each get?`,
+            `${name}'s dad asks ${name} to divide ${dividend} ${item} equally into ${divisor} bags. How many go to each bag?`,
+            `The school is planning a field trip. There are ${dividend} students and each bus can take ${divisor}. How many busses are needed?`,
+            `${name} likes to be organized and has a pencil box which will hold ${divisor} pencils. If ${name} have ${dividend} pencils, how many total boxes are needed?`,
+            `There are ${dividend} baby fish in a tank. If each mother can lay ${divisor} eggs, how many mother fish must there have been?`,
+            `${name} counted ${dividend} 💩 when cleaning the cat box. If they have ${divisor} cats, how many 💩's did each cat 💩?`
+          ];
+
+          this.answer = quotient;
+          this.question = questions[Math.floor(Math.random() * questions.length)];
+
+        }
+      }
+    });
+  </script>
+</body>
+
+</html>
