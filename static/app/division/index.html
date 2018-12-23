@@ -7,6 +7,7 @@
   <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
   <link href="https://unpkg.com/nes.css/css/nes.min.css" rel="stylesheet" />
   <script src="https://cdn.jsdelivr.net/npm/vue@2.5.21/dist/vue.js"></script>
+  <meta name="viewport" content="width=500, initial-scale=0.5,minimum-scale=0.5,maximum-scale=0.5,user-scalable=0">
 </head>
 
 <body>
@@ -15,14 +16,24 @@
   padding: 0 2rem;
   margin: 2rem;
   }
+  .okbox {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+  z-index: 2;
+}
   </style>
   <div id="app">
+    <div class="okbox" v-show="showOk"><img src="ok.gif" style="height:30%"></div>
     <div style="display:flex;justify-content:space-between;">
     <h1>Endless Division</h1>
     <span style="color:#e0e0eb">High Score: {{ highscore }}</span>
     <span>Score: {{ score }}</span>
     </div>
-
     <section class="nes-container with-title" v-if="alive">
       <h2 class="title">Question</h2>
       <div>
@@ -30,7 +41,7 @@
           <p>{{ question }} </p>
         </div>
         <div style="display:flex;justify-content:space-between;">
-          <input v-model="guess" class="nes-input" v-on:keypress.enter="checkAnswer">
+          <input v-model="guess" v-on:keypress.enter="checkAnswer">
           <button type="button" @click="checkAnswer" class="nes-btn is-primary">Check Your Work ✅</button>
         </div>
       </div>
@@ -65,6 +76,7 @@
         answer: 0,
         question: "",
         alive: true,
+        showOk: false,
       },
       beforeMount: function() {
         if (localStorage.highscore) {
@@ -81,9 +93,14 @@
         },
         checkAnswer: function() {
           if (this.guess == this.answer) {
+            this.showOk = true;
             this.score++;
             this.guess = "";
             this.generateQuestion();
+            var vx = this;
+            setTimeout(function() {
+              vx.showOk = false;
+            },1500);
           } else {
             this.alive = false;
             if (this.score > this.highscore) {
@@ -98,8 +115,9 @@
 
           var name = names[Math.floor(Math.random() * names.length)];
           var item = pluralItems[Math.floor(Math.random() * pluralItems.length)];
-          var divisor = getRandomInt(3, 12);
-          var quotient = getRandomInt(3, 12);
+          // make the game use bigger and bigger numbers as you go
+          var divisor = getRandomInt(3, 12 + this.score);
+          var quotient = getRandomInt(3, 12 + this.score);
           var dividend = divisor * quotient;
 
           var questions = [
