@@ -2,3 +2,4 @@
 **/.ropeproject/
 **/._*
 /resources
+*.DS_Store
