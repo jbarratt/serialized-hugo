@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xl="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="333.0695 193.56334 176.75878 110.01979" width="176.75878" height="110.01979">
+  <defs>
+    <font-face font-family="Apple Color Emoji" font-size="16" units-per-em="1000" underline-position="-117.1875" underline-thickness="78.125" slope="0" x-height="781.25" cap-height="1250" ascent="1250" descent="-390.625" font-weight="400">
+      <font-face-src>
+        <font-face-name name="AppleColorEmoji"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Futura" font-size="16" panose-1="2 11 6 2 2 2 4 2 3 3" units-per-em="1000" underline-position="-97.65625" underline-thickness="78.125" slope="0" x-height="482.4219" cap-height="761.2305" ascent="1038.5742" descent="-259.76562" font-weight="500">
+      <font-face-src>
+        <font-face-name name="Futura-Medium"/>
+      </font-face-src>
+    </font-face>
+  </defs>
+  <metadata> Produced by OmniGraffle 7.9.4 
+    <dc:date>2019-02-08 00:44:51 +0000</dc:date>
+  </metadata>
+  <g id="Canvas_1" stroke-opacity="1" stroke-dasharray="none" stroke="none" fill="none" fill-opacity="1">
+    <title>Canvas 1</title>
+    <g id="Canvas_1: Layer 1">
+      <title>Layer 1</title>
+      <g id="Graphic_2">
+        <rect x="339.25" y="200.25" width="164" height="96.5" fill="white"/>
+        <path d="M 338.91003 200.25035 L 503.78884 200.0792 M 503.45664 199.71938 L 503.34123 297.0272 M 503.6568 296.8058 L 339.0197 296.93425 M 339.26637 297.3956 L 339.24993 199.8294 M 338.97247 200.13776 L 503.5187 200.00343 M 503.58086 199.65696 L 503.45355 296.7436 M 503.7193 296.77645 L 339.32884 296.92514 M 339.3165 297.3331 L 339.293 200.1875" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_3">
+        <text transform="translate(362.25 222.5)" fill="black">
+          <tspan font-family="Apple Color Emoji" font-size="16" font-weight="400" fill="black" x=".46875" y="20">✨</tspan>
+          <tspan font-family="Futura" font-size="16" font-weight="500" fill="black" y="20">Awesome </tspan>
+          <tspan font-family="Apple Color Emoji" font-size="16" font-weight="400" fill="black" y="20">✨</tspan>
+          <tspan font-family="Apple Color Emoji" font-size="16" font-weight="400" fill="black" x="8.855469" y="46">✨</tspan>
+          <tspan font-family="Futura" font-size="16" font-weight="500" fill="black" y="46">Service </tspan>
+          <tspan font-family="Apple Color Emoji" font-size="16" font-weight="400" fill="black" y="46">✨</tspan>
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>

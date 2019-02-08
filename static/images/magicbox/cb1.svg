@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xl="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="512.01517 279.53084 106.92552 61.46916" width="106.92552" height="61.46916">
+  <defs>
+    <font-face font-family="Futura" font-size="16" panose-1="2 11 6 2 2 2 4 2 3 3" units-per-em="1000" underline-position="-97.65625" underline-thickness="78.125" slope="0" x-height="482.4219" cap-height="761.2305" ascent="1038.5742" descent="-259.76562" font-weight="500">
+      <font-face-src>
+        <font-face-name name="Futura-Medium"/>
+      </font-face-src>
+    </font-face>
+  </defs>
+  <metadata> Produced by OmniGraffle 7.9.4 
+    <dc:date>2019-02-08 21:02:43 +0000</dc:date>
+  </metadata>
+  <g id="Coachbot-1" stroke-opacity="1" stroke-dasharray="none" stroke="none" fill="none" fill-opacity="1">
+    <title>Coachbot</title>
+    <g id="Coachbot-1: Layer 1">
+      <title>Layer 1</title>
+      <g id="Graphic_3">
+        <rect x="518" y="286" width="94.5" height="35.25" fill="white"/>
+        <path d="M 517.7581 285.99954 L 612.9698 286.18247 M 612.6443 285.86797 L 612.3376 321.30245 M 612.4882 321.11654 L 518.06736 321.33637 M 518.21935 321.83168 L 517.99704 285.51706 M 517.82064 285.92035 L 612.7042 286.09223 M 612.7449 285.8058 L 612.4025 321.0544 M 612.5508 321.11073 L 518.2789 321.30466 M 518.2659 321.76928 L 518.0367 285.93766" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_2">
+        <text transform="translate(528.5 291.26172)" fill="black">
+          <tspan font-family="Futura" font-size="16" font-weight="500" fill="black" x=".109375" y="17">CoachBot</tspan>
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>

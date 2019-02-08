@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xl="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="201.5 106 459 313.5" width="459" height="313.5">
+  <defs>
+    <font-face font-family="Apple Color Emoji" font-size="16" units-per-em="1000" underline-position="-117.1875" underline-thickness="78.125" slope="0" x-height="781.25" cap-height="1250" ascent="1250" descent="-390.625" font-weight="400">
+      <font-face-src>
+        <font-face-name name="AppleColorEmoji"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Futura" font-size="16" panose-1="2 11 6 2 2 2 4 2 3 3" units-per-em="1000" underline-position="-97.65625" underline-thickness="78.125" slope="0" x-height="482.4219" cap-height="761.2305" ascent="1038.5742" descent="-259.76562" font-weight="500">
+      <font-face-src>
+        <font-face-name name="Futura-Medium"/>
+      </font-face-src>
+    </font-face>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -4 10 8" markerWidth="10" markerHeight="8" color="black">
+      <g>
+        <path d="M 8 0 L 0 -3 L 0 3 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker_2" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -4 10 8" markerWidth="10" markerHeight="8" color="#909090">
+      <g>
+        <path d="M 8 0 L 0 -3 L 0 3 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+  </defs>
+  <metadata> Produced by OmniGraffle 7.9.4 
+    <dc:date>2019-02-08 01:07:20 +0000</dc:date>
+  </metadata>
+  <g id="Generic_Illustrations" stroke-opacity="1" stroke-dasharray="none" stroke="none" fill="none" fill-opacity="1">
+    <title>Generic Illustrations</title>
+    <g id="Generic_Illustrations: Layer 1">
+      <title>Layer 1</title>
+      <g id="Graphic_2">
+        <rect x="339.25" y="200.25" width="164" height="96.5" fill="white"/>
+        <path d="M 338.91003 200.25035 L 503.78884 200.0792 M 503.45664 199.71938 L 503.34123 297.0272 M 503.6568 296.8058 L 339.0197 296.93425 M 339.26637 297.3956 L 339.24993 199.8294 M 338.97247 200.13776 L 503.5187 200.00343 M 503.58086 199.65696 L 503.45355 296.7436 M 503.7193 296.77645 L 339.32884 296.92514 M 339.3165 297.3331 L 339.293 200.1875" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_3">
+        <text transform="translate(362.25 222.5)" fill="black">
+          <tspan font-family="Apple Color Emoji" font-size="16" font-weight="400" fill="black" x=".46875" y="20">✨</tspan>
+          <tspan font-family="Futura" font-size="16" font-weight="500" fill="black" y="20">Awesome </tspan>
+          <tspan font-family="Apple Color Emoji" font-size="16" font-weight="400" fill="black" y="20">✨</tspan>
+          <tspan font-family="Apple Color Emoji" font-size="16" font-weight="400" fill="black" x="8.855469" y="46">✨</tspan>
+          <tspan font-family="Futura" font-size="16" font-weight="500" fill="black" y="46">Service </tspan>
+          <tspan font-family="Apple Color Emoji" font-size="16" font-weight="400" fill="black" y="46">✨</tspan>
+        </text>
+      </g>
+    </g>
+    <g id="Generic_Illustrations: Layer 2">
+      <title>Layer 2</title>
+      <g id="Graphic_4">
+        <text transform="translate(243.5 222.76172)" fill="black">
+          <tspan font-family="Futura" font-size="16" font-weight="500" fill="black" x=".06640625" y="17">Inputs</tspan>
+        </text>
+      </g>
+      <g id="Line_5">
+        <line x1="291.5" y1="233.11336" x2="329.35105" y2="232.5611" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+    </g>
+    <g id="Generic_Illustrations: Layer 3">
+      <title>Layer 3</title>
+      <g id="Graphic_6">
+        <text transform="translate(211.5 252.76172)" fill="black">
+          <tspan font-family="Futura" font-size="16" font-weight="500" fill="black" x=".23046875" y="17">Responses</tspan>
+        </text>
+      </g>
+      <g id="Line_7">
+        <line x1="339.25" y1="264.58333" x2="301.3993" y2="264.129" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_8">
+        <text transform="translate(367 344.78516)" fill="black">
+          <tspan font-family="Futura" font-size="16" font-weight="500" fill="black" x="0" y="17">Logs</tspan>
+          <tspan font-family="Futura" font-size="16" font-weight="500" fill="black" x="0" y="38.476562">Metrics</tspan>
+          <tspan font-family="Futura" font-size="16" font-weight="500" fill="black" x="0" y="59.953125">…</tspan>
+        </text>
+      </g>
+      <g id="Line_9">
+        <line x1="393.91667" y1="296.75" x2="393.9508" y2="329.6" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+    </g>
+    <g id="Generic_Illustrations: Layer 4">
+      <title>Layer 4</title>
+      <g id="Group_12">
+        <g id="Graphic_10">
+          <path d="M 527 278.5 L 527 218.5 C 527 214.36 555.672 211 591 211 C 626.328 211 655 214.36 655 218.5 L 655 278.5 C 655 282.64 626.328 286 591 286 C 555.672 286 527 282.64 527 278.5" fill="white"/>
+          <path d="M 527 278.5 L 527 218.5 C 527 214.36 555.672 211 591 211 C 626.328 211 655 214.36 655 218.5 L 655 278.5 C 655 282.64 626.328 286 591 286 C 555.672 286 527 282.64 527 278.5 M 527 218.5 C 527 222.64 555.672 226 591 226 C 626.328 226 655 222.64 655 218.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        </g>
+        <g id="Graphic_11">
+          <text transform="translate(573 242.76172)" fill="black">
+            <tspan font-family="Futura" font-size="16" font-weight="500" fill="black" x=".33984375" y="17">Data</tspan>
+          </text>
+        </g>
+      </g>
+      <g id="Line_13">
+        <line x1="503.25" y1="232.41667" x2="517.2622" y2="234.9849" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_14">
+        <line x1="527" y1="260.2303" x2="512.9878" y2="262.79853" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+    </g>
+    <g id="Generic_Illustrations: Layer 5">
+      <title>Layer 5</title>
+      <g id="Graphic_15">
+        <text transform="translate(408.25 116.26172)" fill="black">
+          <tspan font-family="Apple Color Emoji" font-size="16" font-weight="400" fill="black" x=".0078125" y="20">⏱</tspan>
+          <tspan font-family="Futura" font-size="16" font-weight="500" fill="black" y="20">Critical</tspan>
+          <tspan font-family="Futura" font-size="16" font-weight="500" fill="black" x="3.0078125" y="43">Numbers</tspan>
+        </text>
+      </g>
+      <g id="Line_16">
+        <line x1="403.25" y1="161.38633" x2="300.27763" y2="215.09856" marker-end="url(#FilledArrow_Marker_2)" stroke="#909090" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_17">
+        <line x1="483.4735" y1="169" x2="535.64816" y2="207.57547" marker-end="url(#FilledArrow_Marker_2)" stroke="#909090" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_18">
+        <line x1="438.10127" y1="169" x2="404.00435" y2="329.8153" marker-end="url(#FilledArrow_Marker_2)" stroke="#909090" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+    </g>
+  </g>
+</svg>

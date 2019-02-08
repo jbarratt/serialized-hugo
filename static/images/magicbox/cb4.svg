@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xl="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="219 128.5 441.5 258" width="441.5" height="258">
+  <defs>
+    <font-face font-family="Futura" font-size="16" panose-1="2 11 6 2 2 2 4 2 3 3" units-per-em="1000" underline-position="-97.65625" underline-thickness="78.125" slope="0" x-height="482.4219" cap-height="761.2305" ascent="1038.5742" descent="-259.76562" font-weight="500">
+      <font-face-src>
+        <font-face-name name="Futura-Medium"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Futura" font-size="11" panose-1="2 11 6 2 2 2 4 2 3 3" units-per-em="1000" underline-position="-97.65625" underline-thickness="78.125" slope="0" x-height="482.4219" cap-height="761.2305" ascent="1038.5742" descent="-259.76562" font-weight="500">
+      <font-face-src>
+        <font-face-name name="Futura-Medium"/>
+      </font-face-src>
+    </font-face>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -4 10 8" markerWidth="10" markerHeight="8" color="black">
+      <g>
+        <path d="M 8 0 L 0 -3 L 0 3 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <font-face font-family="Futura" font-size="9" panose-1="2 11 6 2 2 2 4 2 3 3" units-per-em="1000" underline-position="-97.65625" underline-thickness="78.125" slope="0" x-height="482.4219" cap-height="761.2305" ascent="1038.5742" descent="-259.76562" font-weight="500">
+      <font-face-src>
+        <font-face-name name="Futura-Medium"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Futura" font-size="10" panose-1="2 11 6 2 2 2 4 2 3 3" units-per-em="1000" underline-position="-97.65625" underline-thickness="78.125" slope="0" x-height="482.4219" cap-height="761.2305" ascent="1038.5742" descent="-259.76562" font-weight="500">
+      <font-face-src>
+        <font-face-name name="Futura-Medium"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Apple Color Emoji" font-size="10" units-per-em="1000" underline-position="-117.1875" underline-thickness="78.125" slope="0" x-height="781.25" cap-height="1250" ascent="1250" descent="-390.625" font-weight="400">
+      <font-face-src>
+        <font-face-name name="AppleColorEmoji"/>
+      </font-face-src>
+    </font-face>
+  </defs>
+  <metadata> Produced by OmniGraffle 7.9.4 
+    <dc:date>2019-02-08 21:01:01 +0000</dc:date>
+  </metadata>
+  <g id="CoachBot" stroke-opacity="1" stroke-dasharray="none" stroke="none" fill="none" fill-opacity="1">
+    <title>CoachBot</title>
+    <g id="CoachBot: Layer 1">
+      <title>Layer 1</title>
+      <g id="Graphic_2">
+        <rect x="366" y="200.25" width="166.5" height="100.25" fill="white"/>
+        <path d="M 365.66003 200.25035 L 533.03884 200.0792 M 532.7066 199.71938 L 532.59124 300.7772 M 532.9068 300.5558 L 365.7697 300.68424 M 366.01637 301.1456 L 365.99993 199.8294 M 365.72248 200.13775 L 532.7687 200.00343 M 532.83084 199.65695 L 532.70355 300.4936 M 532.9693 300.52645 L 366.07884 300.67514 M 366.0665 301.0831 L 366.043 200.1875" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_3">
+        <text transform="translate(413.75 236.26172)" fill="black">
+          <tspan font-family="Futura" font-size="16" font-weight="500" fill="black" x=".109375" y="17">CoachBot</tspan>
+        </text>
+      </g>
+    </g>
+    <g id="CoachBot: Layer 2">
+      <title>Layer 2</title>
+      <g id="Graphic_4">
+        <rect x="250.5" y="165.5" width="76" height="82" fill="#ccc"/>
+        <text transform="translate(255.5 170.6809)" fill="black">
+          <tspan font-family="Futura" font-size="11" font-weight="500" fill="black" x="0" y="11">Create Goal</tspan>
+          <tspan font-family="Futura" font-size="11" font-weight="500" fill="black" x="0" y="25.327637">Update Goal</tspan>
+          <tspan font-family="Futura" font-size="11" font-weight="500" fill="black" x="0" y="39.655273">Stop</tspan>
+          <tspan font-family="Futura" font-size="11" font-weight="500" fill="black" x="0" y="53.98291">Status</tspan>
+          <tspan font-family="Futura" font-size="11" font-weight="500" fill="black" x="0" y="68.31055">Help</tspan>
+        </text>
+      </g>
+      <g id="Line_5">
+        <line x1="326.5" y1="219.82043" x2="356.65737" y2="230.39172" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_20">
+        <path d="M 268 163.875 C 268 157.58592 258.2721 152.5 246.25 152.5 C 234.2279 152.5 224.5 157.58592 224.5 163.875 C 224.5 169.23448 231.6366 173.74612 241.21618 174.92184 C 240.43014 176.9454 239.1347 179.32428 237.09542 180.5 C 241.02478 180.5 244.91194 177.71092 247.56674 175.22256 C 258.97288 174.86724 268 169.91796 268 163.875 Z" fill="white"/>
+        <path d="M 268 163.875 C 268 157.58592 258.2721 152.5 246.25 152.5 C 234.2279 152.5 224.5 157.58592 224.5 163.875 C 224.5 169.23448 231.6366 173.74612 241.21618 174.92184 C 240.43014 176.9454 239.1347 179.32428 237.09542 180.5 C 241.02478 180.5 244.91194 177.71092 247.56674 175.22256 C 258.97288 174.86724 268 169.91796 268 163.875 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(229.5 158.06597)" fill="black">
+          <tspan font-family="Futura" font-size="9" font-weight="500" fill="black" x="7.176514" y="9">SMS</tspan>
+        </text>
+      </g>
+      <g id="Graphic_22">
+        <rect x="250.5" y="270" width="75" height="53" fill="#ccc"/>
+        <text transform="translate(255.5 275.00854)" fill="black">
+          <tspan font-family="Futura" font-size="11" font-weight="500" fill="black" x="0" y="11">Confirmation</tspan>
+          <tspan font-family="Futura" font-size="11" font-weight="500" fill="black" x="0" y="25.327637">Statuses</tspan>
+          <tspan font-family="Futura" font-size="11" font-weight="500" fill="black" x="0" y="39.655273">Reminders</tspan>
+        </text>
+      </g>
+      <g id="Graphic_21">
+        <path d="M 268 268.375 C 268 262.08592 258.2721 257 246.25 257 C 234.2279 257 224.5 262.08592 224.5 268.375 C 224.5 273.73448 231.6366 278.24612 241.21618 279.42184 C 240.43014 281.4454 239.1347 283.82428 237.09542 285 C 241.02478 285 244.91194 282.21092 247.56674 279.72256 C 258.97288 279.36724 268 274.41796 268 268.375 Z" fill="white"/>
+        <path d="M 268 268.375 C 268 262.08592 258.2721 257 246.25 257 C 234.2279 257 224.5 262.08592 224.5 268.375 C 224.5 273.73448 231.6366 278.24612 241.21618 279.42184 C 240.43014 281.4454 239.1347 283.82428 237.09542 285 C 241.02478 285 244.91194 282.21092 247.56674 279.72256 C 258.97288 279.36724 268 274.41796 268 268.375 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(229.5 262.56597)" fill="black">
+          <tspan font-family="Futura" font-size="9" font-weight="500" fill="black" x="7.176514" y="9">SMS</tspan>
+        </text>
+      </g>
+      <g id="Line_23">
+        <line x1="364" y1="271.5" x2="334.90427" y2="281.07097" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_24">
+        <rect x="364" y="338.5" width="75" height="25" fill="#ccc"/>
+        <text transform="translate(369 343.8362)" fill="black">
+          <tspan font-family="Futura" font-size="11" font-weight="500" fill="black" x="0" y="11">Every Query</tspan>
+        </text>
+      </g>
+      <g id="Graphic_26">
+        <path d="M 340 328.5 L 383.5 328.5 L 383.5 344.5 C 370.45 342.5 353.05 350.5 340 346.5 Z" fill="white"/>
+        <path d="M 340 328.5 L 383.5 328.5 L 383.5 344.5 C 370.45 342.5 353.05 350.5 340 346.5 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(345 330.85107)" fill="black">
+          <tspan font-family="Futura" font-size="10" font-weight="500" fill="black" x="6.505859" y="10">Logs</tspan>
+        </text>
+      </g>
+      <g id="Graphic_27">
+        <rect x="460.75" y="342.5" width="109" height="39" fill="#ccc"/>
+        <text transform="translate(465.75 347.67236)" fill="black">
+          <tspan font-family="Futura" font-size="11" font-weight="500" fill="black" x="0" y="11">Response Time</tspan>
+          <tspan font-family="Futura" font-size="11" font-weight="500" fill="black" x="0" y="25.327637">Request Count/type</tspan>
+        </text>
+      </g>
+      <g id="Graphic_28">
+        <path d="M 446 343.5 L 446 333.5 L 476 333.5 L 476 328.5 L 496 338.5 L 476 348.5 L 476 343.5 Z" fill="white"/>
+        <path d="M 446 343.5 L 446 333.5 L 476 333.5 L 476 328.5 L 496 338.5 L 476 348.5 L 476 343.5 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(451 332.86597)" fill="black">
+          <tspan font-family="Futura" font-size="9" font-weight="500" fill="black" x="5.0717773" y="9">Metrics</tspan>
+        </text>
+      </g>
+      <g id="Line_29">
+        <line x1="421.5" y1="300.5" x2="410.0958" y2="329.29556" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_30">
+        <line x1="477" y1="300.5" x2="497.8934" y2="334.0933" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_31">
+        <path d="M 508.5 274.35 L 508.5 221.15 C 508.5 217.4792 530.34 214.5 557.25 214.5 C 584.16 214.5 606 217.4792 606 221.15 L 606 274.35 C 606 278.0208 584.16 281 557.25 281 C 530.34 281 508.5 278.0208 508.5 274.35" fill="white"/>
+        <path d="M 508.5 274.35 L 508.5 221.15 C 508.5 217.4792 530.34 214.5 557.25 214.5 C 584.16 214.5 606 217.4792 606 221.15 L 606 274.35 C 606 278.0208 584.16 281 557.25 281 C 530.34 281 508.5 278.0208 508.5 274.35 M 508.5 221.15 C 508.5 224.8208 530.34 227.8 557.25 227.8 C 584.16 227.8 606 224.8208 606 221.15" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(513.5 234.075)" fill="black">
+          <tspan font-family="Apple Color Emoji" font-size="10" font-weight="400" fill="black" x="0" y="13">🔒</tspan>
+          <tspan font-family="Futura" font-size="10" font-weight="500" fill="#5b0005" y="13">Phone Number</tspan>
+          <tspan font-family="Apple Color Emoji" font-size="10" font-weight="400" fill="black" x="0" y="30">👌</tspan>
+          <tspan font-family="Futura" font-size="10" font-weight="500" fill="black" y="30">Goal Record</tspan>
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>
