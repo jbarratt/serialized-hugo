@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xl="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="201.5 106 459 313.5" width="459" height="313.5">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xl="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="201.5 111.5 426.5 308" width="426.5" height="308">
   <defs>
     <font-face font-family="Apple Color Emoji" font-size="16" units-per-em="1000" underline-position="-117.1875" underline-thickness="78.125" slope="0" x-height="781.25" cap-height="1250" ascent="1250" descent="-390.625" font-weight="400">
       <font-face-src>
@@ -24,7 +24,7 @@
     </marker>
   </defs>
   <metadata> Produced by OmniGraffle 7.9.4 
-    <dc:date>2019-02-08 01:07:20 +0000</dc:date>
+    <dc:date>2019-02-08 23:14:11 +0000</dc:date>
   </metadata>
   <g id="Generic_Illustrations" stroke-opacity="1" stroke-dasharray="none" stroke="none" fill="none" fill-opacity="1">
     <title>Generic Illustrations</title>
@@ -81,39 +81,33 @@
       <title>Layer 4</title>
       <g id="Group_12">
         <g id="Graphic_10">
-          <path d="M 527 278.5 L 527 218.5 C 527 214.36 555.672 211 591 211 C 626.328 211 655 214.36 655 218.5 L 655 278.5 C 655 282.64 626.328 286 591 286 C 555.672 286 527 282.64 527 278.5" fill="white"/>
-          <path d="M 527 278.5 L 527 218.5 C 527 214.36 555.672 211 591 211 C 626.328 211 655 214.36 655 218.5 L 655 278.5 C 655 282.64 626.328 286 591 286 C 555.672 286 527 282.64 527 278.5 M 527 218.5 C 527 222.64 555.672 226 591 226 C 626.328 226 655 222.64 655 218.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+          <path d="M 494.5 278.5 L 494.5 218.5 C 494.5 214.36 523.172 211 558.5 211 C 593.828 211 622.5 214.36 622.5 218.5 L 622.5 278.5 C 622.5 282.64 593.828 286 558.5 286 C 523.172 286 494.5 282.64 494.5 278.5" fill="white"/>
+          <path d="M 494.5 278.5 L 494.5 218.5 C 494.5 214.36 523.172 211 558.5 211 C 593.828 211 622.5 214.36 622.5 218.5 L 622.5 278.5 C 622.5 282.64 593.828 286 558.5 286 C 523.172 286 494.5 282.64 494.5 278.5 M 494.5 218.5 C 494.5 222.64 523.172 226 558.5 226 C 593.828 226 622.5 222.64 622.5 218.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
         </g>
         <g id="Graphic_11">
-          <text transform="translate(573 242.76172)" fill="black">
+          <text transform="translate(540.5 242.76172)" fill="black">
             <tspan font-family="Futura" font-size="16" font-weight="500" fill="black" x=".33984375" y="17">Data</tspan>
           </text>
         </g>
-      </g>
-      <g id="Line_13">
-        <line x1="503.25" y1="232.41667" x2="517.2622" y2="234.9849" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
-      </g>
-      <g id="Line_14">
-        <line x1="527" y1="260.2303" x2="512.9878" y2="262.79853" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
       </g>
     </g>
     <g id="Generic_Illustrations: Layer 5">
       <title>Layer 5</title>
       <g id="Graphic_15">
-        <text transform="translate(408.25 116.26172)" fill="black">
+        <text transform="translate(463 121.76172)" fill="black">
           <tspan font-family="Apple Color Emoji" font-size="16" font-weight="400" fill="black" x=".0078125" y="20">⏱</tspan>
           <tspan font-family="Futura" font-size="16" font-weight="500" fill="black" y="20">Critical</tspan>
           <tspan font-family="Futura" font-size="16" font-weight="500" fill="black" x="3.0078125" y="43">Numbers</tspan>
         </text>
       </g>
       <g id="Line_16">
-        <line x1="403.25" y1="161.38633" x2="300.27763" y2="215.09856" marker-end="url(#FilledArrow_Marker_2)" stroke="#909090" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <line x1="458" y1="160.9188" x2="300.7664" y2="220.0494" marker-end="url(#FilledArrow_Marker_2)" stroke="#909090" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
       </g>
       <g id="Line_17">
-        <line x1="483.4735" y1="169" x2="535.64816" y2="207.57547" marker-end="url(#FilledArrow_Marker_2)" stroke="#909090" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <line x1="515.7524" y1="174.5" x2="532.1341" y2="202.85817" marker-end="url(#FilledArrow_Marker_2)" stroke="#909090" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
       </g>
       <g id="Line_18">
-        <line x1="438.10127" y1="169" x2="404.00435" y2="329.8153" marker-end="url(#FilledArrow_Marker_2)" stroke="#909090" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <line x1="485.84665" y1="174.5" x2="415.09795" y2="330.48404" marker-end="url(#FilledArrow_Marker_2)" stroke="#909090" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
       </g>
     </g>
   </g>
