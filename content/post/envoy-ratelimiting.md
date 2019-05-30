@@ -7,15 +7,6 @@ slug: "envoy-ratelimits"
 draft: false
 ---
 
-<style>
-img[src$='#center-wide']
-{
-    display: block;
-    margin: 0 auto;
-    width: 95%;
-    max-width: 90%;
-}
-</style>
 
 Recently, one of the teams I work with selected Envoy as a core component for a system they were building. I'd been impressed for some time by presentations on it, and the number of open source tools which had included it or built around it, but hadn't actually explored it in any depth. 
 
@@ -25,7 +16,7 @@ I was especially curious about how to use it in the edge proxy mode, essentially
 
 The request flows through the system in stages:
 
-1. A client requests a resource from a backend
+1. A client sends a resource request to Envoy (in a gateway role)
 2. Using Envoy's External Authorizer interface:
 	* Authenticate the call, rejecting it if invalid
 	* Set custom headers which can be used for rate limiting
@@ -35,23 +26,23 @@ The request flows through the system in stages:
 
 With this limited experience I can say Envoy more than lived up to my expectations. I found the documentation complete, but sometimes terse, which is one of the reasons I wanted to write this up -- it was hard to find complete examples of this kind of pattern, so hopefully if you're reading this, it saves you some effort!
 
-For the rest of this post I'll be going layer by layer through how each component works.
+For the rest of this post I'll be going layer by layer through how each part of this stack works.
 
 ## The Docker Environment
 
-I'm using `docker-compose` for this, as it provides simple orchestration around building and running a stack of containers, and the unified log view is very helpful.
+I'm using `docker-compose` here, as it provides simple orchestration around building and running a stack of containers, and the unified log view is very helpful.
 
 There are 5 containers:
 
 * `envoy`, which, no shock, is ... envoy
 * `redis`, used to store the rate limit service's data
-* `extauth`, a custom go app which implements Envoy's gRPC spec for external authorization
+* `extauth`, a custom Go app which implements Envoy's gRPC spec for external authorization
 * `ratelimit`, Lyft's open source rate limiter service which implements the Envoy gRPC spec for rate limiting
-* `backend`, a custom go app which is essentially "hello world", and also prints the headers it recieves.
+* `backend`, a custom Go app which is essentially "hello world", and also prints the headers it receives for troubleshooting ease.
 
 `docker-compose` also creates a network (`envoymesh`) for all the services to share, and exposes various ports. The most important one ends up being `8010` (or `localhost:8010` on most docker machines) which is the public HTTP endpoint.
 
-To get it running, clone the repo. You'll also need a local copy of lyft's ratelimit. Submodules were causing some challenges, so it's easiest to `git clone git@github.com:lyft/ratelimit.git`
+To get it running, clone the repo. You'll also need a local copy of Lyft's ratelimit. Submodules would have been good here, but for a PoC it just as easy to `git clone git@github.com:lyft/ratelimit.git`.
 
 I had to make some manual tweaks to the `ratelimit` codebase to get it to build -- which may be operator error:
 
@@ -63,7 +54,7 @@ After getting the code in place, run `docker-compose up`. The first one will tak
 You can ensure that the full stack is working with a simple curl, which also shows traces of all the moving parts.
 
 * Instead of integrating with a true identity provider, all bearer tokens which are 3 characters long are considered to be valid.
-* The authorizer sets a header (`X-Ext-Auth-Ratelimit`) which can be used for unique per-user rate limiting
+* The authorizer sets a header (`X-Ext-Auth-Ratelimit`) which can be used for unique per-token rate limiting
 * In the envoy config, the Authorization header is stripped, so sensitive identity information is not pushed to backends
 
 
@@ -92,7 +83,7 @@ X-Forwarded-Proto: http
 
 ## Defining the backend
 
-The backend is a [very simple go app](https://github.com/jbarratt/envoy_ratelimit_example/blob/master/backend/main.go) running in a container.
+The backend is a [very simple Go app](https://github.com/jbarratt/envoy_ratelimit_example/blob/master/backend/main.go) running in a container.
 
 It shows up (cleverly named `backend`) a few times in the `envoy.yaml` config file.
 
@@ -115,11 +106,14 @@ clusters:
 	      port_value: 8123
 ```
 
-This is an example of where the envoy config can take some time to understand. For a simple "single host" backend it takes some pretty significant boilerplate. But, it's also incredibly powerful. We're able to define how to look up the host, how they should be load balanced, more than one cluster, more than one load balancer within a cluster, and more than one endpoint within that. It's entirely possible that this definition can be simplified, but this version works.
+This is an example of where the Envoy config can take some time to understand. For a simple "single host" backend it takes some pretty significant boilerplate. But, it's also incredibly powerful. We're able to define how to look up the host, how they should be load balanced, more than one cluster, more than one load balancer within a cluster, and more than one endpoint within that. It's entirely possible that this definition can be simplified, but this version works.
 
-It's great that the cluster definition is the same when defining both (one of the services that envoy will proxy to) as it is for (one of the 'helper' services that envoy filters communicate with), such as the authorizer and rate limiter.
+It's nice and consistent that the cluster definition is the same when defining either
 
-It's also great that clusters are defined with data structures which can be managed at runtime via the configuration APIs, it opens up a world of interesting integration options.
+* one of the services that Envoy will proxy to, or 
+* one of the 'helper' services that Envoy filters communicate with, such as the authorizer and rate limiter.
+
+It's also helpful that clusters (and the whole config) are defined with well-managed data structures, that are actually defined as protobufs. This means managing Envoy can be done fairly consistently when you're configuring it with YAML files, or at runtime through the configuration interface.
 
 So, now that the backend is defined, it's time to get it some traffic, and that's done via routes.
 
@@ -139,7 +133,7 @@ Again, a decent bit of data structure to say "send all traffic to the cluster I 
 
 ## Custom External Authorizer
 
-Envoy has a filter module for external authorization.
+Envoy has a built in filter module for external authorization.
 
 ```yaml
 http_filters:
@@ -154,7 +148,7 @@ This fragment of config says to call a gRPC service which is running at a cluste
 
 I am so happy about 2 quasi-recent developments which make this so easy to build -- Go modules and Docker multi-stage builds.
 
-Building a slim container, with just alpine and the binary of a go app, only takes this little fragment of `Dockerfile`. Yes, please.
+Building a slim container, with just alpine and the binary of a Go app, only takes this little fragment of `Dockerfile`. Yes, please.
 
 ```Dockerfile
 FROM golang:latest as builder
@@ -262,7 +256,8 @@ Here, 2 routes are defined:
 	    - {request_headers: {header_name: ":path", descriptor_key: "path"}}
 ```
 
-The actual ratelimit config is really simple:
+When you are using Lyft's ratelimiter, the actual config is pretty elegant.
+
 
 ```yaml
 ---
@@ -365,7 +360,7 @@ func runTest(okPct float64, tgts ...vegeta.Target) (ok bool, text string) {
 }
 ```
 
-This ends up being really exciting. A simple test definition can actually test various rate limiting scenarios actually limit the rate.
+This ends up being really exciting. A simple test definition can actually test that various rate limiting scenarios actually limit the rate.
 
 The tests do run for 10 seconds. I tested with different rates and because it takes a bit for the rate limiting to start tracking, the data had more fuzz in it with shorter tests.
 

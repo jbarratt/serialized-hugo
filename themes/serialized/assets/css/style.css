@@ -181,6 +181,15 @@ img[src$='#center']
     max-width: 90%;
 }
 
+img[src$='#center-wide']
+{
+    display: block;
+    margin: 0 auto;
+    width: 95%;
+    max-width: 95%;
+}
+
+
 section.container {
 	display: flex;
 	justify-content: space-between;
