@@ -10,7 +10,7 @@ To visualize the site locally:
 
 To make a new post:
 
-  $ hugo new post/mypost.md
+  $ hugo new post/$(date +"%Y")/mypost.md
 
 There are some tools in the `tools/` directory:
 
@@ -33,13 +33,3 @@ Linking between pages:
 Centering an image:
 
   ![alt text](/images/path/to/myfile.svg#center)
-
-
-CSS files are set to cache 'forever'. This can cause a problem if style changes are desired.
-Short of running the entire site through a processor like webpack, this can be worked around manually.
-
-  $ cd /themes/serialized/static/css
-  $ cp style.css style_$(md5 style.css | grep -o '.....$').css
-  $ git add # the new css file
-
-Then update `themes/serialized/layouts/partials/head.html` to reference the versioned CSS.
