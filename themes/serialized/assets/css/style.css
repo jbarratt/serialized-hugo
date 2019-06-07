@@ -161,13 +161,15 @@ pre {
   border-bottom: 1px solid #d8dee9;
 }
 
+/* 
 code {
   padding: 2px 4px;
   vertical-align: text-bottom;
 }
+*/
 
 pre {
-  padding: 1em;
+  padding: 0.75em;
 }
 
 a {
