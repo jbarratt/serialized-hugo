@@ -191,6 +191,17 @@ img[src$='#center-wide']
     max-width: 95%;
 }
 
+img[src$='#full-width']
+{
+  left: 50%;
+  margin-left: -45vw;
+  margin-right: -45vw;
+  max-width: 90vw;
+  position: relative;
+  right: 50%;
+  width: 90vw;
+}
+
 
 section.container {
 	display: flex;
