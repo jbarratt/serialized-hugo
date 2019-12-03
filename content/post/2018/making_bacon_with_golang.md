@@ -3,6 +3,7 @@ title: "Making Bacon with Golang"
 date: 2018-07-10T21:10:18-07:00
 lastmod: 2018-07-10T21:10:18-07:00
 description: "Using Go to build out an embeddable and high performance Oracle of Bacon"
+summary: "Using Go to build out an embeddable and high performance Oracle of Bacon"
 draft: false
 ---
 

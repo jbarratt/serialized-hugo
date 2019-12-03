@@ -2,6 +2,7 @@
 title = "Finding Feeds 3 Ways"
 date = "2018-06-01T14:44:46-07:00"
 description = "Using Pinboard bookmarks to populate a Feed Reader, Overengineering Edition"
+summary = "Using Pinboard bookmarks to populate a Feed Reader, Overengineering Edition"
 +++
 
 I took a break from using an feed reader for a few years. I was a big fan of the original Google Reader, and when it died, semi-moved to [Feedly](https://feedly.com/i/welcome), but it never quite stuck. I stopped using it all together as part of a general information diet a few years ago. Feed readers are great, though. There's been a definite hole in my knowledge and awareness of how things are moving in technology, and it was time to get back into the (moderate) habit.

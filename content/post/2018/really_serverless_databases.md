@@ -4,6 +4,7 @@ date: 2018-07-05T17:34:10-07:00
 lastmod: 2018-07-05T17:34:10-07:00
 description: "Making serverless databases even more serverless"
 draft: false
+summary: "This is a crazy thought experiment -- what if you embedded a database inside a lambda function? It turns out, it's really useful for some use cases!"
 slug: "serverless_db"
 ---
 

@@ -4,6 +4,7 @@ slug: "smarter-smart"
 date: 2019-06-06T18:02:09Z
 lastmod: 2019-06-06T18:02:09Z
 description: "The Sensibo Sky improved the temperature control in my office, and almost worked the way I wanted. This is the story of getting it the rest of the way, with a little extra help from Go and Serverless technologies."
+summary: "The Sensibo Sky improved the temperature control in my office, and almost worked the way I wanted. This is the story of getting it the rest of the way, with a little extra help from Go and Serverless technologies."
 draft: false
 ---
 

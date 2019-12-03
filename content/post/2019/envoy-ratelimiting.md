@@ -4,6 +4,7 @@ date: 2019-05-28T21:13:35-08:00
 lastmod: 2019-05-28T21:13:35-08:00
 description: "Using Envoy with external authorizer and a ratelimit service to implement custom logic."
 slug: "envoy-ratelimits"
+summary: "Envoy is a powerful cloud infrastructure tool, and it's very extensible via gRPC sidecars. This post walks through building and connecting rate limiting and custom authentication/authorization services to Envoy in edge router mode."
 draft: false
 ---
 

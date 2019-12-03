@@ -3,6 +3,7 @@ title: "Designing Systems with The Magic Box"
 date: 2019-02-07T21:13:35-08:00
 lastmod: 2019-02-07T21:13:35-08:00
 description: "Designing better software with magic boxes"
+summary: "This post provides an overview of a method I'm calling 'The Magic Box' -- a thinking tool to help understand true system requirements, and help drive better system design and better documentation."
 slug: "magic_box"
 draft: false
 ---

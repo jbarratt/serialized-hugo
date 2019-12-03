@@ -4,6 +4,7 @@ slug: generative-laptop-skin
 date: 2018-07-15T21:19:10-06:00
 lastmod: 2018-07-15T21:19:10-06:00
 description: "Generative Art as a laptop skin"
+summary: "I used Go to generate a custom SendGrid-themed sticker for my MacBook. And then, just for fun, used gopherjs to make that something you can play with online."
 draft: false
 ---
 

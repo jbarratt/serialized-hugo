@@ -3,6 +3,7 @@ title: "Make-ing Mermaid"
 date: 2019-08-13T23:45:26Z
 lastmod: 2019-08-13T23:45:26Z
 description: "Sequence Diagrams and Flowcharts are very useful tools. Mermaid is an excellent library to create them which can be driven from the command line, and therefore improved with some unixy magic."
+summary: "Sequence Diagrams and Flowcharts are very useful tools. Mermaid is an excellent library to create them which can be driven from the command line, and therefore improved with some unixy magic."
 slug: "mermaid"
 ---
 
@@ -11,7 +12,6 @@ slug: "mermaid"
 In the past I've used [PlantUML](http://plantuml.com/sequence-diagram), [websequencediagrams.com](https://www.websequencediagrams.com/), and [Sequence Diagram](https://apps.apple.com/us/app/sequence-diagram/id1195426709?mt=12) from the Mac App Store.
 
 Recently, though, I've been really enjoying [Mermaid](https://mermaidjs.github.io/#/). 
-<!--more-->
 
 * It has a nice, simple, syntax
 * It generates `png` and `svg`, and both can be styled using CSS

@@ -3,8 +3,11 @@ title: "A workflow for sharing Markdown (with images!)"
 date: 2018-11-28T21:52:37-08:00
 lastmod: 2018-11-28T21:52:37-08:00
 description: "Making markdown notetaking a little richer"
+summary: "S3 and Cloudfront make a great combination for sharing assets. Throw in some pandoc and you can easily share rich notes with others."
 draft: false
 ---
+
+*Update*: Monosnap is no longer free, so this method doesn't work any more. `:sadtrombone:`
 
 Markdown is great. It's what is used for this blog, but I also enjoy it for other kinds of writing, like documents and notetaking.
 
