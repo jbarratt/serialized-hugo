@@ -54,18 +54,7 @@ $ awless create instance -h
 
 You can provide any params you want on the command line, and fill in other required ones interactively (with tab completion!) I was stuck needing to pick a good subnet and security group, though. This is easy:
 
-<style>
-img[src$='#center-xl']
-{
-    display: block;
-    margin-left: -8%;
-    margin-top: -5%;
-    margin-bottom: -8%;
-    max-width: 120%;
-}
-</style>
-
-![awless list subnet and securitygroups](/images/awless_list.png#center-xl)
+![awless list subnet and securitygroups](/images/awless_list.png#full-width)
 
 From right in the terminal I can see which subnets are public and which aren't. Running `awless show <identifier>`, like `awless show subnet-46fc311e` gives more information about things if needed. But I'm tinkering, and this is a scratch account, I just need a public subnet, and I've only got my default security group.
 
