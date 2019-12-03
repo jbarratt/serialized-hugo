@@ -1,6 +1,25 @@
 {{ define "main" }}
-	{{ range first 1 (where .Data.Pages "Section" "post") }}
-		{{ partial "single-post.html" . }}
-	{{ end }}
-	{{ partial "latest-posts.html" . }}
-{{ end }}
+<main>
+	<p>Welcome! This site is where I write about things that have my attention. I'm a software and systems architect, husband and dad, tinkerer, home cook, coffee fan, musician, hiker, and could probably add a few other labels... all of those interests and more are fair game to show up here. If you want to know more, <a href="/about">check out the about page</a>, and otherwise, I hope you find something you like!</p>
+	</p>
+	<h1 class="no-under">Recent Posts</h1>
+	<hr/>
+	<div class="posts">
+		{{ range first 10 (where .Site.RegularPages "Section" "post") }}
+		<article class="post-thumbnail">
+			<h1 class="post-title">
+				<a href="{{ .Permalink }}">{{ .Title }}</a>
+			</h1>
+			<time datetime="{{ .Date.Format "2006-01-02T15:04:05Z0700"}}" class="post-time-thumbnail">{{ .Date.Format "Jan 2, 2006" }}</time>
+			<p class="post-thumbnail-entry">
+			{{ .Summary }}
+			<a href="{{ .RelPermalink }}">Read More…</a>
+			</p>
+		</article>
+		{{- end }}
+	</div>
+	<p>
+		Check out the <a href="/post/">archives</a> for a full list of posts.
+	</p>
+</main>
+{{ end }} 

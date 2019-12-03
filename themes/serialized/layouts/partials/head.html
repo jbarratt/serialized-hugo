@@ -4,7 +4,7 @@
 {{ with .Site.Params.name }}<meta name="author" content="{{ . }}">{{ end }}
 {{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
 {{ hugo.Generator }}
-<title>{{ .Title }}{{ if .IsHome }} &middot; {{ .Site.Title }}{{ end }}</title>
+<title>{{ .Title }}</title>
 <link rel="shortcut icon" href="{{ "images/favicon.ico" | absURL }}">
 
 {{ $styles := resources.Get "css/style.css" | minify | fingerprint }}

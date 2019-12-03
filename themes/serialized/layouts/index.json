@@ -17,7 +17,7 @@
     {{- end }}
     {{ if .Data.Pages }}
     "items": [
-        {{ range $index, $element := first 10 (where .Data.Pages "Section" "post") }}
+        {{ range $index, $element := first 10 (where .Site.RegularPages "Section" "post") }}
         {{if $index }},{{end}} {
             "title": {{ $element.Title | jsonify }},
             "id": {{ $element.Permalink | jsonify }},

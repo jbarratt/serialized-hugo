@@ -3,6 +3,7 @@ title: "Taking Back New Tabs"
 date: 2019-09-25T23:43:32Z
 lastmod: 2019-09-25T23:43:32Z
 description: "New tab real estate is precious, and most of us let the browser maker pick what goes there. It's time to take it back!"
+summary: "Setting up a custom new tab page for your browser is a great way to make your most frequently accessed pages, and useful contextual information, a simple click away. This post explores a simple framework to turn fragments of markdown and HTML into a useful new tab experience."
 draft: false
 ---
 

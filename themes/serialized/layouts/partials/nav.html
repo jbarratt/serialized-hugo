@@ -1,15 +1,17 @@
-<nav>
-	<section class="container">
-	<div class="logo">
-		<a  href="https://serialized.net"> <h1 class="brand">serialized.net</h1> </a>
-		<div class="subtitle">
-		<span>A study in fascination burnout</span>
+<header class="main-header">
+	<div class="header-container">
+		<img src="/img/headshot.jpg" class="headshot">
+		<div class="header-text">
+			<a href="{{ .Site.BaseURL }}">
+				<h1 class="header-title">Ongoing Fascination Burnout</h1>
+			</a>
+			<p class="header-subtitle" >Josh Barratt uploads thoughts to the internet</p>
 		</div>
-	</div>
-	<ul class="navigation-list">
-		{{ range .Site.Menus.main }}
-			<a  href='{{ .URL }}'>{{ .Name }}</a>
-		{{ end }}
-	</ul>
+		<nav class="main-nav">
+			<ul class="main-nav-list">
+				<li><a  href="/post">📝 All Posts</a></li>
+				<li><a  href="/about">💬 About Me</a></li>
+			</ul>
+		</nav>
 	</section>
-</nav>
+</header>

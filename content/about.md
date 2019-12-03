@@ -4,6 +4,8 @@ description = "About page"
 title = "About"
 +++
 
+## About me
+
 My name is Josh Barratt. [serialized.net](http://serialized.net) is my personal blog, which has taken too many forms over the years.
 The current incaration is running a very minimalist theme, and is powered by the [Hugo](http://gohugo.io) static site generator.
 
@@ -13,7 +15,11 @@ You can find me on all the normal spots:
 * [Twitter](https://twitter.com/jbarratt)
 * [LinkedIn](https://www.linkedin.com/in/joshua-barratt-9b33274/)
 
-My [resume](/JoshuaBarrattResume.pdf) is also available, should you have an interesting opportunity to discuss -- though I'm very happy at [SendGrid](https://sendgrid.com/), helping reliably deliver the world's wanted email.
+My [resume](/JoshuaBarrattResume.pdf) is also available, should you have an interesting opportunity to discuss.
+
+I'm currently happily working as an Architect at [Twilio](https://twilio.com/), focusing on internal platforms used to power our massive scale communications tools.
+
+## About the site
 
 The name serialized has a double meaning. For programmers, to 'serialize' something is to take something from a live, running program and store it on disk in a way that can be brought back to life later, possibly by a different program. I liked that aspect -- I'm dumping life thoughts and threads from my life onto disk, where some other reader will pick them up and bring them to life in their head. I also like the way the name (albeit with slightly different spelling) is a callback to [serial novels][1] like Sherlock Holmes.
 

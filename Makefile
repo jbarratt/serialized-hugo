@@ -1,7 +1,9 @@
-.PHONY: dev deploy
+.PHONY: localdev clouddev deploy
 
+localdev:
+	hugo server --verbose -p 8080 -b http://localhost:8080 --bind 0.0.0.0
 
-dev:
+clouddev:
 	hugo server --verbose -p 8080 -b http://dev.serialized.net:8080 --bind 0.0.0.0
 
 deploy:
