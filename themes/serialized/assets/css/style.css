@@ -60,7 +60,7 @@ h1.no-under {
   width: 960px;
   max-width: 100%;
   padding: 10px;
-  margin: 0px auto 40px;
+  margin: 0px auto 20px;
 }
 
 .main-header .header-container {
@@ -71,7 +71,7 @@ h1.no-under {
 }
 
 .headshot {
-  height: 130px;
+  height: 200px;
   margin-right: auto;
 }
 
@@ -117,7 +117,17 @@ blockquote {
   font-style: italic;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
+  .header-text {
+    font-size: 80%;
+    text-align: center;
+    width: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .headshot {
+    height: 100px;
+  }
   .header-text {
     order: 1;
   }
