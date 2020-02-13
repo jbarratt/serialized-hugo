@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xl="http://www.w3.org/1999/xlink" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2000/svg" viewBox="249.5 547 370.5 94" width="370.5" height="94">
+  <defs>
+    <font-face font-family="Helvetica Neue" font-size="16" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="400">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -4 10 8" markerWidth="10" markerHeight="8" color="black">
+      <g>
+        <path d="M 8 0 L 0 -3 L 0 3 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+  </defs>
+  <metadata> Produced by OmniGraffle 7.13 
+    <dc:date>2020-02-13 21:27:51 +0000</dc:date>
+  </metadata>
+  <g id="Labeled_Edges" fill="none" stroke="none" fill-opacity="1" stroke-opacity="1" stroke-dasharray="none">
+    <title>Labeled Edges</title>
+    <g id="Labeled_Edges: Layer 1">
+      <title>Layer 1</title>
+      <g id="Graphic_10">
+        <rect x="255" y="560" width="80.5" height="75.5" fill="white"/>
+        <rect x="255" y="560" width="80.5" height="75.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(260 588.526)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="1.33" y="15">Service A</tspan>
+        </text>
+      </g>
+      <g id="Graphic_9">
+        <rect x="394.5" y="560" width="80.5" height="75.5" fill="white"/>
+        <rect x="394.5" y="560" width="80.5" height="75.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(399.5 588.526)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="1.034" y="15">Service B</tspan>
+        </text>
+      </g>
+      <g id="Graphic_8">
+        <rect x="534" y="560" width="80.5" height="75.5" fill="white"/>
+        <rect x="534" y="560" width="80.5" height="75.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(539 588.526)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x=".738" y="15">Service C</tspan>
+        </text>
+      </g>
+      <g id="Line_7">
+        <line x1="335.5" y1="597.75" x2="384.6" y2="597.75" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_6">
+        <line x1="475" y1="597.75" x2="524.1" y2="597.75" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+    </g>
+  </g>
+</svg>

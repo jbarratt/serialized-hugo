@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xl="http://www.w3.org/1999/xlink" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2000/svg" viewBox="115.5 1823.078 596.795 347.762" width="596.795" height="347.762">
+  <defs>
+    <font-face font-family="Helvetica Neue" font-size="11" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="400">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -4 10 8" markerWidth="10" markerHeight="8" color="black">
+      <g>
+        <path d="M 8 0 L 0 -3 L 0 3 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <font-face font-family="Fira Code" font-size="10" panose-1="2 11 8 9 5 0 0 2 0 4" units-per-em="1000" underline-position="-38.46154" underline-thickness="25.641026" slope="0" x-height="540" cap-height="706.15385" ascent="923.0804" descent="-307.69348" font-weight="400">
+      <font-face-src>
+        <font-face-name name="FiraCode-Regular"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Helvetica Neue" font-size="16" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="400">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Helvetica Neue" font-size="12" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="400">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+  </defs>
+  <metadata> Produced by OmniGraffle 7.13 
+    <dc:date>2020-02-13 21:33:12 +0000</dc:date>
+  </metadata>
+  <g id="Blueprint_Statechart" fill="none" stroke="none" fill-opacity="1" stroke-opacity="1" stroke-dasharray="none">
+    <title>Blueprint Statechart</title>
+    <g id="Blueprint_Statechart: Layer 1">
+      <title>Layer 1</title>
+      <g id="Graphic_115">
+        <ellipse cx="164" cy="2020.25" rx="43.0000687097815" ry="41.7500667124042" fill="white"/>
+        <ellipse cx="164" cy="2020.25" rx="43.0000687097815" ry="41.7500667124042" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(134.6 2014.096)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="11" font-weight="400" fill="black" x="11.8825" y="10">DRAFT</tspan>
+        </text>
+      </g>
+      <g id="Graphic_116">
+        <ellipse cx="458.792" cy="2020.25" rx="43.0000687097816" ry="41.7500667124042" fill="white"/>
+        <ellipse cx="458.792" cy="2020.25" rx="43.0000687097816" ry="41.7500667124042" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(429.392 2007.942)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="11" font-weight="400" fill="black" x="5.0624996" y="10">PENDING </tspan>
+          <tspan font-family="Helvetica Neue" font-size="11" font-weight="400" fill="black" x="9.0335" y="22.307999">REVIEW</tspan>
+        </text>
+      </g>
+      <g id="Line_117">
+        <line x1="207.00002" y1="2020.25" x2="405.892" y2="2020.25" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_119">
+        <text transform="translate(257.94923 2001.5)" fill="black">
+          <tspan font-family="Fira Code" font-size="10" font-weight="400" fill="black" x="27711167e-20" y="11">REQUEST APPROVAL</tspan>
+        </text>
+      </g>
+      <g id="Graphic_120">
+        <ellipse cx="649.404" cy="2020.25" rx="43.0000687097815" ry="41.7500667124042" fill="white"/>
+        <ellipse cx="649.404" cy="2020.25" rx="43.0000687097815" ry="41.7500667124042" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(620.004 2014.096)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="11" font-weight="400" fill="black" x="1.8009996" y="10">REVIEWED</tspan>
+        </text>
+      </g>
+      <g id="Line_122">
+        <line x1="501.792" y1="2020.25" x2="596.504" y2="2020.25" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_123">
+        <text transform="translate(512.0071 2005.5)" fill="black">
+          <tspan font-family="Fira Code" font-size="10" font-weight="400" fill="black" x="68922645e-20" y="11">On N REVIEWERS</tspan>
+        </text>
+      </g>
+      <g id="Graphic_125">
+        <text transform="translate(472.69585 1909.099)" fill="black">
+          <tspan font-family="Fira Code" font-size="10" font-weight="400" fill="black" x="4192202e-19" y="11">REVIEWERS+1</tspan>
+        </text>
+      </g>
+      <g id="Graphic_126">
+        <text transform="translate(347.69585 2023.5)" fill="black">
+          <tspan font-family="Fira Code" font-size="10" font-weight="400" fill="black" x="6.153846" y="11">On Enter:</tspan>
+          <tspan font-family="Fira Code" font-size="10" font-weight="400" fill="black" x="4192202e-19" y="25">REVIEWERS=0</tspan>
+        </text>
+      </g>
+      <g id="Line_127">
+        <path d="M 615.0123 2045.3194 C 575.16 2070.7845 503.49246 2106.5 415 2106.5 C 329.85144 2106.5 253.91754 2073.4327 208.43216 2048.2476" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_128">
+        <text transform="translate(380.42308 2119.401)" fill="black">
+          <tspan font-family="Fira Code" font-size="10" font-weight="400" fill="black" x="68922645e-20" y="11">ON FUTURE EDIT</tspan>
+        </text>
+      </g>
+      <g id="Graphic_129">
+        <ellipse cx="458.792" cy="1915.099" rx="7.61201118666596" ry="8.0990119648434" fill="black"/>
+        <ellipse cx="458.792" cy="1915.099" rx="7.61201118666596" ry="8.0990119648434" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_130">
+        <line x1="458.792" y1="1923.198" x2="458.792" y2="1968.6" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_131">
+        <text transform="translate(424.94585 1878)" fill="black">
+          <tspan font-family="Fira Code" font-size="10" font-weight="400" fill="black" x="4192202e-19" y="11">UNIQUE USER</tspan>
+          <tspan font-family="Fira Code" font-size="10" font-weight="400" fill="black" x="12.307692" y="25">REVIEWS</tspan>
+        </text>
+      </g>
+      <g id="Graphic_132">
+        <text transform="translate(241.236 1833.078)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="682121e-18" y="15">Technical Design Document Process State Chart</tspan>
+        </text>
+      </g>
+      <g id="Graphic_135">
+        <ellipse cx="164" cy="1915.099" rx="7.612011186666" ry="8.0990119648434" fill="black"/>
+        <ellipse cx="164" cy="1915.099" rx="7.612011186666" ry="8.0990119648434" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_134">
+        <line x1="164" y1="1923.198" x2="164" y2="1968.6" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_133">
+        <text transform="translate(139.38462 1878)" fill="black">
+          <tspan font-family="Fira Code" font-size="10" font-weight="400" fill="black" x="3.076923" y="11">INITIAL</tspan>
+          <tspan font-family="Fira Code" font-size="10" font-weight="400" fill="black" x="13855583e-20" y="25">CREATION</tspan>
+        </text>
+      </g>
+      <g id="Graphic_137">
+        <rect x="426.0997" y="2034.302" width="65.384615" height="24" fill="#ffffc0"/>
+        <rect x="426.0997" y="2034.302" width="65.384615" height="24" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width=".25"/>
+        <text transform="translate(431.0997 2039.302)" fill="black">
+          <tspan font-family="Fira Code" font-size="10" font-weight="400" fill="black" x="8384404e-19" y="11">REVIEWERS</tspan>
+        </text>
+      </g>
+      <g id="Graphic_140">
+        <text transform="translate(618.829 2101.901)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="16342483e-20" y="11">External Input</tspan>
+        </text>
+      </g>
+      <g id="Graphic_139">
+        <text transform="translate(618.829 2122.168)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="40500936e-20" y="11">State Variable</tspan>
+        </text>
+      </g>
+      <g id="Graphic_138">
+        <rect x="595.829" y="2121.237" width="15.223998" height="16.197998" fill="#ffffbf"/>
+        <rect x="595.829" y="2121.237" width="15.223998" height="16.197998" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_142">
+        <ellipse cx="603.691" cy="2105" rx="7.61201118666608" ry="8.09901196484315" fill="black"/>
+        <ellipse cx="603.691" cy="2105" rx="7.61201118666608" ry="8.09901196484315" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_143">
+        <ellipse cx="297.18" cy="1914.75" rx="43.0000687097815" ry="41.7500667124042" fill="white"/>
+        <ellipse cx="297.18" cy="1914.75" rx="43.0000687097815" ry="41.7500667124042" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(267.78 1902.442)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="11" font-weight="400" fill="black" x="9.842" y="10">AMEND</tspan>
+          <tspan font-family="Helvetica Neue" font-size="11" font-weight="400" fill="black" x="4.0394996" y="22.307999">REQUEST</tspan>
+        </text>
+      </g>
+      <g id="Line_146">
+        <line x1="423.1009" y1="1996.951" x2="341.16107" y2="1943.4608" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_147">
+        <line x1="263.85976" y1="1941.145" x2="205.08043" y2="1987.7077" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_148">
+        <text transform="translate(366.44585 1946.604)" fill="black">
+          <tspan font-family="Fira Code" font-size="10" font-weight="400" fill="black" x="4192202e-19" y="11">NEED CHANGE</tspan>
+        </text>
+      </g>
+      <g id="Graphic_149">
+        <text transform="translate(188.28062 1915.5)" fill="black">
+          <tspan font-family="Fira Code" font-size="10" font-weight="400" fill="black" x="12.307692" y="11">GIVE</tspan>
+          <tspan font-family="Fira Code" font-size="10" font-weight="400" fill="black" x="6.153846" y="25">AUTHOR</tspan>
+          <tspan font-family="Fira Code" font-size="10" font-weight="400" fill="black" x="13855583e-20" y="39">FEEDBACK</tspan>
+        </text>
+      </g>
+      <g id="Graphic_150">
+        <ellipse cx="603.691" cy="2153.672" rx="8.50001358216617" ry="8.09901196484321" fill="white"/>
+        <ellipse cx="603.691" cy="2153.672" rx="8.50001358216617" ry="8.09901196484321" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_151">
+        <text transform="translate(615.151 2146.504)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="12" font-weight="400" fill="black" x="11368684e-20" y="11">Document State</tspan>
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>

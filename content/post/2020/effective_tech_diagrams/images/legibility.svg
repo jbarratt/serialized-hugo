@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xl="http://www.w3.org/1999/xlink" version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2000/svg" viewBox="-31.5 749.606 842 202.896" width="842" height="202.896">
+  <defs>
+    <font-face font-family="Helvetica Neue" font-size="16" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="400">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -4 10 8" markerWidth="10" markerHeight="8" color="black">
+      <g>
+        <path d="M 8 0 L 0 -3 L 0 3 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <font-face font-family="Helvetica Neue" font-size="13" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="400">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+  </defs>
+  <metadata> Produced by OmniGraffle 7.13 
+    <dc:date>2020-02-13 21:28:34 +0000</dc:date>
+  </metadata>
+  <g id="Background_vs_Stroke" fill="none" stroke="none" fill-opacity="1" stroke-opacity="1" stroke-dasharray="none">
+    <title>Background vs Stroke</title>
+    <g id="Background_vs_Stroke: Layer 1">
+      <title>Layer 1</title>
+      <g id="Graphic_20">
+        <rect x="196" y="755.106" width="146.5" height="145.5" fill="white"/>
+        <rect x="196" y="755.106" width="146.5" height="145.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_19">
+        <rect x="-26" y="755.106" width="146.5" height="145.5" fill="white"/>
+        <rect x="-26" y="755.106" width="146.5" height="145.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_18">
+        <rect x="224.75" y="790.106" width="89" height="75.5" fill="white"/>
+        <rect x="224.75" y="790.106" width="89" height="75.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(229.75 809.408)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x=".98" y="15">Secondary</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="9.124" y="33.448">Instance</tspan>
+        </text>
+      </g>
+      <g id="Graphic_17">
+        <text transform="translate(-10.974001 905.606)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="19.696" y="15">us-east-2a</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="1563194e-19" y="33.448">Availability Zone</tspan>
+        </text>
+      </g>
+      <g id="Graphic_16">
+        <text transform="translate(211.026 905.606)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="19.248" y="15">us-east-2b</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="1563194e-19" y="33.448">Availability Zone</tspan>
+        </text>
+      </g>
+      <g id="Graphic_15">
+        <rect x="2.75" y="790.106" width="89" height="75.5" fill="white"/>
+        <rect x="2.75" y="790.106" width="89" height="75.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(7.75 809.408)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="12.092" y="15">Primary</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="9.124" y="33.448">Instance</tspan>
+        </text>
+      </g>
+      <g id="Line_14">
+        <line x1="91.75" y1="827.856" x2="214.85" y2="827.856" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_13">
+        <text transform="translate(126 795.106)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="13" font-weight="400" fill="black" x="0" y="12">Replication</tspan>
+          <tspan font-family="Helvetica Neue" font-size="13" font-weight="400" fill="black" x="18.8955" y="27.364">Data</tspan>
+        </text>
+      </g>
+      <g id="Graphic_12">
+        <text transform="translate(125.5 835.834)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="13" font-weight="400" fill="black" x="15987212e-20" y="12">JSON over</tspan>
+          <tspan font-family="Helvetica Neue" font-size="13" font-weight="400" fill="black" x="11.0825" y="27.364">HTTPS</tspan>
+        </text>
+      </g>
+      <g id="Graphic_11">
+        <rect x="659" y="755" width="146.5" height="145.5" fill="#cee8ff" fill-opacity=".4651113"/>
+      </g>
+      <g id="Graphic_10">
+        <rect x="437" y="755" width="146.5" height="145.5" fill="#cee8ff" fill-opacity=".4651113"/>
+      </g>
+      <g id="Graphic_9">
+        <rect x="687.75" y="790" width="89" height="75.5" fill="white"/>
+        <rect x="687.75" y="790" width="89" height="75.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(692.75 809.302)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x=".98" y="15">Secondary</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="9.124" y="33.448">Instance</tspan>
+        </text>
+      </g>
+      <g id="Graphic_8">
+        <text transform="translate(452.026 905.5)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="19.696" y="15">us-east-2a</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="1563194e-19" y="33.448">Availability Zone</tspan>
+        </text>
+      </g>
+      <g id="Graphic_7">
+        <text transform="translate(674.026 905.5)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="19.248" y="15">us-east-2b</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="1563194e-19" y="33.448">Availability Zone</tspan>
+        </text>
+      </g>
+      <g id="Graphic_6">
+        <rect x="465.75" y="790" width="89" height="75.5" fill="white"/>
+        <rect x="465.75" y="790" width="89" height="75.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(470.75 809.302)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="12.092" y="15">Primary</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="9.124" y="33.448">Instance</tspan>
+        </text>
+      </g>
+      <g id="Line_5">
+        <line x1="554.75" y1="827.75" x2="677.85" y2="827.75" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_4">
+        <text transform="translate(589 795)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="13" font-weight="400" fill="black" x="0" y="12">Replication</tspan>
+          <tspan font-family="Helvetica Neue" font-size="13" font-weight="400" fill="black" x="18.8955" y="27.364">Data</tspan>
+        </text>
+      </g>
+      <g id="Graphic_3">
+        <text transform="translate(588.5 835.728)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="13" font-weight="400" fill="black" x="15987212e-20" y="12">JSON over</tspan>
+          <tspan font-family="Helvetica Neue" font-size="13" font-weight="400" fill="black" x="11.0825" y="27.364">HTTPS</tspan>
+        </text>
+      </g>
+      <g id="Graphic_2">
+        <text transform="translate(379.678 818.632)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="11723955e-20" y="15">VS</tspan>
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>
