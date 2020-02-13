@@ -9,6 +9,14 @@ enableRobotsTXT = true
 pygmentsCodeFences = true
 pygmentsUseClasses=true
 
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup]
+  [markup.tableOfContents]
+    startLevel = 1
+    endLevel = 3
+
 [outputs]
   home = [ "HTML", "JSON", "RSS"]
 
