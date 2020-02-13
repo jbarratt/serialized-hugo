@@ -33,3 +33,7 @@ Linking between pages:
 Centering an image:
 
   ![alt text](/images/path/to/myfile.svg#center)
+
+Getting a clean-ish google doc import:
+
+  pandoc MyDoc.html -t markdown_strict-raw_html -o mydoc.md

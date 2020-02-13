@@ -26,6 +26,17 @@ a:hover, a:focus {
   text-decoration: underline;
 }
 
+h1 {
+  font-size: 2em;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+h2 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
 h1.no-under {
   margin-bottom: -5px;
 }
@@ -46,6 +57,7 @@ h1.no-under {
 
 .post-title {
   margin-bottom: 2px;
+  margin-top: 0px;
   color: #333;
   font-family: 'Chivo', sans-serif;
 }
@@ -200,11 +212,6 @@ ul#post-list {
 	font-style: italic;
 }
 
-
-h2 {
-  margin-top: 1em;
-  padding-top: 1em;
-}
 
 code,
 pre {

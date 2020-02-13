@@ -7,9 +7,9 @@
 	<div class="posts">
 		{{ range first 10 (where .Site.RegularPages "Section" "post") }}
 		<article class="post-thumbnail">
-			<h1 class="post-title">
+			<h2 class="post-title">
 				<a href="{{ .Permalink }}">{{ .Title }}</a>
-			</h1>
+			</h2>
 			<time datetime="{{ .Date.Format "2006-01-02T15:04:05Z0700"}}" class="post-time-thumbnail">{{ .Date.Format "Jan 2, 2006" }}</time>
 			<p class="post-thumbnail-entry">
 			{{ .Summary }}
