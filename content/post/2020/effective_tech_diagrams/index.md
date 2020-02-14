@@ -29,12 +29,17 @@ As a full-time Architect (the computery kind, not the making buildings kind) I e
 
 This post is the result of trying to ask the question -- "can we do better?"
 
+As a short aside, technical diagrams aren't incredibly unique, and much can be learned from others working on "effective visualization".  For example, not all lessons are totally portable to system and process visualization, but much of what [Edward Tufte](https://www.edwardtufte.com/tufte/) spent his life developing is very relevant. For a good high level firehose of some of the ideas, this [slide presentation](https://perso.telecom-paristech.fr/eagan/class/ces-ds/notes/4—Tufte-Design.pdf) is pretty approachable. (Thanks to [Bob Marshall](https://twitter.com/flowchainsensei/status/1228098886348263425) for the reminder.)
+
+What's captured here includes advice from Tufte, as well as many others, that's focused on the particular domain of technology systems and processes.
+
 # General Guidelines
 
 Diagrams come in many types, and can communicate many different things.
 The second part of this post explores some specific types
 of diagrams. However, across all types, there are some general
 guidelines which can universally improve communication effectiveness.
+
 
 ## Guideline #1: Limit Complexity Per Diagram
 
@@ -146,14 +151,15 @@ things you can control that will make your diagram more understandable.
 -   **Think about whitespace**. Where and how you use space can really
     impact legibility. Diagrams that are too crowded end up being hard
     to trace, but the same can be true if they’re too sparse.
+-   **Make every pixel work for you**. Tufte calls this the "data/ink ratio". How much of the 'ink' in your diagram is actually conveying meaning, and how much is purely stylistic or decorative?
 -   **Think about colors**. This is a massive field, but colors can have a
-    huge impact in how legible your work is. Colorblindness of some type
-    impacts many people, so it’s very important to account for. Here are
+    huge impact in how legible your work is. 
+	- Colorblindness of some type impacts many people, so it’s very important to account for. Here are
     [some resources](https://99designs.com/blog/tips/designers-need-to-understand-color-blindness/) to
     help selecting palettes and also visualizing how your work looks to
     those who have it. (One key takeaway: consider color+texture instead
-    of just color.) From a design standpoint, It can really help to work
-    from a consistent color palette across related diagrams. See
+    of just color.) 
+	- From a design standpoint, It can really help to work from a consistent color palette across related diagrams. See
     [material.io](https://material.io/design/color/%23tools-for-picking-colors)
     [canva palettes](https://www.canva.com/colors/color-palettes/&sa=D&ust=1575509827637000),
     and [color hunt](https://colorhunt.co&sa=D&ust=1575509827638000),
@@ -381,6 +387,13 @@ Plans change over time, and your diagrams should too.
 -   Is it easy for **you** to make a change to the diagram in the future?
 -   Is it easy for **other people** who might take ownership of the
     documents and diagrams in the future to do the same?
+
+If you're using a graphical tool, this means making sure other people have access to the source files and know how to work with them.
+
+To eat my own dog food here: you can [download the OmniGraffle file](EffectiveDiagrams.graffle) used to create all the diagrams in this post.
+(Thanks for the idea, [@mrwacky42](https://twitter.com/mrwacky42).)
+
+Fundamentally this is another reason SVG is an interesting format. If I make an SVG file in any tool, even if it's in something like OmniGraffle, it can still be opened and edited in tools like Inkscape, something which can't be done if you're sharing raster versions of your files.
 
 There are a vast number of tools out there, a few of which are listed below. 
 
