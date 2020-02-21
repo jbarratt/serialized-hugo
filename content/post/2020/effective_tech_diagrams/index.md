@@ -84,7 +84,7 @@ comprehensible diagrams are:
 
 For a structured way to limit complexity per diagram, check out the C4
 Model
-([c4model.com](https://c4model.com&sa=D&ust=1575509827629000)),
+([c4model.com](https://c4model.com)),
 which proposes 4 types of standard views:
 
 -   **System Context**, or a high level diagram showing how your systems fit
@@ -113,8 +113,7 @@ This can be true of many things.
 -   **Lines**: color, weight, style, and arrowhead types
 -   **Boxes**: shape, fill style, colors, shadows, borders and relative size
 -   **Fonts**: faces, weights, and sizes
--   **Icons vs Not Icons**: e.g. using an S3 bucket icon but not a Kinesis
-    Stream icon
+-   **Icons vs Not Icons**: If you're going to use icons for services, be consistent. If you use a bucket icon to represent S3, and a regular box to represent a kinesis stream, that's confusing.
 
 ## Guideline #3: Label All The Things ![all the things](images/allthethings.png)
 
@@ -122,7 +121,7 @@ Things that should be labeled include
 
 -   **A title** for the diagram itself (what it’s depicting)
 -   **Legends** for any significant colors, line types, arrowheads, etc
--   **Every Icon** (try taking the [AWS Icon Quiz](https://docs.google.com/forms/d/e/1FAIpQLSdnEEo0o2JgnIt8VOGffhkcYj-C2h9m5_NFzM0Q1AU-P8d0zA/viewform&sa=D&ust=1575509827633000) to prove to yourself that this is important)
+-   **Every Icon** (try taking the [AWS Icon Quiz](https://docs.google.com/forms/d/e/1FAIpQLSdnEEo0o2JgnIt8VOGffhkcYj-C2h9m5_NFzM0Q1AU-P8d0zA/viewform) to prove to yourself that this is important)
 -   **Definition** for any non-obvious technical jargon (acronyms or
     technology names)
 -   **Every edge**:

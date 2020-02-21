@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Chivo:bold|Open+Sans:300i,400|Roboto+Mono:300');
+@import url('https://fonts.googleapis.com/css?family=Chivo:bold|Open+Sans:300i,400,700|Roboto+Mono:300');
 
 body {
   margin: 0 auto;
@@ -19,7 +19,8 @@ main {
 
 a {
     text-decoration: none;
-    color: #333;
+    color: #006fc6;
+    font-weight: 700
 }
 
 a:hover, a:focus {
