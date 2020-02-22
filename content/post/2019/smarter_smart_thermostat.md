@@ -59,7 +59,7 @@ Also, while Climate React says it can be 'disabled', it doesn't stay disabled. T
 
 To get started with a Go RESTish client, it's helpful to start with the [JSON to Go](https://mholt.github.io/json-to-go/) translator. With some tweaking, this resulted in [some Go structures](https://github.com/jbarratt/smarter_sensibo/blob/master/code/pkg/sensibo/types.go) which can deserialize the HTTP calls.
 
-The code for the resulting app is available: [smarter_sensibo](https://github.com/jbarratt/smarter_sensibo/code).
+The code for the resulting app is available: [smarter_sensibo](https://github.com/jbarratt/smarter_sensibo/).
 It's got 2 internal packages: 
 
 * `pkg/sensibo`, which has a somewhat generic client for the sensibo API (not designed to be fully featured)
