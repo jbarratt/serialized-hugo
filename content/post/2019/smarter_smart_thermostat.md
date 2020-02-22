@@ -251,7 +251,6 @@ DeadManAlarm:
       Period: 3600
       EvaluationPeriods: 1
       Statistic: Sum
-      Unit: Count
 ```
 
 The rest of the config just
