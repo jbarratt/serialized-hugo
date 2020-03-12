@@ -12,6 +12,10 @@ To make a new post:
 
   $ hugo new post/$(date +"%Y")/mypost.md
 
+If it's going to have images, 
+
+  $ hugo new --kind post-bundle post/$(date +"%Y")/my-post
+
 There are some tools in the `tools/` directory:
 
 * `deploy.sh`: cleans, builds, runs s3 deploy, and does a cloudfront invalidation on `/`
