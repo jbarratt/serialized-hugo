@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang=en>
+  <head>
+    <meta charset=utf-8>
+    <title>Congratulations 5th Graders</title>
+	<link href="https://vjs.zencdn.net/7.8.2/video-js.css" rel="stylesheet" />
+  </head>
+  <body>
+<style>
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
+body {
+  margin: 2em;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  color: #555;
+}
+
+form {
+  font-size: 200%;
+  margin-bottom: 2em;
+}
+
+
+</style>
+
+
+  <div id="intro">
+    <h2>Welcome, 5th Grade Family and Friends! Enter the password to load the video.</h2>
+    <form>
+      <label for="password">Password</label>
+	<!-- change type to text to see the password  -->
+      <input class="password" name="password" type="password" />
+    </form>
+  </div>
+
+  <video id="graduation"
+    class="video-js vjs-fluid" controls preload="auto" data-setup="{}">
+
+    <p class="vjs-no-js">
+      To view this video please enable JavaScript, and consider upgrading to a
+      web browser that
+      <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+    </p>
+  </video>
+
+
+  <script src="https://vjs.zencdn.net/7.8.2/video.js"></script>
+  <script>
+    var playVideo = function() {
+	    videojs('graduation').ready(function() {
+		    this.src({src: 'https://snap.serialized.net/SBDXCmwkCOcOZjVp8MOYFPTitQY8H6fxZYQYJOZYDfLTDnPAHH4GmVRJ4h1UQvBSsVK7DD48dDY2DCFL1IWGkm99BiDN2MgbognV.m4v'
+		    });
+		    this.ready(function() {
+			    this.play();
+		    })
+		  });
+    }
+    
+    window.onload = function(event) {
+	    console.log("hello world from onload");
+	    var password = document.querySelector('.password');
+	    password.oninput = function() {
+		    if(password.value.toLowerCase() == "gradsmile") {
+			    var introdiv = document.querySelector('#intro');
+			    introdiv.style.display = 'none';
+			    playVideo();
+		    }
+	    }
+    }
+  </script>
+  </body>
+</html>
