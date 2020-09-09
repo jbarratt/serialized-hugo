@@ -10,7 +10,7 @@ To visualize the site locally:
 
 To make a new post:
 
-  $ hugo new post/$(date +"%Y")/mypost.md
+  $ hugo new --kind post-bundle post/$(date +"%Y")/steam_plotter
 
 If it's going to have images, 
 
