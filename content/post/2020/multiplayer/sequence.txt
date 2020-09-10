@@ -1,0 +1,17 @@
+@startuml
+!include style.pu
+actor Player1
+actor Player2
+participant "APIGW and\nLambda" as API
+database DynamoDB
+Player1 -> API : Play Rock
+API -> DynamoDB : Set Plays=Plays+1, P1.Play = rock
+DynamoDB --> API : Return Data 
+Player2 -> API: Play Paper
+API -> DynamoDB: Set Plays=Plays+1, P2.Play = paper
+DynamoDB --> API: Return Data
+API -> API: Plays=2: Round Complete, Calculate Winner
+API -> DynamoDB: Store Game Data (Plays=0, Round=Round+1)
+API -> Player1: Game State (winner=False)
+API -> Player2: Game State (winner=True)
+@enduml

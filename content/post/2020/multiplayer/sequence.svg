@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1462.5px" preserveAspectRatio="none" style="width:1909px;height:1462px;background:#00000000;" version="1.1" viewBox="0 0 1909 1462" width="1909.375px" zoomAndPan="magnify"><defs/><g><line style="stroke: #000000; stroke-width: 3.125; stroke-dasharray: 5.0,5.0;" x1="109.375" x2="109.375" y1="250" y2="1196.875"/><line style="stroke: #000000; stroke-width: 3.125; stroke-dasharray: 5.0,5.0;" x1="309.375" x2="309.375" y1="250" y2="1196.875"/><line style="stroke: #000000; stroke-width: 3.125; stroke-dasharray: 5.0,5.0;" x1="862.5" x2="862.5" y1="250" y2="1196.875"/><line style="stroke: #000000; stroke-width: 3.125; stroke-dasharray: 5.0,5.0;" x1="1768.75" x2="1768.75" y1="250" y2="1196.875"/><text fill="#000000" font-family="Helvetica" font-size="43.75" lengthAdjust="spacingAndGlyphs" textLength="150" x="25" y="239.9384">Player1</text><ellipse cx="109.375" cy="40.625" fill="#FFFFFF" rx="25" ry="25" style="stroke: #000000; stroke-width: 6.25;"/><path d="M109.375,65.625 L109.375,150 M68.75,90.625 L150,90.625 M109.375,150 L68.75,196.875 M109.375,150 L150,196.875 " fill="none" style="stroke: #000000; stroke-width: 6.25;"/><text fill="#000000" font-family="Helvetica" font-size="43.75" lengthAdjust="spacingAndGlyphs" textLength="150" x="25" y="1227.4384">Player1</text><ellipse cx="109.375" cy="1268.75" fill="#FFFFFF" rx="25" ry="25" style="stroke: #000000; stroke-width: 6.25;"/><path d="M109.375,1293.75 L109.375,1378.125 M68.75,1318.75 L150,1318.75 M109.375,1378.125 L68.75,1425 M109.375,1378.125 L150,1425 " fill="none" style="stroke: #000000; stroke-width: 6.25;"/><text fill="#000000" font-family="Helvetica" font-size="43.75" lengthAdjust="spacingAndGlyphs" textLength="150" x="225" y="239.9384">Player2</text><ellipse cx="309.375" cy="40.625" fill="#FFFFFF" rx="25" ry="25" style="stroke: #000000; stroke-width: 6.25;"/><path d="M309.375,65.625 L309.375,150 M268.75,90.625 L350,90.625 M309.375,150 L268.75,196.875 M309.375,150 L350,196.875 " fill="none" style="stroke: #000000; stroke-width: 6.25;"/><text fill="#000000" font-family="Helvetica" font-size="43.75" lengthAdjust="spacingAndGlyphs" textLength="150" x="225" y="1227.4384">Player2</text><ellipse cx="309.375" cy="1268.75" fill="#FFFFFF" rx="25" ry="25" style="stroke: #000000; stroke-width: 6.25;"/><path d="M309.375,1293.75 L309.375,1378.125 M268.75,1318.75 L350,1318.75 M309.375,1378.125 L268.75,1425 M309.375,1378.125 L350,1425 " fill="none" style="stroke: #000000; stroke-width: 6.25;"/><rect fill="#FFFFFF" height="131.25" style="stroke: #000000; stroke-width: 4.6875;" width="275" x="725" y="115.625"/><text fill="#000000" font-family="Helvetica" font-size="43.75" lengthAdjust="spacingAndGlyphs" textLength="231.25" x="746.875" y="171.1884">APIGW and</text><text fill="#000000" font-family="Helvetica" font-size="43.75" lengthAdjust="spacingAndGlyphs" textLength="162.5" x="781.25" y="214.9384">Lambda</text><rect fill="#FFFFFF" height="131.25" style="stroke: #000000; stroke-width: 4.6875;" width="275" x="725" y="1193.75"/><text fill="#000000" font-family="Helvetica" font-size="43.75" lengthAdjust="spacingAndGlyphs" textLength="231.25" x="746.875" y="1249.3134">APIGW and</text><text fill="#000000" font-family="Helvetica" font-size="43.75" lengthAdjust="spacingAndGlyphs" textLength="162.5" x="781.25" y="1293.0634">Lambda</text><text fill="#000000" font-family="Helvetica" font-size="43.75" lengthAdjust="spacingAndGlyphs" textLength="225" x="1646.875" y="239.9384">DynamoDB</text><path d="M1712.5,93.75 C1712.5,62.5 1768.75,62.5 1768.75,62.5 C1768.75,62.5 1825,62.5 1825,93.75 L1825,175 C1825,206.25 1768.75,206.25 1768.75,206.25 C1768.75,206.25 1712.5,206.25 1712.5,175 L1712.5,93.75 " fill="#F8F8F8" style="stroke: #000000; stroke-width: 4.6875;"/><path d="M1712.5,93.75 C1712.5,125 1768.75,125 1768.75,125 C1768.75,125 1825,125 1825,93.75 " fill="none" style="stroke: #000000; stroke-width: 4.6875;"/><text fill="#000000" font-family="Helvetica" font-size="43.75" lengthAdjust="spacingAndGlyphs" textLength="225" x="1646.875" y="1227.4384">DynamoDB</text><path d="M1712.5,1268.75 C1712.5,1237.5 1768.75,1237.5 1768.75,1237.5 C1768.75,1237.5 1825,1237.5 1825,1268.75 L1825,1350 C1825,1381.25 1768.75,1381.25 1768.75,1381.25 C1768.75,1381.25 1712.5,1381.25 1712.5,1350 L1712.5,1268.75 " fill="#F8F8F8" style="stroke: #000000; stroke-width: 4.6875;"/><path d="M1712.5,1268.75 C1712.5,1300 1768.75,1300 1768.75,1300 C1768.75,1300 1825,1300 1825,1268.75 " fill="none" style="stroke: #000000; stroke-width: 4.6875;"/><polygon fill="#000000" points="825,328.125,856.25,340.625,825,353.125,837.5,340.625" style="stroke: #000000; stroke-width: 3.125;"/><line style="stroke: #000000; stroke-width: 3.125;" x1="109.375" x2="843.75" y1="340.625" y2="340.625"/><text fill="#000000" font-family="Helvetica" font-size="40.625" lengthAdjust="spacingAndGlyphs" textLength="187.5" x="392.1875" y="325.032">Play Rock</text><polygon fill="#000000" points="1731.25,412.5,1762.5,425,1731.25,437.5,1743.75,425" style="stroke: #000000; stroke-width: 3.125;"/><line style="stroke: #000000; stroke-width: 3.125;" x1="862.5" x2="1750" y1="425" y2="425"/><text fill="#000000" font-family="Helvetica" font-size="40.625" lengthAdjust="spacingAndGlyphs" textLength="650" x="990.625" y="409.407">Set Plays=Plays+1, P1.Play = rock</text><polygon fill="#000000" points="896.875,496.875,865.625,509.375,896.875,521.875,884.375,509.375" style="stroke: #000000; stroke-width: 3.125;"/><line style="stroke: #000000; stroke-width: 3.125; stroke-dasharray: 2.0,2.0;" x1="878.125" x2="1765.625" y1="509.375" y2="509.375"/><text fill="#000000" font-family="Helvetica" font-size="40.625" lengthAdjust="spacingAndGlyphs" textLength="215.625" x="1207.8125" y="493.782">Return Data</text><polygon fill="#000000" points="825,581.25,856.25,593.75,825,606.25,837.5,593.75" style="stroke: #000000; stroke-width: 3.125;"/><line style="stroke: #000000; stroke-width: 3.125;" x1="309.375" x2="843.75" y1="593.75" y2="593.75"/><text fill="#000000" font-family="Helvetica" font-size="40.625" lengthAdjust="spacingAndGlyphs" textLength="200" x="485.9375" y="578.157">Play Paper</text><polygon fill="#000000" points="1731.25,665.625,1762.5,678.125,1731.25,690.625,1743.75,678.125" style="stroke: #000000; stroke-width: 3.125;"/><line style="stroke: #000000; stroke-width: 3.125;" x1="862.5" x2="1750" y1="678.125" y2="678.125"/><text fill="#000000" font-family="Helvetica" font-size="40.625" lengthAdjust="spacingAndGlyphs" textLength="671.875" x="979.6875" y="662.532">Set Plays=Plays+1, P2.Play = paper</text><polygon fill="#000000" points="896.875,750,865.625,762.5,896.875,775,884.375,762.5" style="stroke: #000000; stroke-width: 3.125;"/><line style="stroke: #000000; stroke-width: 3.125; stroke-dasharray: 2.0,2.0;" x1="878.125" x2="1765.625" y1="762.5" y2="762.5"/><text fill="#000000" font-family="Helvetica" font-size="40.625" lengthAdjust="spacingAndGlyphs" textLength="215.625" x="1207.8125" y="746.907">Return Data</text><line style="stroke: #000000; stroke-width: 3.125;" x1="862.5" x2="993.75" y1="846.875" y2="846.875"/><line style="stroke: #000000; stroke-width: 3.125;" x1="993.75" x2="993.75" y1="846.875" y2="887.5"/><line style="stroke: #000000; stroke-width: 3.125;" x1="865.625" x2="993.75" y1="887.5" y2="887.5"/><polygon fill="#000000" points="896.875,875,865.625,887.5,896.875,900,884.375,887.5" style="stroke: #000000; stroke-width: 3.125;"/><text fill="#000000" font-family="Helvetica" font-size="40.625" lengthAdjust="spacingAndGlyphs" textLength="806.25" x="884.375" y="831.282">Plays=2: Round Complete, Calculate Winner</text><polygon fill="#000000" points="1731.25,959.375,1762.5,971.875,1731.25,984.375,1743.75,971.875" style="stroke: #000000; stroke-width: 3.125;"/><line style="stroke: #000000; stroke-width: 3.125;" x1="862.5" x2="1750" y1="971.875" y2="971.875"/><text fill="#000000" font-family="Helvetica" font-size="40.625" lengthAdjust="spacingAndGlyphs" textLength="831.25" x="900" y="956.282">Store Game Data (Plays=0, Round=Round+1)</text><polygon fill="#000000" points="143.75,1043.75,112.5,1056.25,143.75,1068.75,131.25,1056.25" style="stroke: #000000; stroke-width: 3.125;"/><line style="stroke: #000000; stroke-width: 3.125;" x1="125" x2="859.375" y1="1056.25" y2="1056.25"/><text fill="#000000" font-family="Helvetica" font-size="40.625" lengthAdjust="spacingAndGlyphs" textLength="496.875" x="237.5" y="1040.657">Game State (winner=False)</text><polygon fill="#000000" points="343.75,1128.125,312.5,1140.625,343.75,1153.125,331.25,1140.625" style="stroke: #000000; stroke-width: 3.125;"/><line style="stroke: #000000; stroke-width: 3.125;" x1="325" x2="859.375" y1="1140.625" y2="1140.625"/><text fill="#000000" font-family="Helvetica" font-size="40.625" lengthAdjust="spacingAndGlyphs" textLength="478.125" x="346.875" y="1125.032">Game State (winner=True)</text><!--MD5=[f51c6bffddbf8d6af09921820a163d4c]
+@startuml
+!include style.pu
+actor Player1
+actor Player2
+participant "APIGW and\nLambda" as API
+database DynamoDB
+Player1 -> API : Play Rock
+API -> DynamoDB : Set Plays=Plays+1, P1.Play = rock
+DynamoDB - -> API : Return Data 
+Player2 -> API: Play Paper
+API -> DynamoDB: Set Plays=Plays+1, P2.Play = paper
+DynamoDB - -> API: Return Data
+API -> API: Plays=2: Round Complete, Calculate Winner
+API -> DynamoDB: Store Game Data (Plays=0, Round=Round+1)
+API -> Player1: Game State (winner=False)
+API -> Player2: Game State (winner=True)
+@enduml
+
+@startuml
+
+skinparam defaultFontName  Helvetica
+skinparam sequenceMessageAlign center
+skinparam monochrome true
+skinparam DPI 300
+skinparam Shadowing false
+skinparam backgroundcolor transparent
+
+skinparam activity {
+	ArrowColor Black
+	BackgroundColor White
+	BorderColor Black
+	BorderThickness 1
+}
+
+skinparam actor {
+	BackgroundColor White
+	BorderColor Black
+}
+
+skinparam usecase {
+	ArrowColor Black
+	BackgroundColor White
+	BorderColor Black
+	BorderThickness 1
+}
+
+skinparam class {
+	ArrowColor Black
+	BackgroundColor White
+	BorderColor Black
+	BorderThickness 1
+}
+
+
+skinparam object {
+	ArrowColor Black
+	BackgroundColor White
+	BorderColor Black
+}
+
+skinparam package {
+	BackgroundColor White
+	BorderColor Black
+}
+
+
+skinparam component {
+	BackgroundColor White
+	InterfaceBackgroundColor White
+	BorderColor Black
+	InterfaceBorderColor Black
+}
+
+skinparam note {
+	BackgroundColor White
+	BorderColor Black
+}
+
+skinparam state {
+	ArrowColor Black
+	BackgroundColor White
+	BorderColor Black
+}
+
+skinparam sequence {
+	ArrowColor Black
+	BackgroundColor White
+	ParticipantBackgroundColor White
+	BorderColor Black
+	LifeLineBorderColor Black
+	ParticipantBorderColor Black
+	BoxLineColor Black
+}
+
+skinparam interface {
+	BackgroundColor White
+	BorderColor Black
+}
+actor Player1
+actor Player2
+participant "APIGW and\nLambda" as API
+database DynamoDB
+Player1 -> API : Play Rock
+API -> DynamoDB : Set Plays=Plays+1, P1.Play = rock
+DynamoDB - -> API : Return Data 
+Player2 -> API: Play Paper
+API -> DynamoDB: Set Plays=Plays+1, P2.Play = paper
+DynamoDB - -> API: Return Data
+API -> API: Plays=2: Round Complete, Calculate Winner
+API -> DynamoDB: Store Game Data (Plays=0, Round=Round+1)
+API -> Player1: Game State (winner=False)
+API -> Player2: Game State (winner=True)
+@enduml
+
+PlantUML version 1.2020.16(Sun Aug 23 13:20:43 PDT 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
