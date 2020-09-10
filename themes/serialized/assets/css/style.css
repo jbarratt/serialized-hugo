@@ -271,6 +271,31 @@ img[src$='#full-width']
   width: 90vw;
 }
 
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  display: block;
+  overflow: auto;
+}
+
+th {
+  font-weight: 600;
+}
+
+td, th {
+  padding: 6px 13px;
+  border: 1px solid #dfe2e5;
+}
+
+tr {
+  background-color: #fff;
+  border-top: 1px solid #c6cbd1;
+}
+
+tr:nth-child(2n) {
+  background-color: #f7f8fa;
+}
+
 
 
 /* Background */ .chroma { background-color: #ffffff }
