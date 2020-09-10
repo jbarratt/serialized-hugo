@@ -1,8 +1,8 @@
 ---
 title: "Building a Multiplayer Game with API Gateway+Websockets, Go and DynamoDB"
 slug: "multiplayer"
-date: 2020-09-08T23:38:38-07:00
-lastmod: 2020-09-08T23:38:38-07:00
+date: 2020-09-09T20:38:38-07:00
+lastmod: 2020-09-09T20:38:38-07:00
 description: "A simple end to end demonstration of building a multiplayer brower-based game with a Javascript frontend, API Gateway's support for serverless websockets, Go code running in Lambdas, DynamoDB for storing state, and SAM for managing the infrastructure."
 summary: "A simple end to end demonstration of building a multiplayer brower-based game with a Javascript frontend, API Gateway's support for serverless websockets, Go code running in Lambdas, DynamoDB for storing state, and SAM for managing the infrastructure."
 draft: false
