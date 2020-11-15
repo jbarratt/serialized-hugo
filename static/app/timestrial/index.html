@@ -1,0 +1,36 @@
+<!doctype html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+	  <meta name="description" content="Times Trial Multiplication Challenge">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>The Times Trial Multiplication Challenge</title>
+		<link rel="stylesheet" type="text/css" href="paper.min.css" />
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<script src="bundle.js" type="text/javascript"></script>
+	</head>
+
+	<body>
+		<div class="paper">
+			<div class="row flex-spaces">
+				<button type="button" id="practice">Practice</button>
+				<button type="button" id="test">Take Test</button>
+				<span id="score">Score: 0</span>
+			</div>
+			<div class="row">
+				<div class="progress margin-bottom">
+					<div class="bar w-0" id="timebar"></div>
+				</div>
+			</div>
+			<div class="row flex-center" id="problem">
+				<p id="question">A X B =</p>
+				<input type="text" id="answer" value=""></span>
+			</div>
+			<div class="row flex-center" id="statusrow">
+				<p id="status">Choose <em>Practice</em> mode for a 1 minute test which tells you the correct answers; choose <em>Take Test</em> for a 5 minute test which does not.</p>
+			</div>
+		</div>
+	</body>
+
+</html>
