@@ -1,20 +1,24 @@
 {
-    "version": "https://jsonfeed.org/version/1",
+    "version": "https://jsonfeed.org/version/1.1",
     "title": {{ .Site.Title | jsonify  }},
     "home_page_url": {{ .Permalink | jsonify }},
     {{ with  .OutputFormats.Get "json" -}}
     "feed_url": {{ .Permalink | jsonify  }},
     {{- end }}
-    {{ if (.Site.Params.author) or (.Site.Params.author_url) -}}
-    "author": {
-        {{ if .Site.Params.author -}}
-        "name": {{ .Site.Params.author | jsonify }},
-        {{- end }}
-        {{ if .Site.Params.author_url -}}
-        "url": {{ .Site.Params.author_url | jsonify }}
-        {{- end }}
+    {{ with .Site.Author.name -}}
+    "author" : {
+        "name" : "{{ . }}"{{ with $.Site.Author.url }},
+        "url": "{{ . }}"{{ end }}{{ with $.Site.Author.avatar }},
+        "avatar": "{{ . | absURL }}"{{ end }}
     },
-    {{- end }}
+    {{ end -}}
+    {{ with .Site.Author.name -}}
+    "authors" : [{
+        "name" : "{{ . }}"{{ with $.Site.Author.url }},
+        "url": "{{ . }}"{{ end }}{{ with $.Site.Author.avatar }},
+        "avatar": "{{ . | absURL }}"{{ end }}
+    }],
+    {{ end -}}
     {{ if .Data.Pages }}
     "items": [
         {{ range $index, $element := first 10 (where .Site.RegularPages "Section" "post") }}
