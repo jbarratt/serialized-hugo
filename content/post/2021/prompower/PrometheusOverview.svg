@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xl="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="111 148 899 464" width="899" height="464">
+  <defs>
+    <filter id="Shadow" filterUnits="userSpaceOnUse" x="21.1" y="101.6">
+      <feGaussianBlur in="SourceAlpha" result="blur" stdDeviation=".872"/>
+      <feOffset in="blur" result="offset" dx="0" dy="2"/>
+      <feFlood flood-color="black" flood-opacity=".5" result="flood"/>
+      <feComposite in="flood" in2="offset" operator="in" result="color"/>
+      <feMerge>
+        <feMergeNode in="color"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <font-face font-family="Helvetica Neue" font-size="16" panose-1="2 0 8 3 0 0 0 9 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="975.0061" descent="-216.99524" font-weight="700">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue-Bold"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Helvetica Neue" font-size="16" panose-1="2 0 5 3 0 0 0 9 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="-750" x-height="517" cap-height="714" ascent="957.0007" descent="-212.99744" font-style="italic" font-weight="400">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue-Italic"/>
+      </font-face-src>
+    </font-face>
+    <font-face font-family="Helvetica Neue" font-size="16" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="400">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -4 10 8" markerWidth="10" markerHeight="8" color="black">
+      <g>
+        <path d="M 8 0 L 0 -3 L 0 3 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+  </defs>
+  <metadata> Produced by OmniGraffle 7.18.1\n2021-01-18 18:27:15 +0000</metadata>
+  <g id="Canvas_1" stroke-dasharray="none" stroke-opacity="1" fill="none" stroke="none" fill-opacity="1">
+    <title>Canvas 1</title>
+    <g id="Canvas_1_Layer_1">
+      <title>Layer 1</title>
+      <g id="Graphic_17">
+        <rect x="111" y="218.5" width="687.5" height="393.5" fill="#ecffe5"/>
+      </g>
+      <g id="Graphic_2" filter="url(#Shadow)">
+        <path d="M 355.5 322 L 531.5 322 C 533.70914 322 535.5 323.79086 535.5 326 L 535.5 423 C 535.5 425.20914 533.70914 427 531.5 427 L 355.5 427 C 353.29086 427 351.5 425.20914 351.5 423 L 351.5 326 C 351.5 323.79086 353.29086 322 355.5 322 Z" fill="white"/>
+        <path d="M 355.5 322 L 531.5 322 C 533.70914 322 535.5 323.79086 535.5 326 L 535.5 423 C 535.5 425.20914 533.70914 427 531.5 427 L 355.5 427 C 353.29086 427 351.5 425.20914 351.5 423 L 351.5 326 C 351.5 323.79086 353.29086 322 355.5 322 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(356.5 337.09595)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="700" fill="black" x="41.224" y="16">prometheus</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-style="italic" font-weight="400" fill="black" x="23.296" y="34.46411">Scraper &amp; metrics </tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-style="italic" font-weight="400" fill="black" x="60.336" y="52.91211">storage</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="52.464" y="71.36011">port 9090</tspan>
+        </text>
+      </g>
+      <g id="Graphic_4" filter="url(#Shadow)">
+        <path d="M 604.5 322 L 780.5 322 C 782.7091 322 784.5 323.79086 784.5 326 L 784.5 423 C 784.5 425.20914 782.7091 427 780.5 427 L 604.5 427 C 602.29086 427 600.5 425.20914 600.5 423 L 600.5 326 C 600.5 323.79086 602.29086 322 604.5 322 Z" fill="white"/>
+        <path d="M 604.5 322 L 780.5 322 C 782.7091 322 784.5 323.79086 784.5 326 L 784.5 423 C 784.5 425.20914 782.7091 427 780.5 427 L 604.5 427 C 602.29086 427 600.5 425.20914 600.5 423 L 600.5 326 C 600.5 323.79086 602.29086 322 604.5 322 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(605.5 346.31995)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="700" fill="black" x="57.816" y="16">grafana</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-style="italic" font-weight="400" fill="black" x="37.352" y="34.46411">Dashboarding</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="50.24" y="52.91211"> port 3000</tspan>
+        </text>
+      </g>
+      <g id="Graphic_5" filter="url(#Shadow)">
+        <path d="M 301 492 L 429.5 492 C 431.70914 492 433.5 493.79086 433.5 496 L 433.5 593 C 433.5 595.20914 431.70914 597 429.5 597 L 301 597 C 298.79086 597 297 595.20914 297 593 L 297 496 C 297 493.79086 298.79086 492 301 492 Z" fill="white"/>
+        <path d="M 301 492 L 429.5 492 C 431.70914 492 433.5 493.79086 433.5 496 L 433.5 593 C 433.5 595.20914 431.70914 597 429.5 597 L 301 597 C 298.79086 597 297 595.20914 297 593 L 297 496 C 297 493.79086 298.79086 492 301 492 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(302 506.5879)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="700" fill="black" x="14.218" y="16">prometheus-</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="700" fill="black" x="12.434" y="35.46411">pushgateway</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-style="italic" font-weight="400" fill="black" x="7.698" y="53.92822">Pushed Metrics</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="28.714" y="72.37622">port 9091</tspan>
+        </text>
+      </g>
+      <g id="Line_7">
+        <line x1="600.5" y1="374.5" x2="545.4" y2="374.5" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_8" filter="url(#Shadow)">
+        <path d="M 355.5 229.604 L 531.5 229.604 C 533.70914 229.604 535.5 231.39486 535.5 233.604 L 535.5 272.5 C 535.5 274.70914 533.70914 276.5 531.5 276.5 L 355.5 276.5 C 353.29086 276.5 351.5 274.70914 351.5 272.5 L 351.5 233.604 C 351.5 231.39486 353.29086 229.604 355.5 229.604 Z" fill="white"/>
+        <path d="M 355.5 229.604 L 531.5 229.604 C 533.70914 229.604 535.5 231.39486 535.5 233.604 L 535.5 272.5 C 535.5 274.70914 533.70914 276.5 531.5 276.5 L 355.5 276.5 C 353.29086 276.5 351.5 274.70914 351.5 272.5 L 351.5 233.604 C 351.5 231.39486 353.29086 229.604 355.5 229.604 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(356.5 234.09595)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="700" fill="black" x="63.888" y="16">caddy</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-style="italic" font-weight="400" fill="black" x="67.448" y="34.46411">proxy</tspan>
+        </text>
+      </g>
+      <g id="Graphic_10" filter="url(#Shadow)">
+        <path d="M 134.5 322 L 310.5 322 C 312.70914 322 314.5 323.79086 314.5 326 L 314.5 423 C 314.5 425.20914 312.70914 427 310.5 427 L 134.5 427 C 132.29086 427 130.5 425.20914 130.5 423 L 130.5 326 C 130.5 323.79086 132.29086 322 134.5 322 Z" fill="white"/>
+        <path d="M 134.5 322 L 310.5 322 C 312.70914 322 314.5 323.79086 314.5 326 L 314.5 423 C 314.5 425.20914 312.70914 427 310.5 427 L 134.5 427 C 132.29086 427 130.5 425.20914 130.5 423 L 130.5 326 C 130.5 323.79086 132.29086 322 134.5 322 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(135.5 346.31995)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="700" fill="black" x="36.056" y="16">alertmanager</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-style="italic" font-weight="400" fill="black" x="59.592" y="34.46411">Alerting</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="52.464" y="52.91211">port 9093</tspan>
+        </text>
+      </g>
+      <g id="Line_11">
+        <line x1="314.5" y1="374.5" x2="341.6" y2="374.5" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_12" filter="url(#Shadow)">
+        <path d="M 134.5 492 L 263 492 C 265.20914 492 267 493.79086 267 496 L 267 593 C 267 595.20914 265.20914 597 263 597 L 134.5 597 C 132.29086 597 130.5 595.20914 130.5 593 L 130.5 496 C 130.5 493.79086 132.29086 492 134.5 492 Z" fill="white"/>
+        <path d="M 134.5 492 L 263 492 C 265.20914 492 267 493.79086 267 496 L 267 593 C 267 595.20914 265.20914 597 263 597 L 134.5 597 C 132.29086 597 130.5 595.20914 130.5 593 L 130.5 496 C 130.5 493.79086 132.29086 492 134.5 492 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(135.5 507.09595)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="700" fill="black" x="10.066" y="16">NodeExporter</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-style="italic" font-weight="400" fill="black" x="1.322" y="34.46411">Physical Machine </tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-style="italic" font-weight="400" fill="black" x="36.89" y="52.91211">Metrics</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-style="italic" font-weight="400" fill="black" x="28.714" y="71.36011">port 9100</tspan>
+        </text>
+      </g>
+      <g id="Graphic_13" filter="url(#Shadow)">
+        <path d="M 467 492 L 595.5 492 C 597.70914 492 599.5 493.79086 599.5 496 L 599.5 593 C 599.5 595.20914 597.70914 597 595.5 597 L 467 597 C 464.79086 597 463 595.20914 463 593 L 463 496 C 463 493.79086 464.79086 492 467 492 Z" fill="white"/>
+        <path d="M 467 492 L 595.5 492 C 597.70914 492 599.5 493.79086 599.5 496 L 599.5 593 C 599.5 595.20914 597.70914 597 595.5 597 L 467 597 C 464.79086 597 463 595.20914 463 593 L 463 496 C 463 493.79086 464.79086 492 467 492 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(468 497.87195)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="700" fill="black" x="30.658" y="16">cadvisor</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-style="italic" font-weight="400" fill="black" x="5.762" y="34.46411">Docker Daemon </tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-style="italic" font-weight="400" fill="black" x="13.01" y="52.91211">and Container </tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-style="italic" font-weight="400" fill="black" x="36.89" y="71.36011">Metrics</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="28.714" y="89.80811">port 8080</tspan>
+        </text>
+      </g>
+      <g id="Graphic_14" filter="url(#Shadow)">
+        <path d="M 639.5 492 L 768 492 C 770.2091 492 772 493.79086 772 496 L 772 593 C 772 595.20914 770.2091 597 768 597 L 639.5 597 C 637.29086 597 635.5 595.20914 635.5 593 L 635.5 496 C 635.5 493.79086 637.29086 492 639.5 492 Z" fill="#b7fff6"/>
+        <path d="M 639.5 492 L 768 492 C 770.2091 492 772 493.79086 772 496 L 772 593 C 772 595.20914 770.2091 597 768 597 L 639.5 597 C 637.29086 597 635.5 595.20914 635.5 593 L 635.5 496 C 635.5 493.79086 637.29086 492 639.5 492 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(640.5 506.5879)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="700" fill="black" x="31.986" y="16">sonnen-</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="700" fill="black" x="30.954" y="35.46411">exporter</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-style="italic" font-weight="400" fill="black" x="7.25" y="53.92822">Sonnen Metrics</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="28.714" y="72.37622">port 9422</tspan>
+        </text>
+      </g>
+      <g id="Graphic_15" filter="url(#Shadow)">
+        <path d="M 875 492 L 1003.5 492 C 1005.7091 492 1007.5 493.79086 1007.5 496 L 1007.5 593 C 1007.5 595.20914 1005.7091 597 1003.5 597 L 875 597 C 872.7909 597 871 595.20914 871 593 L 871 496 C 871 493.79086 872.7909 492 875 492 Z" fill="#b7fff6"/>
+        <path d="M 875 492 L 1003.5 492 C 1005.7091 492 1007.5 493.79086 1007.5 496 L 1007.5 593 C 1007.5 595.20914 1005.7091 597 1003.5 597 L 875 597 C 872.7909 597 871 595.20914 871 593 L 871 496 C 871 493.79086 872.7909 492 875 492 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(876 507.09595)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="700" fill="black" x="6.194" y="16">Sonnen Device</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-style="italic" font-weight="400" fill="black" x="7.826" y="34.46411">Undocumented </tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-style="italic" font-weight="400" fill="black" x="50.658" y="52.91211">API</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="28.714" y="71.36011">port 8080</tspan>
+        </text>
+      </g>
+      <g id="Line_16">
+        <line x1="772" y1="544.5" x2="861.1" y2="544.5" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_18">
+        <line x1="419.33456" y1="427" x2="393.5549" y2="483.00695" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_19">
+        <line x1="367.91544" y1="427" x2="275.13102" y2="491.4468" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_20">
+        <line x1="470.59926" y1="427" x2="499.60984" y2="483.2028" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_21">
+        <line x1="523.8713" y1="427" x2="627.2116" y2="494.50375" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_23">
+        <text transform="translate(424.852 442)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="700" fill="black" x="0" y="16">Polls</tspan>
+        </text>
+      </g>
+      <g id="Graphic_24">
+        <text transform="translate(803.5 506)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="31974423e-20" y="15">Fetches</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="2.368" y="33.448">On Poll</tspan>
+        </text>
+      </g>
+      <g id="Line_25">
+        <path d="M 351.5 267.09855 L 267 280 L 251.4399 313.04337" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_26">
+        <line x1="443.5" y1="276.5" x2="443.5" y2="312.1" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_27">
+        <path d="M 535.5 263.49857 L 650 276.5 L 665.7932 312.91733" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_28" filter="url(#Shadow)">
+        <path d="M 818.5 412.5 L 826.5 412.5 C 828.7091 412.5 830.5 414.29086 830.5 416.5 L 830.5 423 C 830.5 425.20914 828.7091 427 826.5 427 L 818.5 427 C 816.2909 427 814.5 425.20914 814.5 423 L 814.5 416.5 C 814.5 414.29086 816.2909 412.5 818.5 412.5 Z" fill="#b7fff6"/>
+        <path d="M 818.5 412.5 L 826.5 412.5 C 828.7091 412.5 830.5 414.29086 830.5 416.5 L 830.5 423 C 830.5 425.20914 828.7091 427 826.5 427 L 818.5 427 C 816.2909 427 814.5 425.20914 814.5 423 L 814.5 416.5 C 814.5 414.29086 816.2909 412.5 818.5 412.5 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_29">
+        <text transform="translate(840 410.526)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="15">Added to Dockprom</tspan>
+        </text>
+      </g>
+      <g id="Graphic_30" filter="url(#Shadow)">
+        <path d="M 818.5 437 L 826.5 437 C 828.7091 437 830.5 438.79086 830.5 441 L 830.5 447.5 C 830.5 449.70914 828.7091 451.5 826.5 451.5 L 818.5 451.5 C 816.2909 451.5 814.5 449.70914 814.5 447.5 L 814.5 441 C 814.5 438.79086 816.2909 437 818.5 437 Z" fill="#ecffe5"/>
+        <path d="M 818.5 437 L 826.5 437 C 828.7091 437 830.5 438.79086 830.5 441 L 830.5 447.5 C 830.5 449.70914 828.7091 451.5 826.5 451.5 L 818.5 451.5 C 816.2909 451.5 814.5 449.70914 814.5 447.5 L 814.5 441 C 814.5 438.79086 816.2909 437 818.5 437 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_31">
+        <text transform="translate(840 435.026)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="15">Running in Docker</tspan>
+        </text>
+      </g>
+      <g id="Graphic_32" filter="url(#Shadow)">
+        <path d="M 419.5 149 L 467.5 149 C 469.70914 149 471.5 150.79086 471.5 153 L 471.5 191.896 C 471.5 194.10514 469.70914 195.896 467.5 195.896 L 419.5 195.896 C 417.29086 195.896 415.5 194.10514 415.5 191.896 L 415.5 153 C 415.5 150.79086 417.29086 149 419.5 149 Z" fill="white"/>
+        <path d="M 419.5 149 L 467.5 149 C 469.70914 149 471.5 150.79086 471.5 153 L 471.5 191.896 C 471.5 194.10514 469.70914 195.896 467.5 195.896 L 419.5 195.896 C 417.29086 195.896 415.5 194.10514 415.5 191.896 L 415.5 153 C 415.5 150.79086 417.29086 149 419.5 149 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(420.5 162.71594)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="700" fill="black" x="5.072" y="16">User</tspan>
+        </text>
+      </g>
+      <g id="Line_33">
+        <line x1="443.5" y1="195.896" x2="443.5" y2="219.704" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+    </g>
+  </g>
+</svg>
