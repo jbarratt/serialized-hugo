@@ -211,7 +211,7 @@ measured_mean = df['value'].mean()
 
 # Ok, now have Prometheus do the avg_over_time calculation used in the chart:
 response = requests.get(PROMETHEUS + '/api/v1/query', 
-                        auth=('admin', 'admin'), 
+                        auth=('...', '...'), 
                         params={
                             'query': 'avg_over_time(sonnen_grid_feed_in_watts[1h])'
                         })
@@ -221,7 +221,7 @@ prom_avg = results[0]['value'][1]
 # Returned -891.4269819193331
 ```
 
- So, it seems that Prometheus is calculating basically the same value as I'd be doing if I was working with the data points directly. Using averages has an extra nice property of being pretty stable if there's a data point or two missing. I tested this on different multi-hour windows and the results came back consistent. It's not going to be precise, but it's nice to have a running idea of how my power bills (or credits) are going to look.
+It seems that Prometheus is calculating basically the same value as I'd be doing if I was working with the data points directly. Using averages has an extra nice property of being pretty stable if there's a data point or two missing. I tested this on different multi-hour windows and the results came back consistent. It's not going to be precise, but it's nice to have a running idea of how my power bills (or credits) are going to look.
 
 ### And So
 
