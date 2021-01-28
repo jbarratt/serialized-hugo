@@ -1,4 +1,5 @@
-baseURL = "https://serialized.net"
+baseURL = "https://serialized.net/"
+canonifyURLs = true
 languageCode = "en-us"
 title = "Ongoing Fascination Burnout"
 theme = "serialized"

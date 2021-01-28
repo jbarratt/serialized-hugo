@@ -245,11 +245,25 @@ pre {
   padding: 0.75em;
 }
 
+img.center {
+    display: block;
+    margin: 0.7rem auto;
+    max-width: 90%;
+}
+
 img[src$='#center']
 {
     display: block;
     margin: 0.7rem auto;
     max-width: 90%;
+}
+
+img.center-wide
+{
+    display: block;
+    margin: 0 auto;
+    width: 95%;
+    max-width: 95%;
 }
 
 img[src$='#center-wide']
@@ -258,6 +272,17 @@ img[src$='#center-wide']
     margin: 0 auto;
     width: 95%;
     max-width: 95%;
+}
+
+img.full-width
+{
+  left: 50%;
+  margin-left: -45vw;
+  margin-right: -45vw;
+  max-width: 90vw;
+  position: relative;
+  right: 50%;
+  width: 90vw;
 }
 
 img[src$='#full-width']

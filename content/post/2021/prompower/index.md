@@ -14,7 +14,7 @@ Our family recently moved to a home which actually has enough sun exposure to be
 
 The Sonnen includes a nice dashboard which shows the real time sun production, home consumption, and how much power you are drawing from or pushing back to the grid. I immediately had questions that only a time series graph could answer. "Why is the battery at 40%? Did we use a bunch of power? When? Did it charge yesterday? How well did we produce when it was cloudy?"
 
-![Sonnen Dashboard](SonnenUI.png#center)
+{{< img src="SonnenUI.png" title="Sonnen Dashboard" class="center">}}
 
 It turns out that the Sonnen's dashboard is powered by a HTTP/JSON API. I couldn't find official documentation, but that did not turn out to be a blocker.
 
@@ -37,7 +37,7 @@ If you want to do something you plan to keep around for a while, it's probably a
 
 This architecture diagram shows what you get out of the box with dockprom, as well as what needs to be added to support querying the Sonnen device. It includes 2 exporters -- the NodeExporter, which exposes metrics about the physical machine, and cAdvisor, which exposes metrics about all the running containers. Prometheus also scrapes metrics about itself, and gathers those. When you start it up, there are predefined dashboards in Grafana conveniently tracking all of those.
 
-![Architecture Diagram](PrometheusOverview.svg#center-wide)
+{{< img src="PrometheusOverview.svg" class="center-wide" alt="Architecture Diagram">}}
 
 So to gather data from the sonnen, we need a sonnen "exporter" -- something that listens to HTTP, and exposes the [prometheus exporter format](https://prometheus.io/docs/instrumenting/writing_exporters/).
 
