@@ -23,13 +23,13 @@ From what I can tell in the docs and on IRC, most people solve this by just chec
 
 This is more or less this idea:
 
-![installing an app](/images/shipwright/cpan_to_build.png)
+{{< img src="/images/shipwright/cpan_to_build.png"  alt="installing an app"   >}}
 
 If you're like me, and living life with hundreds or thousands of servers, that approach doesn't really work. It also doesn't solve the first problem above of how to handle all the dependencies (or dependency clashes on a single machine.)
 
 If you're running lots of servers, you'll end up with this problem. You install your first app on a single box or two, and it's running along fine. Then the people come, and you need more horsepower. Time to build a new box.
 
-![adding a new server](/images/shipwright/new_server.png)
+{{< img src="/images/shipwright/new_server.png"  alt="adding a new server"   >}}
 
 Oops! `DBIx::Class` isn't passing tests right now. I guess we can't deploy a new server. Or, more subtly, everything installs, but when you add your app to the load balancer, something is "wacky" one 1/2 of the web requests. Pleh.
 
@@ -43,7 +43,7 @@ This is actually a pretty good idea, and in some environments, I'd be using it r
 
 That turns the model to this:
 
-![building from minicpan](/images/shipwright/build_from_minicpan.png)
+{{< img src="/images/shipwright/build_from_minicpan.png"  alt="building from minicpan"   >}}
 
 We have our own `minicpan` to use to buffer the volatility of the `CPAN`. Upgrades can happen to `minicpan` when we want and need them to. If the `minicpan` didn't change, we can install our application on as many servers as we want, and trust they'll be getting the same code.
 
@@ -60,7 +60,7 @@ Shipwright lets you keep a local, version-controlled copy of all the source (fro
 
 So now we've got a version controlled "CPAN Cache" per application we're managing.
 
-![building with shipwright](/images/shipwright/build_with_shipwright.png)
+{{< img src="/images/shipwright/build_with_shipwright.png"  alt="building with shipwright"   >}}
 
 The other things I really like about Shipwright are:
 

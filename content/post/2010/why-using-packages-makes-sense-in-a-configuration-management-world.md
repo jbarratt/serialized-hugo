@@ -16,9 +16,9 @@ The discussion centered around the question that I'll paraphrase:
 
 > In the era of configuration management tools like Chef and Puppet, what value do packages provide? What are the pros and cons of packaging?
 
-[![RI's question](/images/packages/ri_tweet.jpg)](http://twitter.com/ripienaar/status/22684759326)
+[{{< img src="/images/packages/ri_tweet.jpg"  alt="RI's question"   >}}](http://twitter.com/ripienaar/status/22684759326)
 
-[![littleidea question](/images/packages/littleidea_tweet.jpg)](http://twitter.com/littleidea/status/22688039535)
+[{{< img src="/images/packages/littleidea_tweet.jpg"  alt="littleidea question"   >}}](http://twitter.com/littleidea/status/22688039535)
 
 It was clear that both of them were feeling the pinch of expressing themselves in 140 characters. It's a topic I'm pretty passionate about, after 15+ years fighting to keep systems under control, so I figured I'd write up my take on it.
 

@@ -140,7 +140,7 @@ Because of the above threats and virtues, we want to push as much functionality 
 
 ### Basic Design
 
-![Puppet Module Designs](/images/base_site_modules.png "Puppet Module Designs")
+{{< img src="/images/base_site_modules.png"  alt="Puppet Module Designs"   >}}
 
 So how this looks in practice in puppet-speak:
 

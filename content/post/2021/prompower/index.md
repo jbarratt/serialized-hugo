@@ -154,7 +154,7 @@ This is what happens when graphing the following variables:
 * `sonnen_production_watts` as "Production"
 * `sonnen_state_of_charge_percent` (on the right Y axis)
 
-![Grafana Sonnen Dashboard](Dashboard.jpg#full-width)
+{{< img src="Dashboard.jpg"  alt="Grafana Sonnen Dashboard"   class="full-width"  >}}
 
 This paints a pretty interesting picture (well, interesting to me at least) of the power flow over the majority of the last day. We have a plug in electric hybrid that we plugged in late in the day. It charging causes the house to draw just over 2 kW, which it's getting most of from the battery. When the battery hits the low power reserve level (10%), we switch to full grid consumption.
 
@@ -162,7 +162,7 @@ Around 7am the car stops charging, and the sun is up. Just before 8 there's enou
 
 The other thing I was curious about was how close we are to being fully self-sufficient -- how much are we ahead of what we take from, vs provide to, the grid?
 
-![Generation Offset](GenerationOffset.png#center)
+{{< img src="GenerationOffset.png"  alt="Generation Offset"   class="center"  >}}
 
 This is not a perfect method, but it's a decent starting point. This is calculating
 

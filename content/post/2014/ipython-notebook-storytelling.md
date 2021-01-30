@@ -27,7 +27,7 @@ I got a lot of nice feedback about the talk, including this extremely
 kind comment from [Fernando Perez](https://twitter.com/fperez_org), the
 project's founder:
 
-[![image](/images/fperez_tweet.png)](https://twitter.com/fperez_org/status/502657821608251396)
+[{{< img src="/images/fperez_tweet.png"  alt="image"   >}}](https://twitter.com/fperez_org/status/502657821608251396)
 
 The OSCON session was recorded, and thanks to their speaker-friendly
 video agreement, I'm allowed to share their video with you here.

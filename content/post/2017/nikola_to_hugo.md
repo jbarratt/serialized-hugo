@@ -47,7 +47,7 @@ I went through the majority of the posts by hand, and there were only a few thin
 
 While I was migrating, I realized there were a lot of images and random other files which were no longer used, many from posts which I had retired long ago. Almost all static site generators (including hugo) do struggle with image/post locality; there's a good [discussion in a github issue.](https://github.com/spf13/hugo/issues/1240). Because of this, I had about 500 files in my `static/` directory, and I had no idea which were still being referenced or not.
 
-> **Update 2019-09-24:** Today I learned that Hugo fixed the above problem a few years ago. As of 0.32 (6 months after this was posted) you can do [page bundles](https://gohugo.io/content-management/page-bundles/). This means instead of `content/post/mypost.md`, you can do `content/post/mypost/index.md` and also put images in `content/post/mypost/myimage.png`, where you can refer to it in markdown as `![my image](myimage.png)`. Super convenient and A+ lovely for organization. Thanks Hugo!
+> **Update 2019-09-24:** Today I learned that Hugo fixed the above problem a few years ago. As of 0.32 (6 months after this was posted) you can do [page bundles](https://gohugo.io/content-management/page-bundles/). This means instead of `content/post/mypost.md`, you can do `content/post/mypost/index.md` and also put images in `content/post/mypost/myimage.png`, where you can refer to it in markdown as `{{< img src="myimage.png"  alt="my image"   >}}`. Super convenient and A+ lovely for organization. Thanks Hugo!
 
 Thanks to all the posts being in markdown, I realized the paths would have to show up in those files, so built out a simple tool to
 

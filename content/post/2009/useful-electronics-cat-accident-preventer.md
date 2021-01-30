@@ -19,7 +19,7 @@ So, I thought to myself that if I only had some way to track when the box was in
 
 Hence, the below design was born.
 
-![Litter Robot Malfunction Detector](/images/litter-robot-malfunction-detector.png)
+{{< img src="/images/litter-robot-malfunction-detector.png"  alt="Litter Robot Malfunction Detector"   >}}
 
 It uses a very nice and yet simple sensor (with a pullup resistor to get a clean signal) called a [Reed Switch](http://www.sparkfun.com/commerce/product_info.php?products_id=8642) which creates a closed circuit when it's near a magnetic field. I can epoxy this to the un-moving base of the Litter Robot, and epoxy a small magnet to the corresponding spot on the inside of the dome. (Inside rather than outside so it does not interfere with the dome's rotation.)
 

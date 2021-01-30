@@ -18,7 +18,7 @@ While in the SendGrid onboarding (which was comprehensive and excellent) I notic
 
 On closer inspection, it turned out to be made of a small set of fixed colors, and to follow a simple rule: "No cell should share a side with cells of the same color."
 
-![small example](/generative/3_by_5.png#center)
+{{< img src="/generative/3_by_5.png"  alt="small example"   class="center"  >}}
 
 This turns out to be a pretty straightforward thing to generate arbitrary sized versions of.
 
@@ -33,7 +33,7 @@ It was a little suprising, in a good way, that you only ever need to check 2 edg
 
 I grabbed the 'on-brand' colors and made a quick `main.go` implementing this algorithm and it worked!
 
-![laptop](/generative/laptop.jpg#center)
+{{< img src="/generative/laptop.jpg"  alt="laptop"   class="center"  >}}
 
 When thinking about making a short post about this, I realized that I've wanted to play with [gopherjs](https://github.com/gopherjs/gopherjs) for a while -- and this seemed like an interesting test case.
 

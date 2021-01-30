@@ -54,7 +54,7 @@ From here on out, it's easy to add to markdown:
 
 Putting it all together:
 
-![example screenshot](/images/md_wf/small_example.png#center)
+{{< img src="/images/md_wf/small_example.png"  alt="example screenshot"   class="center"  >}}
 
 ### Getting Markdown to Others
 
@@ -99,6 +99,6 @@ You can [visit the page](https://s3-us-west-2.amazonaws.com/serialized-public/md
 
 And if you don't feel like clicking, here it is with the stylesheet applied.
 
-![with stylesheet](/images/md_wf/rendered_web.png#center)
+{{< img src="/images/md_wf/rendered_web.png"  alt="with stylesheet"   class="center"  >}}
 
 So, all in all, a productive evening! I now have the ability to take rich notes for myself in markdown, and share decently looking, media-enhanced, rendered markdown with others with very little effort.

@@ -42,7 +42,7 @@ img[src$='#center-wide']
 }
 </style>
 
-![load test structure](/images/load_test_structure.svg#center-wide)
+{{< img src="/images/load_test_structure.svg"  alt="load test structure"   class="center-wide"  >}}
 
 ### Launch a server with awless
 
@@ -54,7 +54,7 @@ $ awless create instance -h
 
 You can provide any params you want on the command line, and fill in other required ones interactively (with tab completion!) I was stuck needing to pick a good subnet and security group, though. This is easy:
 
-![awless list subnet and securitygroups](/images/awless_list.png#full-width)
+{{< img src="/images/awless_list.png"  alt="awless list subnet and securitygroups"   class="full-width"  >}}
 
 From right in the terminal I can see which subnets are public and which aren't. Running `awless show <identifier>`, like `awless show subnet-46fc311e` gives more information about things if needed. But I'm tinkering, and this is a scratch account, I just need a public subnet, and I've only got my default security group.
 

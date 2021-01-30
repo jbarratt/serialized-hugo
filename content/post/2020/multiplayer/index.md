@@ -32,7 +32,7 @@ You can play the game described in this article right here:
 
 [Rock Paper Scissors Lizard Spock Online](https://serialized.net/app/rpsls/)
 
-[![Game Screenshot](screenshot.png#center-wide)](https://serialized.net/app/rpsls/)
+[{{< img src="screenshot.png"  alt="Game Screenshot"   class="center-wide"  >}}](https://serialized.net/app/rpsls/)
 
 Just copy the link and share with a friend (or grab a mobile device) and you can try it out.
 
@@ -44,7 +44,7 @@ The full source is available in github at [jbarratt/rpsls](https://github.com/jb
 
 The architecture itself is fairly simple:
 
-![Multiplayer Architecture](architecture.png#center-wide)
+{{< img src="architecture.png"  alt="Multiplayer Architecture"   class="center-wide"  >}}
 
 The API Gateway WebSockets implementation allows two methods of communicating with the clients, either replying to a message they sent, or POSTing to a special endpoint and including their connection ID. For this app, all game state changes are broadcasts, so for simplicity they all use the POST channel.
 
@@ -119,7 +119,7 @@ The player ID is a user-provided value, so that they can be 'reconnected' if the
 
 This sequence diagram shows the normal flow of players doing a round, and how it interacts with DynamoDB.
 
-![Play and Storage Sequence](sequence.svg#center-wide)
+{{< img src="sequence.svg"  alt="Play and Storage Sequence"   class="center-wide"  >}}
 
 This takes advantage of the fact that DynamoDB has atomic writes. As you can see, both players set their personal move value, and (atomically) increment the `Plays` counter. The `UpdateItem` runs with `ReturnValues: ALL_NEW`, which means however the row changed after the atomic update, all those contents are returned.
 

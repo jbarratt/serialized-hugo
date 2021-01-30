@@ -10,4 +10,4 @@ My colleague, Mr. Rice, has a first name starting with 'D'. This means his chat 
 To celebrate his third year with us I got a embroidered coat made. 
 
 
-![Custom Lab Coat](/images/p-607-455-cfb3a32f-e035-4c06-8ff1-eef14d7ab8b0.jpeg)
+{{< img src="/images/p-607-455-cfb3a32f-e035-4c06-8ff1-eef14d7ab8b0.jpeg"  alt="Custom Lab Coat"   >}}

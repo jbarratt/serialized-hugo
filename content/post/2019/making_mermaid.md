@@ -44,7 +44,7 @@ all: $(addsuffix .png, $(basename $(wildcard *.mmd)))
 
 Which results in this process, helpfully illustrated by mermaid:
 
-![mermaid](/images/mermaid/mermaid.png#full-width)
+{{< img src="/images/mermaid/mermaid.png"  alt="mermaid"   class="full-width"  >}}
 
 This is some `make` superpowers.
 
@@ -134,7 +134,7 @@ So, does it work?
 
 Here is a Google Doc, with a mermaid image inserted via `Insert > Image`.
 
-![google doc screenshot](/images/mermaid/g_doc_shot.png#center-wide)
+{{< img src="/images/mermaid/g_doc_shot.png"  alt="google doc screenshot"   class="center-wide"  >}}
 
 Sadly, there's not clear way to do a right-click "Save Image", but `File > Download > Webpage` will give a zip file with HTML and all the other assets.
 
@@ -186,7 +186,7 @@ So, just run `make watch`, leave that running in the background, and work with y
 
 And just for fun, here's that process via mermaid:
 
-![fsevents](/images/mermaid/flowchart.png#center-wide)
+{{< img src="/images/mermaid/flowchart.png"  alt="fsevents"   class="center-wide"  >}}
 
 and the source:
 

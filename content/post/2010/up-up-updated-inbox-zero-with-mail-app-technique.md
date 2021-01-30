@@ -16,6 +16,6 @@ However, I was recently contacted by the developer of the perfect plugin for me 
 
 I've been using it for a few weeks now and it's been perfect -- clean, simple, and exactly what I wanted all along.
 
-![The new 'Archive' feature](/images/archive/screen.png)
+{{< img src="/images/archive/screen.png"  alt="The new 'Archive' feature"   >}}
 
 It's free, and you can download it from [the author's site](http://stl.techinno.nl/archive/).

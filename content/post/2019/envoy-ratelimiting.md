@@ -13,7 +13,7 @@ Recently, one of the teams I work with selected Envoy as a core component for a 
 
 I was especially curious about how to use it in the edge proxy mode, essentially as a more modern and programmable component that historically I'd have used nginx for. The result was a small [dockerized playground](https://github.com/jbarratt/envoy_ratelimit_example) which implements this design.
 
-![Envoy Architecture](/images/envoy_arch.png#center-wide)
+{{< img src="/images/envoy_arch.png"  alt="Envoy Architecture"   class="center-wide"  >}}
 
 The request flows through the system in stages:
 

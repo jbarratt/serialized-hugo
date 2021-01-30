@@ -14,7 +14,7 @@ I'm leaving the legacy content here for a record... the code is still available 
 
 My wife and I like to post a lot of photos of our son to [his blog](http://carterbarratt.com).
 
-![Carter's Site](/images/carterbarratt_dontlikethiseither.jpg)
+{{< img src="/images/carterbarratt_dontlikethiseither.jpg"  alt="Carter's Site"   >}}
 
 After using WordPress from both the browser and the iPhone client, I just wasn't that happy using it for our pictures. On the other hand, we both love (and already use, and have Pro accounts on) Flickr.
 
@@ -29,5 +29,5 @@ Having the photos "live" on Flickr means some handy things.
 
 So, FlickrPress was born. It's a fairly simple perl script, intended to be run as a cron job, which uses [WordPress::Post](http://search.cpan.org/perldoc?WordPress::Post) to create new blog posts for every flickr photo it finds with a certain tag, from certain users.
 
-![FlickrPress Workflow](/images/FlickrPress-flow.png)
+{{< img src="/images/FlickrPress-flow.png"  alt="FlickrPress Workflow"   >}}
 

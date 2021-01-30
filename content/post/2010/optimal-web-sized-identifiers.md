@@ -98,12 +98,12 @@ sub get_probability {
 ```
 
 The most mysterious parts of this are probably the formulas. The one in the get_probability subroutine is transcribed right [from the Wikipedia page](http://en.wikipedia.org/wiki/Birthday_paradox#Calculating_the_probability), but the other one is the same formula, solved for a different value. In general, if you need to do this, [WolframAlpha](http://wolframalpha.com) is a math nerd's dream come true. I just asked it to "solve (the equation) for d" and got the new formula I needed.
-![solve equation](/images/solve_equation.jpg "Solve Equation")
+{{< img src="/images/solve_equation.jpg"  alt="Solve Equation"   >}}
 
 The solution actually comes from "show your steps" -- I can find an intermediate form that's easier to represent in a non-math-centric programming language. (I'm sure you can do imaginary numbers in perl, but it was kind of outside the scope of my plans for this evening.)
 
 Here's the formula I ended up using:
-![Solved for D](/images/solution.jpg "solution")
+{{< img src="/images/solution.jpg"  alt="solution"   >}}
 
 Here's a few sample runs of the script:
 

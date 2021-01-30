@@ -29,7 +29,7 @@ I settled on getting some [high quality 5" x 8" blank cards](https://www.amazon.
 
 It ended up working like this:
 
-![Exercise Architecture](STEAM_architecture.svg#full-width)
+{{< img src="STEAM_architecture.svg"  alt="Exercise Architecture"   class="full-width"  >}}
 
 * They lined up at a table with a full screen browser window looking at a Namecard Maker app [(Live Demo to play with)](http://snap.serialized.net/namecard/index.html), where they could enter their names. (Or, a suprisingly sweet second most frequent entry, "I Love You Mom")
 * After they were happy with the word and font choices, they hit Print It. This POST'ed the SVG content to a [tiny backend daemon](https://github.com/jbarratt/STEAM_plotter/blob/master/backend/server.py).
@@ -38,11 +38,11 @@ It ended up working like this:
 
 Here's how it looked in real life:
 
-![The Plotter at Work](table.jpg#center-wide)
+{{< img src="table.jpg"  alt="The Plotter at Work"   class="center-wide"  >}}
 
 There was also a posterboard set up, channeling the ghost of science fairs past:
 
-![Posterboard](posterboard.jpg#center-wide)
+{{< img src="posterboard.jpg"  alt="Posterboard"   class="center-wide"  >}}
 
 Everything on the board was printed by the robot, which made for some fun conversations!
 

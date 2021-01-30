@@ -21,7 +21,7 @@ I played around with writing my own HTML page, and of course, that quickly led t
 
 Here it is, with some sample cards:
 
-![New Tab Screenshot](new_tab_screenshot.png#center-wide)
+{{< img src="new_tab_screenshot.png"  alt="New Tab Screenshot"   class="center-wide"  >}}
 
 You can see the source on Github: 
 

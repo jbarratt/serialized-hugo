@@ -8,7 +8,7 @@ summary: "When communicating about technical systems, diagrams are one of the mo
 draft: false
 ---
 
- ![Title Graphic](images/title.svg#center-wide)
+ {{< img src="images/title.svg"  alt="Title Graphic"   class="center-wide"  >}}
 
 One of the best ways to communicate about technical designs and
 processes is with visuals.
@@ -115,7 +115,7 @@ This can be true of many things.
 -   **Fonts**: faces, weights, and sizes
 -   **Icons vs Not Icons**: If you're going to use icons for services, be consistent. If you use a bucket icon to represent S3, and a regular box to represent a kinesis stream, that's confusing.
 
-## Guideline #3: Label All The Things ![all the things](images/allthethings.png)
+## Guideline #3: Label All The Things {{< img src="images/allthethings.png"  alt="all the things"   >}}
 
 Things that should be labeled include
 
@@ -131,12 +131,12 @@ Things that should be labeled include
 This last point is important. It’s common to see diagrams that just have
 bare links between services:
 
-![edges without labels](images/edges_without_labels.svg#center-wide)
+{{< img src="images/edges_without_labels.svg"  alt="edges without labels"   class="center-wide"  >}}
 
 It’s a lot more helpful to actually see what’s happening with some more
 detail:
 
-![edges with labels](images/edges_with_labels.svg#center-wide)
+{{< img src="images/edges_with_labels.svg"  alt="edges with labels"   class="center-wide"  >}}
 
 ## Guideline #4: Think about Legibility
 
@@ -169,7 +169,7 @@ things you can control that will make your diagram more understandable.
     showing that things are contained by another thing. One method for
     that is to use colored, borderless boxes for containers:
 
-![legibility](images/legibility.svg#center-wide)
+{{< img src="images/legibility.svg"  alt="legibility"   class="center-wide"  >}}
 
 # Types of Diagrams
 
@@ -182,7 +182,7 @@ communicate meaning, or at least can serve as inspiration.
 This is the most common type of diagram, and it’s what most often gets
 reached for at a whiteboard.
 
-![box and arrow diagram](images/box_and_arrow.svg#center-wide)
+{{< img src="images/box_and_arrow.svg"  alt="box and arrow diagram"   class="center-wide"  >}}
 
 These diagrams can be great! They’re usually simple to understand, and
 because they’re ad-hoc, they don’t have a lot of implied ideas about
@@ -203,7 +203,7 @@ reasonably successful, but it’s hard enough to comprehend with 3 steps
 and 2 boxes. Tracing complex changes over time involving lots of actors
 is a better fit for Sequence or Swimlane diagrams.
 
-![box and arrow with step numbers](images/sequential_box.svg#center-wide)
+{{< img src="images/sequential_box.svg"  alt="box and arrow with step numbers"   class="center-wide"  >}}
 
 If I end up feeling like I'm playing hide and seek trying to find "hm, where is step 7", I'm probably not building a good mental model.
 
@@ -218,7 +218,7 @@ involved. They then have vertical lines which flows can be attached to.
 It’s much easier to see clearly what’s happening over time, as they’re
 read top to bottom.
 
-![sequence diagram](images/sequence.svg#center-wide)
+{{< img src="images/sequence.svg"  alt="sequence diagram"   class="center-wide"  >}}
 
 Sequence diagrams can be drawn with almost any tool, but there’s several
 which allow them to be created from text-based markup formats, like
@@ -245,7 +245,7 @@ Swimlane diagrams offer the ability to notate both the edges and the
 nodes. In this case, consider the same example, where we’re also talking
 about the internal TCP engine state at each end.
 
-![swimlane diagram](images/swimlane.svg#center-wide)
+{{< img src="images/swimlane.svg"  alt="swimlane diagram"   class="center-wide"  >}}
 
 ## Flowcharts
 
@@ -265,7 +265,7 @@ supported by many of the same markup-driven tools, including mermaid.
 
 For example, the process of writing, as a Mermaid flowchart.
 
-![mermaid flowchart](images/image6.png#center-wide)
+{{< img src="images/image6.png"  alt="mermaid flowchart"   class="center-wide"  >}}
 
 And for completeness, the markup to render this particular diagram:
 
@@ -297,7 +297,7 @@ In this world, all technical documents need to get reviewed by a critical mass o
 In this diagram, the bubbles track the state of the document itself, and the edges track the
 reasons it might go from one state to another.
 
-![state chart diagram](images/state_chart.svg#center-wide)
+{{< img src="images/state_chart.svg"  alt="state chart diagram"   class="center-wide"  >}}
 
 One of the reasons I like these diagrams in particular is that it can
 lead to insights about gaps in the design. “Oh, I can’t get from A to B
@@ -320,7 +320,7 @@ Share your own examples with me [on twitter (@jbarratt)](https://twitter.com/jba
 
 I like to think of diagram design as a 4 step process:
 
-![index card photo of the process](images/image3.png#center-wide)
+{{< img src="images/image3.png"  alt="index card photo of the process"   class="center-wide"  >}}
 
 1.  **Ideate** -- come up with lots of ideas about how to commnicate something
 2.  **Refine** -- select an approach and tweak it for effectiveness, using the methods described in this post

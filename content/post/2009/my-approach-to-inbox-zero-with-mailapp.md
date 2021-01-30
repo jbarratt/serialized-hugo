@@ -33,7 +33,7 @@ then placed it into the `~/Library/Application Support/Quicksilver/Scripts` dire
 
 I refreshed the catalog, then headed to the triggers view.
 
-![Quicksilver Triggers](/images/triggers.jpg)
+{{< img src="/images/triggers.jpg"  alt="Quicksilver Triggers"   >}}
 
 So, after processing a bunch of mail, I can select them all with ?-A, or just pick the ones I want normally (clicking, Shift-clicking, or ?-clicking).
 

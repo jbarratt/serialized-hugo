@@ -9,7 +9,7 @@ My brother and I were playing around with Arduinos as part of my epic road trip 
 
 The issue was that the sensor was fine, except when it was rapidly transitioning from one temperature to another. For example, if the ambient temperature was 74, and suddenly a can of soda fresh from the fridge was placed on it, you'd get several "transitional readings" (70, 68, 52, 48, ...) until the temperature finally stabilized.
 
-![Delicious Arduino](/images/119421176_e1c82c8298-300x199.jpg "Delicious Arduino")
+{{< img src="/images/119421176_e1c82c8298-300x199.jpg"  alt="Delicious Arduino"   >}}
 
 We talked about various ways of detecting this case, but the most straightforward one seemed to be [Standard Deviation](http://en.wikipedia.org/wiki/Standard_Deviation), which Wikipedia explains much more clearly than I could.
 

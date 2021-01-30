@@ -37,7 +37,7 @@ It does everything we want it to.
 
 How? Doesn't matter yet. It's magic. Maybe we name it. But don't think too hard about naming it. Naming things (well) is hard, this is just a magic box.
 
-![step one](/images/magicbox/s1.svg#center-wide)
+{{< img src="/images/magicbox/s1.svg"  alt="step one"   class="center-wide"  >}}
 
 Maybe you have an idea about the technologies you'll use inside this magic box. For this exercise, **forget all about them**. The box is magic, for now, we're not thinking about *how* the magic works. We're just thinking about *what* the box does.
 
@@ -49,13 +49,13 @@ Using this constraint also helps when working with less technical but essential 
 
 Draw one or more arrows pointing into the box. What goes in? What sorts of questions do we ask it? What gets given to it to store? Are there any other sources of data it needs? How will we know if someone is allowed to talk to this box? (Authentication, Authorization.)
 
-![step two](/images/magicbox/s2.svg#center-wide)
+{{< img src="/images/magicbox/s2.svg"  alt="step two"   class="center-wide"  >}}
 
 ### Step 3: What comes out of the box?
 
 What kind of information does the box return for queries? Does it need to pass any information on to other systems? Does it need to send out any alerts, logs, traces, or metrics?
 
-![step three](/images/magicbox/s3.svg#center-wide)
+{{< img src="/images/magicbox/s3.svg"  alt="step three"   class="center-wide"  >}}
 
 <small>Also, given that I am a dad, I am legally allowed to tell you that the alternative title for this step is 🎼"What does the box say?" 🎶</small>
 
@@ -64,14 +64,14 @@ What kind of information does the box return for queries? Does it need to pass a
 What kinds of information does the box need to have to answer the questions from Step 2? Where will it get that from?
 What kind of information will people want the box to store? What will it be responsible for? What kind of rules might there be around keeping that data safe? (Does any of it need to be encryped, or pseudonymized, or have a retention policy?)
 
-![step four](/images/magicbox/s4.svg#center-wide)
+{{< img src="/images/magicbox/s4.svg"  alt="step four"   class="center-wide"  >}}
 
 ### Step 5: Let's talk numbers
 
 Look at the arrows and the notes you've made about the system, and start to put some numbers on them.
 
 
-![step five](/images/magicbox/s5.svg#center-wide)
+{{< img src="/images/magicbox/s5.svg"  alt="step five"   class="center-wide"  >}}
 
 Good numbers to start thinking about are:
 
@@ -98,7 +98,7 @@ Congratulations. You have a much clearer picture of what, exactly, needs to be t
 
 It's common at this point for the exercise to become a little bit of a fractal. Sometimes what's inside the box is concrete, e.g. "some code in a container on a scheduler with a load balancer and a data stores", but for more complex systems, it can make sense to think in terms of more magic boxes inside the magic box, and do the exercise again at the lower levels.
 
-![fractal](/images/magicbox/fractal.svg#center-wide)
+{{< img src="/images/magicbox/fractal.svg"  alt="fractal"   class="center-wide"  >}}
 
 The information from the magic box exercise can also be incredibly helpful for creating documentation.  Far too much technical writing about systems gets "inside the box" within the first paragraph. As someone trying to get up to speed on lots of designs quickly, I often find myself wondering "ok, cool, but what does it *do*?" This exercise provides the most important context for the engineering decisions that come after, and a framework for understanding them.
 
@@ -111,11 +111,11 @@ Imagine a system which helps you reach time-based goals. You text it things like
 
 I'm going to call my magic box "CoachBot" for now. That's probably taken, but picking a good name is a whole thing.
 
-![coachbot one](/images/magicbox/cb1.svg#center-wide)
+{{< img src="/images/magicbox/cb1.svg"  alt="coachbot one"   class="center-wide"  >}}
 
 ### Step 2: What goes into the box?
 
-![coachbot two](/images/magicbox/cb2.svg#center-wide)
+{{< img src="/images/magicbox/cb2.svg"  alt="coachbot two"   class="center-wide"  >}}
 
 * Goal creation messages, like "I want to meditate 100 times by 2020"
 * Goal update messages ("I meditated")
@@ -125,7 +125,7 @@ I'm going to call my magic box "CoachBot" for now. That's probably taken, but pi
 
 ### Step 3: What comes out of the box?
 
-![coachbot three](/images/magicbox/cb3.svg#center-wide)
+{{< img src="/images/magicbox/cb3.svg"  alt="coachbot three"   class="center-wide"  >}}
 
 Some responses to the user:
 
@@ -138,7 +138,7 @@ Also, I'd want to know how long it took to reply to any questions.
 
 ### Step 4: What does the box know?
 
-![coachbot four](/images/magicbox/cb4.svg#center-wide)
+{{< img src="/images/magicbox/cb4.svg"  alt="coachbot four"   class="center-wide"  >}}
 
 It needs to keep some information about every goal:
 
@@ -157,7 +157,7 @@ That's about it, though the phone number is personally identifiable information,
 
 ### Step 5: Make Up Numbers
 
-![coachbot five](/images/magicbox/cb5.svg#center-wide)
+{{< img src="/images/magicbox/cb5.svg"  alt="coachbot five"   class="center-wide"  >}}
 
 Here are some examples of key numbers I like to think about.
 

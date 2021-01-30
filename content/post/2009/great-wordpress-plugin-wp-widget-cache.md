@@ -14,11 +14,11 @@ That includes network traffic, file server traffic, DNS resolver lookups -- ever
 
 Here's what I saw right after telling WP Widget Cache to clear the caches.
 
-![With a freshly cleaned Widget cache](/images/serialized_net_cleared_cache.jpg "With a freshly cleaned Widget cache")
+{{< img src="/images/serialized_net_cleared_cache.jpg"  alt="With a freshly cleaned Widget cache"   >}}
 
 And here is what I saw on the second hit:
 
-![With WP Widget Cache working like it should](/images/serialized_net_widgets_cached.jpg "With WP Widget Cache working like it should")
+{{< img src="/images/serialized_net_widgets_cached.jpg"  alt="With WP Widget Cache working like it should"   >}}
 
 I have widgets to load Flickr, (the entry with 'flickr' in it) delicious bookmarks, (the yahoo one) and Twitter. (The naked IP. Apparently they don't like PTR records.) Those three external calls dominated my total time to generate the page. Now, it's down to a very quick MySQL lookup and a chatty conversation with a fileserver.
 

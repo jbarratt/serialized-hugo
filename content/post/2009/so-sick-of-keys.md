@@ -24,4 +24,4 @@ I wonder how many years it will be before we look back on keys as a hilarious an
 Oh well. Time to see if I can get back to sleep.
 
 
-![too many keys](/images/p-618-463-6325a197-4272-4a0c-8413-4fa3929547a3.jpeg)
+{{< img src="/images/p-618-463-6325a197-4272-4a0c-8413-4fa3929547a3.jpeg"  alt="too many keys"   >}}

@@ -40,7 +40,7 @@ I'm not a fan of reinventing any wheels I don't need to, so after googling `:all
 
 The basic algorithm for BFS is very simple.
 
-![Movie Graph](/images/serverless_db/movie_bfs.svg#center)
+{{< img src="/images/serverless_db/movie_bfs.svg"  alt="Movie Graph"   class="center"  >}}
 
 * Start at a node. (This will be an actor, for our purposes.)
 * Queue up all the nodes connected to your source node. (These will all be movies, labeled as '1st queue')
@@ -57,7 +57,7 @@ My intuition was to build this with pointers. Each node would be a struct, which
 
 He proposed a different data structure which was new to me: the Compact Adjacency List.
 
-![Compact Adjacency List](/images/serverless_db/compact_adjacency.svg#center)
+{{< img src="/images/serverless_db/compact_adjacency.svg"  alt="Compact Adjacency List"   class="center"  >}}
 
 Every node gets an integer id. There's a slice (`List`) that keeps track of all the neighbors for every node. And there's another slice (`Span`) which, given a node id, returns the offset into the `List` where the neighbors are stored.
 
@@ -111,7 +111,7 @@ for len(currentLevel) > 0 {
 
 When the node that's being searched for is actually discovered, it's a simple matter of starting at `parentNode[target]`, and working backwards until the original source node is found.
 
-![parentNode](/images/serverless_db/parent_node.svg#center)
+{{< img src="/images/serverless_db/parent_node.svg"  alt="parentNode"   class="center"  >}}
 
 In the example diagram, the parent of node 5 is 4, so `parentNode[5] == 4`.
 
