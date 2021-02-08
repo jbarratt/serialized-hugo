@@ -394,3 +394,105 @@ tr:nth-child(2n) {
 /* GenericSubheading */ .chroma .gu { color: #aaaaaa }
 /* GenericTraceback */ .chroma .gt { color: #aa0000 }
 /* TextWhitespace */ .chroma .w { color: #bbbbbb }
+
+
+
+
+.social-share {
+	position: relative;
+	top: -0.5em;
+}
+ 
+.social-share ul {
+	margin: 0;
+}
+ 
+.social-share ul li p {
+	display: none;
+}
+ 
+.social-share .share-icons li {
+	padding: 0 !important;
+	padding-bottom: 2px !important;
+}
+ 
+.social-share .share-btn {
+	padding: 0.25em;
+	width: 2em;
+}
+ 
+.social-share-nav .share-btn h3{
+	color: #ffffff;
+}
+
+ul.share-icons {
+	cursor: default;
+	list-style: none;
+	padding-left: 0;
+	margin-top: 0.25em;
+}
+
+ul.share-icons li {
+	display: inline-block;
+	padding: 0 0.25em 0 0;
+}
+
+ul.share-icons li:last-child {
+	padding-right: 0;
+}
+
+ul.share-icons li > * {
+	text-decoration: none;
+	border: 0;
+}
+
+ul.share-icons li > *:before {
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: none !important;
+}
+
+ul.share-icons li > * .label {
+	display: none;
+}
+ 
+.share-btn {
+	display: inline-block;
+	color: #ffffff;
+	border: none;
+	border-radius: 4px;
+	box-shadow: 0 2px 0 0 rgba(0,0,0,0.2);
+	outline: none;
+	text-align: center;
+	text-decoration: none;
+}
+ 
+.share-btn:hover {
+	color: #ffffff !important;
+}
+
+.share-btn:active {
+	position: relative;
+	top: 2px;
+	box-shadow: none;
+	color: #e2e2e2;
+	outline: none;
+}
+
+.share-btn .widget-social__link-icon {
+	margin: 0;
+}
+ 
+.share-btn.twitter     { background: #55acee7D; }
+.share-btn.facebook    { background: #3B59987D; }
+.share-btn.linkedin    { background: #4875B47D; }
+.share-btn.email       { background: #4444447D; }
+
+
+.share-btn.twitter:hover     { background: #4c9ad6; }
+.share-btn.facebook:hover    { background: #2f4779; }
+.share-btn.linkedin:hover    { background: #4069a2; }
+.share-btn.email:hover       { background: #363636; }

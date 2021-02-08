@@ -10,6 +10,13 @@ enableRobotsTXT = true
 pygmentsCodeFences = true
 pygmentsUseClasses=true
 
+[Params.social.share]
+  facebook = true
+  linkedin = true
+  twitter = true
+  whatsapp = true
+  email = true
+
 [markup.goldmark.renderer]
 unsafe = true
 
