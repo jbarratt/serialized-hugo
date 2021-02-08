@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xl="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="174.594 155.53589 581.96215 352.48022" width="581.96215" height="352.48022">
+  <defs>
+    <font-face font-family="Helvetica Neue" font-size="16" panose-1="2 0 5 3 0 0 0 2 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="951.9958" descent="-212.99744" font-weight="400">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue"/>
+      </font-face-src>
+    </font-face>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -4 10 8" markerWidth="10" markerHeight="8" color="black">
+      <g>
+        <path d="M 8 0 L 0 -3 L 0 3 Z" fill="currentColor" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <font-face font-family="Helvetica Neue" font-size="16" panose-1="2 0 8 3 0 0 0 9 0 4" units-per-em="1000" underline-position="-100" underline-thickness="50" slope="0" x-height="517" cap-height="714" ascent="975.0061" descent="-216.99524" font-weight="700">
+      <font-face-src>
+        <font-face-name name="HelveticaNeue-Bold"/>
+      </font-face-src>
+    </font-face>
+  </defs>
+  <metadata> Produced by OmniGraffle 7.18.2\n2021-02-08 05:46:20 +0000</metadata>
+  <g id="Canvas_1" stroke-opacity="1" stroke-dasharray="none" stroke="none" fill="none" fill-opacity="1">
+    <title>Canvas 1</title>
+    <g id="Canvas_1_Layer_1">
+      <title>Layer 1</title>
+      <g id="Graphic_7">
+        <rect x="388" y="275.5" width="194" height="226.5" fill="#ffffc0"/>
+      </g>
+      <g id="Graphic_2">
+        <rect x="388" y="190" width="194" height="55.5" fill="white"/>
+        <rect x="388" y="190" width="194" height="55.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(393 208.526)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="51.088" y="15">mc-backup</tspan>
+        </text>
+      </g>
+      <g id="Graphic_3">
+        <rect x="426" y="292.5" width="118" height="36" fill="white"/>
+        <rect x="426" y="292.5" width="118" height="36" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(431 301.276)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="31.632" y="15">vanilla</tspan>
+        </text>
+      </g>
+      <g id="Graphic_4">
+        <rect x="426" y="336" width="118" height="36" fill="white"/>
+        <rect x="426" y="336" width="118" height="36" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(431 344.776)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="8.216" y="15">fantasablock</tspan>
+        </text>
+      </g>
+      <g id="Graphic_5">
+        <rect x="426" y="379.5" width="118" height="36" fill="white"/>
+        <rect x="426" y="379.5" width="118" height="36" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(431 388.276)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="15.472" y="15">disneyland</tspan>
+        </text>
+      </g>
+      <g id="Graphic_6">
+        <rect x="426" y="423" width="118" height="36" fill="white"/>
+        <rect x="426" y="423" width="118" height="36" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(431 431.776)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="10" y="15">plainsurvival</tspan>
+        </text>
+      </g>
+      <g id="Graphic_12">
+        <rect x="605.5" y="292.25" width="118" height="36" fill="white"/>
+        <rect x="605.5" y="292.25" width="118" height="36" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(610.5 301.026)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="31.632" y="15">vanilla</tspan>
+        </text>
+      </g>
+      <g id="Graphic_11">
+        <rect x="605.5" y="335.75" width="118" height="36" fill="white"/>
+        <rect x="605.5" y="335.75" width="118" height="36" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(610.5 344.526)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="8.216" y="15">fantasablock</tspan>
+        </text>
+      </g>
+      <g id="Graphic_10">
+        <rect x="605.5" y="379.25" width="118" height="36" fill="white"/>
+        <rect x="605.5" y="379.25" width="118" height="36" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(610.5 388.026)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="15.472" y="15">disneyland</tspan>
+        </text>
+      </g>
+      <g id="Graphic_9">
+        <rect x="605.5" y="422.75" width="118" height="36" fill="white"/>
+        <rect x="605.5" y="422.75" width="118" height="36" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(610.5 431.526)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="10" y="15">plainsurvival</tspan>
+        </text>
+      </g>
+      <g id="Line_13">
+        <line x1="605.5" y1="310.33217" x2="553.9" y2="310.40404" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_14">
+        <text transform="translate(421.08 478.552)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="700" fill="black" x="6394885e-20" y="16">~/data/ directory</tspan>
+        </text>
+      </g>
+      <g id="Line_15">
+        <line x1="605.5" y1="353.83217" x2="553.9" y2="353.90404" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_16">
+        <line x1="605.5" y1="397.33217" x2="553.9" y2="397.40404" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_17">
+        <line x1="605.5" y1="440.83217" x2="553.9" y2="440.90404" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Group_18">
+        <title>S3 Bucket with Objects</title>
+        <g id="Graphic_25">
+          <path d="M 247.406 266.92 L 247.406 269.24 C 247.406 272.69 235.536 275.47 220.896 275.47 C 206.256 275.47 194.396 272.69 194.396 269.24 L 194.396 266.72 Z" fill="#8c3123"/>
+        </g>
+        <g id="Graphic_24">
+          <path d="M 220.906 279.72 C 231.976 279.72 241.456 278.13 245.426 275.87 L 246.726 273.67 L 247.256 271.67 L 247.256 274.15 L 238.586 311.15 C 238.586 313.45 230.676 315.3 220.916 315.3 C 211.156 315.3 203.256 313.45 203.256 311.15 L 194.586 274.15 L 194.586 271.72 L 196.586 275.95 C 200.566 278.17 209.956 279.72 220.906 279.72 Z" fill="#8c3123"/>
+        </g>
+        <g id="Graphic_23">
+          <path d="M 220.906 260.5 C 235.546 260.5 247.416 263.29 247.416 266.72 C 247.416 270.15 235.536 272.92 220.906 272.92 C 206.276 272.92 194.406 270.17 194.406 266.72 C 194.406 263.27 206.266 260.5 220.906 260.5 Z" fill="#e05243"/>
+        </g>
+        <g id="Graphic_22">
+          <path d="M 220.906 277.24 C 234.556 277.24 245.786 274.83 247.246 271.71 L 238.576 308.71 C 238.576 311.01 230.666 312.86 220.906 312.86 C 211.146 312.86 203.236 311.02 203.236 308.72 L 194.566 271.72 C 196.036 274.83 207.266 277.24 220.906 277.24 Z" fill="#e05243"/>
+        </g>
+        <g id="Graphic_21">
+          <rect x="214.666" y="280.77" width="11.48" height="11.4" fill="white"/>
+        </g>
+        <g id="Graphic_20">
+          <ellipse cx="211.196" cy="301.82" rx="5.66000904412474" ry="5.62000898020867" fill="white"/>
+        </g>
+        <g id="Graphic_19">
+          <path d="M 234.996 307.18 L 223.656 307.18 L 229.326 296.7 Z" fill="white"/>
+        </g>
+      </g>
+      <g id="Graphic_26">
+        <text transform="translate(184.594 320.3)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="15">S3 bucket</tspan>
+        </text>
+      </g>
+      <g id="Line_27">
+        <path d="M 456.3188 245.5 L 408 292.25 L 252.32572 292.27912" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_28">
+        <text transform="translate(275.916 237)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="0" y="15">Incremental</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="11.112" y="33.448">backups</tspan>
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="5.352" y="51.895996">with restic</tspan>
+        </text>
+      </g>
+      <g id="Graphic_29">
+        <text transform="translate(595.74 478.552)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="700" fill="black" x="21316282e-20" y="16">Server Containers</tspan>
+        </text>
+      </g>
+      <g id="Graphic_30">
+        <text transform="translate(426 165.53589)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="700" fill="black" x="5968559e-19" y="16">Backup Container</tspan>
+        </text>
+      </g>
+      <g id="Line_31">
+        <path d="M 582 217.8621 L 751.05615 218.0575 L 750.7122 398.47955 L 733.399 398.23263" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_32">
+        <text transform="translate(606.692 195)" fill="black">
+          <tspan font-family="Helvetica Neue" font-size="16" font-weight="400" fill="black" x="9023893e-19" y="15">rcon save off/on</tspan>
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>
