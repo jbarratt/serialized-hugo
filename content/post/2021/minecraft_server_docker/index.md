@@ -20,24 +20,24 @@ In this post I'll break down how I'm running them with docker, which has made it
 
 It all started really innocently. 
 
->>> Eldest Child: Hey Dad, can you set me up a vanilla Minecraft server for my friends and I?
->>>
->>> Me: I'm sure that won't be too painful.
->>>
->>> **... ONE GOOGLE LATER ...**
+> **Eldest Child**: Hey Dad, can you set me up a vanilla Minecraft server for my friends and I?
+>
+>**Me**: I'm sure that won't be too painful.
+>
+> **... ONE GOOGLE LATER ...**
 
-Just run this docker command in the terminal and ...
+I just ran this docker command in the terminal and ...
 ```
 $ docker run -d -p 25565:25565 -v /home/jbarratt/data/minecraft:/data --name mc -e EULA=TRUE --restart always itzg/minecraft-server
 ```
 
-... it worked! Minecraft server was up and running on our home machine, a silentand bulletproof [Intel NUC](https://www.intel.com/content/www/us/en/products/boards-kits/nuc.html) which has been my utility server for years.
+... it worked! Minecraft server was up and running on our home machine, a silent and bulletproof [Intel NUC](https://www.intel.com/content/www/us/en/products/boards-kits/nuc.html) which has been my utility server for years.
 
 I'd found [itzg/minecraft-server](https://hub.docker.com/r/itzg/minecraft-server), a really complete and excellent wrapper for Minecraft by [Geoff Bourne](https://itzg.github.io). It supports not just vanilla Minecraft, but a dizzying array of other ways you can run it, with different server implementations, mod types, and more.
 
 Geoff also has created some other tooling I'm using, like [docker-mc-backup](https://github.com/itzg/docker-mc-backup), that we'll get into as well. A massive thanks to him and the contributors to that family of open source projects, it's been a lifesaver.
 
-So, it's really easy to be up and running! I just had to forward a port through our gateway, and he and his friends were happily both mining AND crafting.
+So, it's really easy to be up and running! I just had to forward a port through our gateway, and my son and his friends were happily both mining AND crafting, with literally one command line entered.
 
 Let's unpack the docker command a bit more to see what it actually does:
 

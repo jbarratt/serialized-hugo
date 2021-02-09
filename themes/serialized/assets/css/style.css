@@ -130,6 +130,42 @@ blockquote {
   font-style: italic;
 }
 
+blockquote{
+  font-size: 1.1em;
+  width:60%;
+  margin:50px auto;
+  font-family:Open Sans;
+  font-style:italic;
+  color: #555555;
+  padding:1.1em 10px 1.1em 55px;
+  border-left:4px solid #78C0A8 ;
+  line-height:1.6;
+  position: relative;
+  background:#EDEDED;
+}
+
+blockquote::before{
+  font-family:Arial;
+  content: "\201C";
+  color:#78C0A8;
+  font-size:4em;
+  position: absolute;
+  left: 10px;
+  top:-10px;
+}
+
+blockquote::after{
+  content: '';
+}
+
+blockquote span{
+  display:block;
+  color:#333333;
+  font-style: normal;
+  font-weight: bold;
+  margin-top:1em;
+}
+
 @media screen and (max-width: 700px) {
   .header-text {
     font-size: 80%;
@@ -220,7 +256,7 @@ pre {
   color: #787b82; */
   font-family: 'Roboto Mono', monospace;
   font-weight: 300;
-  font-size: 85%;
+  font-size: 90%;
   word-break: break-all; /* webkit */
   word-break: keep-all;
   word-wrap: break-word;
@@ -232,6 +268,10 @@ pre {
 pre {
   border-left: 2px solid #69c;
   border-bottom: 1px solid #d8dee9;
+  background-color: #fff;
+  border-radius: .33em;
+  box-shadow: .1em .1em .5em rgba(0,0,0,.45);
+  color: #000;
 }
 
 /* 
@@ -243,6 +283,7 @@ code {
 
 pre {
   padding: 0.75em;
+  margin: 2em 2em;
 }
 
 img.center {
