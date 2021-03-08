@@ -5,7 +5,7 @@
 {{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
 {{ hugo.Generator }}
 <title>{{ .Title }}</title>
-<link rel="shortcut icon" href="{{ "images/favicon.ico" | absURL }}">
+<link rel="shortcut icon" href="{{ "favicon.ico" | absURL }}">
 
 {{ $styles := resources.Get "css/style.css" | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}">

@@ -1,7 +1,7 @@
 baseURL = "https://serialized.net/"
 canonifyURLs = true
 languageCode = "en-us"
-title = "Ongoing Fascination Burnout"
+title = "Josh Barratt's Blog"
 theme = "serialized"
 googleAnalytics = "UA-15368739-1"
 copyright = "This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License."
