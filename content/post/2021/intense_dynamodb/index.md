@@ -206,7 +206,7 @@ DynamoDB charges can vary a lot by the feature you're using, and by if you're us
 
 That's all hard to visualize, so I put together a basic calculator tuned for this use case. 
 
-There are some also buttons that set up example values for different scenarios. The default is based on the Rock/Paper/Scissors/Lizard/Spock example, and the 'More Serious Game' is based on more players, more state, and a higher request rate.
+There are also some buttons that set up example values for different scenarios. The default is based on the Rock/Paper/Scissors/Lizard/Spock example, and the 'More Serious Game' is based on more players, more state, and a higher request rate.
 
 {{< rawhtml >}}
 <form id="calculator">
