@@ -24,7 +24,7 @@ This is a great followup. (Which very effectively [nerdsniped](https://xkcd.com/
 
 **Can you use a DynamoDB and Serverless backend for a serious, high-state, modern game, or is it only useful for incredibly simple rock-paper-scissors level games? What is the most complex game you _can_ use it for?**
 
-{{< img src="cover-gamer-serverless.png"  alt="serious gamer is serious"   class="center"  >}}
+{{< img src="cover-gamer-serverless.jpg"  alt="serious gamer is serious"   class="full-width"  >}}
 
 Before I get into that, it's worth noting that there are **many** useful applications which work at a similar level of complexity to the example in the last post. It would work equally well for basically any of the web-based apps used in most of our work on a daily basis, and a large number of games as well.
 
