@@ -3,6 +3,8 @@ title: "What are the limits of serverless for online gaming?"
 slug: "serverless_gaming_limits"
 date: 2021-03-10T16:23:21-08:00
 lastmod: 2021-03-10T16:23:21-08:00
+aliases:
+    - /2021/03/serverless_gaming_limitations
 description: "A previous post looked at using Lambda, API Gateway+Websockets and DynamoDB for multiplayer gaming. However, it used an almost trivial example. Can the same stack be used for more games or other apps with more demanding state? How much state is too much?"
 summary: "A previous post looked at using Lambda, API Gateway+Websockets and DynamoDB for multiplayer gaming. However, it used an almost trivial example. Can the same stack be used for more games or other apps with more demanding state? How much state is too much?"
 draft: false
