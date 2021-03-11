@@ -286,6 +286,12 @@ pre {
   margin: 2em 2em;
 }
 
+img.half {
+  display: inline;
+  margin: 0.7rem auto;
+  max-width: 50%;
+}
+
 img.center {
     display: block;
     margin: 0.7rem auto;
