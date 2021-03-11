@@ -126,16 +126,11 @@ h1.no-under {
   color: #777;
 }
 
-blockquote {
-  font-style: italic;
-}
-
 blockquote{
   font-size: 1.1em;
   width:80%;
   margin:50px auto;
   font-family:Open Sans;
-  font-style:italic;
   color: #555555;
   padding:1.1em 10px 1.1em 55px;
   border-left:4px solid #78C0A8 ;
