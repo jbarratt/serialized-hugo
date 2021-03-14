@@ -161,6 +161,19 @@ blockquote span{
   margin-top:1em;
 }
 
+div.note {
+  margin: 0;
+  padding: 1rem 0.5rem;
+  width: 70%;
+  position: relative;
+  background: #fdffdb88;
+  box-shadow: .1em .1em .5em rgba(0,0,0,.1);
+}
+
+div.note > p {
+  margin: 0;
+}
+
 @media screen and (max-width: 700px) {
   .header-text {
     font-size: 80%;

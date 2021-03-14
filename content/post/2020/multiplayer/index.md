@@ -14,6 +14,14 @@ A friction point for me, personally, has always been Websockets. They are such a
 
 In December 2018, AWS gave me a nice Christmas present: [WebSocket API support for API Gateway.](https://aws.amazon.com/blogs/compute/announcing-websocket-apis-in-amazon-api-gateway/) I filed it away on my todo list to play with at some point, and then 2020 happened. Suddenly, being able to do online collaboration of all kinds got a lot more important!
 
+{{% note %}}
+
+Update, March 2021: This post explores an end to end worked example of a browser-based multiplayer game. 
+It uses a fairly simple game, so the game itself does not obscure how the architecture works.
+After some questions about this post, I have written a new one which looks at just how far you could take such a design. Please check out [What are the limits of serverless for online gaming?]({{<ref "intense_dynamodb">}}) if you're interested.
+
+{{% /note %}}
+
 ### The Game: Rock Paper Scissors Lizard Spock
 
 For this demo, I wanted to keep the game itself very simple -- so the frontend and backend would be easier to understand without a lot of game logic getting in the way. But -- not so simple that it would be _completely_ boring. So, it's rock paper scissors, but the [5 move variant](http://www.samkass.com/theories/RPSSL.html) invented by Sam Kass and popularized by Big Bang Theory.

@@ -142,7 +142,15 @@ Serverless (Dynamo r/w) | 77ms | 97ms | 269ms | 1175ms | 7.8 messages/sec
 
 The **local** numbers are interesting, because they provide the baseline of how long it takes to do all the inherent plumbing -- generating the message, sending it on the network, processing it on the other end, and getting it back. 
 
+
+
 {{< img src="local-kde.svg"  alt="local kernel density" class="half" >}}
+
+{{% note %}}
+
+These charts are [Kernel Density Estimations](https://seaborn.pydata.org/tutorial/distributions.html#tutorial-kde), which are a very useful way to visualize how values are distributed. They y axis ('density') translates to something like "the probability that a value in the sample will have a certain value." They're like smooth histograms, and I prefer them because they're less susceptible to bin selection issues.
+
+{{% /note %}}
 
 Zooming into the data from the local test, it's very predictable, and it's very fast. All the results are sub-millisecond, and they're very tightly grouped.
 
@@ -150,7 +158,7 @@ Things get a lot more interesting when there's a network hop involved.
 
 {{< img src="latency-boxplot.svg"  alt="local multiplayer gaming"   class="full-width"  >}}
 
-This is a log-scale boxplot which makes it clearer what's happening. The ec2 row is centered around 46ms, with not much variability across requests. The two serverless rows have many outlier points in between 10^2 (100ms) and 10^3 (1 second), with clusters on the high side of 1 second, which I suspect are "cold starts", when a new lambda is spun up to handle increases in traffic.
+This is a log-scale [boxplot](https://towardsdatascience.com/understanding-boxplots-5e2df7bcbd51) which makes it clearer what's happening. The EC2 row is centered around 46ms, with not much variability across requests. The two serverless rows have many outlier points in between 10^2 (100ms) and 10^3 (1 second), with clusters on the high side of 1 second, which I suspect are "cold starts", when a new lambda is spun up to handle increases in traffic.
 
 {{< img src="sls-kde.svg"  alt="local kernel density" class="center" >}}
 
