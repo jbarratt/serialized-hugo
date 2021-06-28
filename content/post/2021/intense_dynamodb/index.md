@@ -142,8 +142,6 @@ Serverless (Dynamo r/w) | 77ms | 97ms | 269ms | 1175ms | 7.8 messages/sec
 
 The **local** numbers are interesting, because they provide the baseline of how long it takes to do all the inherent plumbing -- generating the message, sending it on the network, processing it on the other end, and getting it back. 
 
-
-
 {{< img src="local-kde.svg"  alt="local kernel density" class="half" >}}
 
 {{% note %}}
@@ -156,13 +154,24 @@ Zooming into the data from the local test, it's very predictable, and it's very 
 
 Things get a lot more interesting when there's a network hop involved.
 
-{{< img src="latency-boxplot.svg"  alt="local multiplayer gaming"   class="full-width"  >}}
+First, EC2:
 
-This is a log-scale [boxplot](https://towardsdatascience.com/understanding-boxplots-5e2df7bcbd51) which makes it clearer what's happening. The EC2 row is centered around 46ms, with not much variability across requests. The two serverless rows have many outlier points in between 10^2 (100ms) and 10^3 (1 second), with clusters on the high side of 1 second, which I suspect are "cold starts", when a new lambda is spun up to handle increases in traffic.
+{{< img src="ec2-kde.svg"  alt="local kernel density" class="half" >}}
+
+Since this is running the same code as the remote method, the round trip time is almost entirely the network round trip time from San Diego to Oregon.
+
+Moving on to the serverless stack:
 
 {{< img src="sls-kde.svg"  alt="local kernel density" class="center" >}}
 
 This chart just compares the two serverless methods, as their response time curves are similar enough to compare side by side. Making the two calls to dynamo has a suprisingly small impact to the p50 time, which is very close to the no-dynamo use case -- but it raises the odds that things will be slower, and it raises the worst case execution time even further.
+
+Seeing them all together in context is instructive. I've had to use a log scale here in the X axis to make the ec2 detail visible. Without it, due to the occasional long response times from the serverless stack, it just looks like a blip on the left side of the graph.
+
+{{< img src="latency-boxplot.svg"  alt="local multiplayer gaming"   class="full-width"  >}}
+
+This is a [boxplot](https://towardsdatascience.com/understanding-boxplots-5e2df7bcbd51) which makes it clearer what's happening. The EC2 row is centered around 46ms, with not much variability across requests. The two serverless rows have many outlier points in between 10^2 (100ms) and 10^3 (1 second), with clusters on the high side of 1 second, which I suspect are "cold starts", when a new lambda is spun up to handle increases in traffic.
+
 
 #### Takeaways
 
