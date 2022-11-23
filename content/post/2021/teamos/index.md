@@ -83,7 +83,7 @@ This pays off in so many ways when done properly, though. It gives early opportu
 Rapid cadences give the team the opportunity to learn themselves, and provides the satisfaction of actually completing work. If I ship some working software on a Thursday evening, I feel great. If I commit a feature to a branch which probably won’t land for a month, it has far lower emotional weight.
 
 
-{{< tweet 1063526013596917760 >}}
+{{< tweet user="HenrikJoreteg" id="1063526013596917760" >}}
 
 
 #### Idea 3: Focus on Delivering Value // Inventory Is Waste
